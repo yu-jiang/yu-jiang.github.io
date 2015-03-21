@@ -1,0 +1,271 @@
+#=  Yu Jiang
+
+~~~
+{}{img_left}{YuJiangProfile.jpg}{Portrait of Yu Jiang}{150}{160}
+= Yu Jiang, 姜宇
+\n
+PhD in Electrical Engineering\n
+\n
+Find me on [http://www.linkedin.com/in/yujiang26 Linkedin],
+[https://www.facebook.com/yu.jiang.26 Facebook], and
+[http://www.renren.com/110652647 Xiaonei].
+~~~
+
+
+== A Short Biography
+
+Born in [http://en.wikipedia.org/wiki/Xi%27an Xi'an], China, I obtained the B.Sc. degree in Applied Mathematics from [http://www.sysu.edu.cn Sun Yat-sen University], Guangzhou, China, in 2006, the M.Sc. degree in automation science and engineering from [http://www.scut.edu.cn South China University of Technology], Guangzhou, China, in 2009, and the Ph.D. degree in Electrical Engineering from [http://www.nyu.edu New York University], Brooklyn, NY, in 2014. I interned at [http://www.merl.com Mitsubishi Electric Research Laboratories (MERL)], Cambridge, MA, in summer 2013. My PhD dissertation topic is the theory of robust adaptive dynamic programming (RADP) and its applications. \n
+\n
+I joined the Engineering Development Group at [http://www.mathworks.com  The Mathworks] as an Application Support Engineering in June 2014. I am still actively conducting research in my spare time. In particular, I am interested in developing adaptive-dynamic-programming-based methods for robust optimal nonlinear system design, and applying them to engineering and reverse-engineering systems. Also, I have been volunteering as anonymous reviewers for journals and conferences on Control and Systems Engineering. \n
+\n
+I am the recipient of the Richard Rosenthal Award, for the outstanding performance on the electrical engineering PhD Qualifying Examination at NYU, in 2010, and the [http://acassoc.org/pera/super_pages.php?ID=pera2 Shimemura Young Author Prize] (with Prof. Zhong-Ping Jiang) at the 9th Asian Control Conference, Istanbul, Turkey, 2013. \n
+
+
+== Awards
+
+- [http://acassoc.org/pera/super_pages.php?ID=pera2 Shimemura Young Author Prize], at the 9th Asian Control Conference, Istanbul, Turkey, June 2013
+
+- Richard Rosenthal Award, for the outstanding performance on the electrical engineering PhD Qualifying Examination, ECE Dept., NYU POLY, 2010.(Awarded to the Top 1 candidate)
+
+- Huawei Scholarship for outstanding students, South China University of Technology, 2008
+
+- National First Place, in the Chinese Graduate Mathematical Contest in Modeling, 2007
+
+- National First Place, in the Chinese Undergraduate Mathematical Contest in Modeling, 2005
+
+
+
+== Publications
+
+=== [http://scholar.google.com/citations?user=QYanTRsAAAAJ My Google Scholar Page]
+
+=== Patent
+- {{[P-1]}} Motion Control System for Performing Different Tasks \n
+Yebin Wang, *Yu Jiang*, and Scott Bortoff\n
+A patent filed by Mitsubishi Electric Research Labs in Oct. 2013.\n
+
+=== Book Chapter
+
+- {{[BC-1]}} Robust adaptive dynamic programming\n
+*Yu Jiang* and Zhong-Ping Jiang\n
+in Reinforcement Learning and Approximate Dynamic Programming for Feedback Control, F. L. Lewis and D. Liu, Eds, John Wiley and Sons, 2013.\n
+
+=== Journal Papers
+
+==== Journal Papers -- Under review
+
+- {{[J-15]}} Adaptive dynamic programming for stochastic systems with state and control dependent noise\n
+Tao Bian, *Yu Jiang*, and Zhong-Ping Jiang\n
+IEEE Transactions on Automatic Control, submitted, April 2014.\n
+\n
+
+- {{[J-14]}} Global adaptive dynamic programming for continuous-time nonlinear systems \n
+*Yu Jiang* and Zhong-Ping Jiang\n
+IEEE Transactions on Automatic Control, submitted, Dec 2013 \n
+[http://arxiv.org/abs/1401.0020 {{[}}arXiv{{]}}]\n
+\n 
+
+- {{[J-13]}} Optimal Co-Design of Nonlinear Control Systems Based on A Modified Policy Iteration Method \n
+ *Yu Jiang*, Yebin Wang, Scott Bortoff, and Zhong-Ping Jiang \n
+ IEEE Transactions on Neural Networks and Learning Systems, revised, Oct 2014 \n
+ \n
+
+- {{[J-12]}} An Iterative Approach to the Optimal Co-Design of Linear Control System\n
+ *Yu Jiang*, Yebin Wang, Scott Bortoff, and Zhong-Ping Jiang\n
+International Journal of Control, submitted, Nov 2013\n
+ \n
+
+
+
+==== Journal Papers -- Published/Accepted
+
+- {{[J-11]}}  Decentralized and adaptive optimal control of large-scale systems with application to power systems\n
+Tao Bian, *Yu Jiang*, and Zhong-Ping Jiang\n
+ IEEE Transactions on Industrial Electronics, accepted \n
+\n
+
+
+- {{[J-10]}}  A robust adaptive dynamic programming principle for sensorimotor control with signal-dependent noise\n
+*Yu Jiang* and Zhong-Ping Jiang\n
+ Journal of Systems Science and Complexity, accepted \n
+ \n
+
+
+- {{[J-9]}} Adaptive dynamic programming as a theory of sensorimotor Control \n
+ *Yu Jiang* and Zhong-Ping Jiang \n
+ Biological Cybernetics, accepted \n
+ [http://link.springer.com/article/10.1007%2Fs00422-014-0613-7 {{[}}Link{{]}}]\n
+\n
+
+- {{[J-8]}} Adaptive dynamic programming and optimal control of nonlinear nonaffine systems \n
+Tao Bian, *Yu Jiang*, and Zhong-Ping Jiang \n
+ Automatica, accepted \n
+\n
+
+- {{[J-7]}}  Robust adaptive dynamic programming and feedback stabilization of nonlinear systems\n
+*Yu Jiang* and Zhong-Ping Jiang \n
+ IEEE Transactions on Neural Networks and Learning Systems, vol. 25, no. 5, pp. 882-893, 2014\n
+ [bibtex\2014TNNLSrobust.txt {{[}}Bibtex{{]}}]
+ [http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&arnumber=6701191 {{[}}Link{{]}}] 
+ \n
+ \n
+
+- {{[J-6]}} Robust adaptive dynamic programming for linear and nonlinear systems: An overview\n
+Zhong-Ping Jiang and *Yu Jiang* \n
+ European Journal of Control, vol. 19, no. 5, pp. 417-425, 2013 \n
+ [http://www.sciencedirect.com/science/article/pii/S0947358013000861 {{[}}Link{{]}}]\n
+ \n
+
+- {{[J-5]}}  Robust adaptive dynamic programming with an application to power systems \n
+*Yu Jiang* and Zhong-Ping Jiang \n
+ IEEE Transactions on Neural Networks and Learning Systems, vol. 24, no.7, pp. 1150- 1156, 2013\n
+[http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6484168 {{[}}Link{{]}}] 
+[movies/adpforcdc2012HD.wmv {{[}}Movie{{]}}]\n
+\n
+
+
+- {{[J-4]}}  Robust adaptive dynamic programming for large-scale systems with an application to multimachine power systems \n
+*Yu Jiang* and Zhong-Ping Jiang\n
+IEEE Transactions on Circuits and Systems, Part II  vol. 59, no. 10, pp. 693-697, 2012. \n
+[bibtex\2012TCASIIrobust.txt {{[}}Bibtex{{]}}]
+[http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&arnumber=6297448  {{[}}Link{{]}}]
+[papers/2012/tcas12tr.pdf {{[}}Extended version{{]}}]
+[papers/2012/ieeetcas2/Jiang_tcasII2012.zip {{[}}Matlab code{{]}}]
+\n
+\n
+
+- {{[J-3]}}  Movement duration, Fitts's law, and an infinite-horizon optimal feedback control model for biological motor systems \n
+Ning Qian, *Yu Jiang*, Zhong-Ping Jiang, and Pietro Mazzoni\n
+Neural Computation, vol. 25, no. 3, pp. 697-724, 2012\n
+[http://www.ncbi.nlm.nih.gov/pubmed/23272916 {{[}}Link{{]}}]
+[http://brahms.cpmc.columbia.edu/publications/inf-horizon-motor-control.pdf {{[}}PDF{{]}}]\n
+\n
+
+
+- {{[J-2]}} Computational adaptive optimal control for continuous-time linear systems with completely unknown system dynamics \n
+*Yu Jiang* and Zhong-Ping Jiang \n
+Automatica, vol. 48, no. 10, pp. 2699-2704, Oct. 2012. \n
+[bibtex\2012AutomaticaComputational.txt {{[}}Bibtex{{]}}]
+[http://www.sciencedirect.com/science/article/pii/S0005109812003664 {{[}}Link{{]}}]
+[https://files.nyu.edu/yj348/public/papers/2012/automatica/Jiang_automatica12.pdf {{[}}Preprint{{]}}]
+[http://www.mathworks.com/matlabcentral/fileexchange/46550-adaptive-dynamic-programming-for-uncertain-continuous-time-linear-systems/  {{[}}MATLAB_code{{]}}]
+[https://files.nyu.edu/yj348/public/papers/2012/automatica/second_order_example.m {{[}}Matlab_code_2{{]}}]
+\n
+\n
+
+
+- {{[J-1]}} Approximate dynamic programming for optimal stationary control with control-dependent noise \n
+ *Yu Jiang* and Zhong-Ping Jiang  \n
+IEEE Transactions on Neural Networks, vol. 22, no.12, 2392-2398, 2011\n
+[http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6026952 {{[}}Link{{]}}]\n
+
+#==== Conference Papers -- Under review
+\n
+
+
+#- {{[C-16]}} An iterative technique for the optimal co-design of linear control systems\n
+#*Yu Jiang*, Yebin Wang, Scott Bortoff, Zhong-Ping Jiang \n
+#accepted in the 2014 IFAC World Congress, Cape Town, South Africa\n
+# \n
+
+
+- {{[C-16]}} Global adaptive dynamic programming and global optimal control for a class of nonlinear systems\n
+*Yu Jiang* and Zhong-Ping Jiang\n
+accepted in the 2014 IFAC World Congress, Cape Town, South Africa, August 2014\n
+\n
+
+
+- {{[C-15]}} Adaptive and optimal output feedback
+control of linear systems: an adaptive dynamic programming approach\n
+Weinan Gao, *Yu Jiang*, Zhong-Ping Jiang, and Tianyou Chai\n
+accepted in the 11th World Congress on Intelligent Control and Automation, Shenyang, China, June 2014. \n
+\n
+
+
+- {{[C-14]}} Robust adaptive dynamic programming for sensorimotor control with signal-dependent noise\n
+  *Yu Jiang* and Zhong-Ping Jiang\n
+IEEE Signal Processing in Medicine and Biology Symposium, Brooklyn, NY, 2013\n
+\n
+
+- {{[C-13]}}  Robust Adaptive Dynamic Programming: Recent results and applications\n
+Zhong-Ping Jiang and *Yu Jiang*\n
+Chinese Control Conference, Xi'An, China, pp. 968-973, 2013\n
+\n
+
+- {{[C-12]}}  Robust adaptive dynamic programming for optimal nonlinear control\n
+*Yu Jiang* and Zhong-Ping Jiang\n
+Asian Control Conference, Istanbul, Turkey, June 2013, *(Shimemura Young Author Award)* \n
+\n
+
+- {{[C-11]}}  A new approach to robust and optimal nonlinear control design\n
+Zhong-Ping Jiang and *Yu Jiang*\n
+IASTED Asian Conference on Modelling, Identification and Control, Phuket, Thailand, 2013\n
+\n
+
+
+- {{[C-10]}}  Adaptive dynamic programming as a theory of motor control\n
+*Yu Jiang* and Zhong-Ping Jiang\n
+IEEE Signal Processing in Medicine and Biology Symposium, New York, NY, 2012\n
+\n
+
+- {{[C-9]}} Robust adaptive dynamic programming for nonlinear control design\n
+ *Yu Jiang* and Zhong-Ping Jiang \n
+ IEEE Conference on Decision and Control, Maui, Hawaii, USA, pp. 1896-1901, Dec. 2012\n
+\n
+
+- {{[C-8]}} Computational adaptive optimal control with an application to blood glucose regulation in type 1 diabetics\n
+*Yu Jiang* and Zhong-Ping Jiang\n
+Chinese Control Conference, Hefei, China, pp. 2938-2943, July, 2012\n
+\n
+
+- {{[C-7]}} Robust adaptive dynamic programming: An overview of recent results\n
+*Yu Jiang* and Zhong-Ping Jiang\n
+International Symposium on Mathematical Theory of Networks and Systems, Melbourne, Australia, 2012\n
+\n
+
+- {{[C-6]}} Robust approximate dynamic programming and global stabilization with nonlinear dynamic uncertainties\n
+ *Yu Jiang* and Zhong-Ping Jiang\n
+ The Joint IEEE Conference on Decision and Control and European Control Conference, Orlando, FL, USA, pp. 115-120, 2011\n
+ \n
+
+- {{[C-5]}}  Optimal control mechanism involving the human kidney\n
+*Yu Jiang*, Srinivasa Chemudupati, Jan Morup Jorgensen, Zhong-Ping Jiang, and Charles S. Peskin, \n
+ The Joint IEEE Conference on Decision and Control and European Control Conference, Orlando, FL, USA, pp. 3688-3693, 2011\n
+ \n
+
+- {{[C-4]}} Approximate dynamic programming for stochastic systems with additive and multiplicative noise\n
+ *Yu Jiang* and Zhong-Ping Jiang \n 
+ IEEE Multi-Conference on Systems and Control, pp. 185-190, Denver, CO, 2011\n
+ \n
+
+- {{[C-3]}} Optimal control mechanisms in human arm reaching movements\n
+*Yu Jiang*, Zhong-Ping Jiang, and Ning Qian \n
+Chinese Control Conference, pp. 1377-1382, Yantai, China, 2011\n
+\n
+
+- {{[C-2]}} Approximate dynamic programming for output feedback control\n
+*Yu Jiang* and Zhong-Ping Jiang\n
+Chinese Control Conference, pp. 5815-5820, Beijing, China, 2010\n
+\n
+
+- {{[C-1]}} Output regulation for a class of weakly minimum phase systems and its application to a nonlinear benchmark system \n
+*Yu Jiang* and Jie Huang \n
+American Control Conference, pp. 5321-5326, St. Louis, USA, 2009\n
+
+
+=== PhD Dissertation
+- *Yu Jiang*, Robust Adaptive Dynamic Programming for Continuous-Time Linear and Nonlinear Systems, Department of Electrical and Computer Engineering, New York University, 2014\n
+[/public/papers/2014/2014YuPhdThesis.pdf {{[}}Download{{]}}]\n
+
+
+~~~
+{}{raw}
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-46742675-1', 'nyu.edu');
+  ga('send', 'pageview');
+</script>
+~~~
