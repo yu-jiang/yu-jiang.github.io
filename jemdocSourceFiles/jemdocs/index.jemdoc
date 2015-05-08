@@ -42,8 +42,8 @@ Public Profiles: [http://www.linkedin.com/in/yujiang26 Linkedin], [https://www.f
 - *National First Place*, in the Chinese Undergraduate Mathematical Contest in Modeling, 2005
 
 
-== Software
- - [adp/index.html ADPLib], a Simulink Library for implementing adaptive dynamic programming in adaptive optimal control
+#== Software
+ #- [adp/index.html ADPLib], a Simulink Library for implementing adaptive dynamic programming in adaptive #optimal control
 
 == Publications
 
