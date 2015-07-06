@@ -3,7 +3,7 @@
 ~~~
 {}{img_left}{YuJiangProfile.jpg}{Portrait of Yu Jiang}{150}{160}
 = Yu Jiang 姜宇\n
-Alumni of New York Universiy\n
+PhD in Electrical Engineering
 Email: yujiang@nyu.edu\n
 Public Profiles: [http://www.linkedin.com/in/yujiang26 Linkedin], [https://www.facebook.com/yu.jiang.26 Facebook], [http://scholar.google.com/citations?user=QYanTRsAAAAJ Google Scholar], [http://www.mathworks.com/matlabcentral/profile/authors/5012545-yu MATLAB Central],
 [https://github.com/yujiangnb/ GitHub]
@@ -14,13 +14,14 @@ Public Profiles: [http://www.linkedin.com/in/yujiang26 Linkedin], [https://www.f
 #== A Short Biography
 #Born in [http://en.wikipedia.org/wiki/Xi%27an Xi'an], China, I obtained the B.Sc. degree in Applied Mathematics from [http://www.sysu.edu.cn #Sun Yat-sen University], Guangzhou, China, in 2006, the M.Sc. degree in automation science and engineering from [http://www.scut.edu.cn #South China University of Technology], Guangzhou, China, in 2009, and the Ph.D. degree in Electrical Engineering from [http://www.nyu.edu #New York University], Brooklyn, NY, in 2014. I interned at [http://www.merl.com Mitsubishi Electric Research Laboratories (MERL)], #Cambridge, MA, in summer 2013. My PhD dissertation topic is the theory of robust adaptive dynamic programming (RADP) and its applications. \n
 #\n
-#I joined the Engineering Development Group at [http://www.mathworks.com  The Mathworks] as an Application Support Engineering in June 2014. #I am still actively conducting research in my spare time. In particular, I am interested in developing adaptive-dynamic-programming-based #methods for robust optimal nonlinear system design, and applying them to engineering and reverse-engineering systems. Also, I have been #volunteering as anonymous reviewers for journals and conferences on Control and Systems Engineering. \n
+#I joined the Engineering Development Group at [http://www.mathworks.com  The Mathworks] as an Application Support Engineering in June 2014. In July 2015, I joined the Controls Design Team at MathWorks as a Controls Systems Engineer. #I am still actively conducting research in my spare time. In particular, I am interested in developing adaptive-dynamic-programming-based #methods for robust optimal nonlinear system design, and applying them to engineering and reverse-engineering systems. Also, I have been #volunteering as anonymous reviewers for journals and conferences on Control and Systems Engineering. \n
 #\n
 #I am the recipient of the Richard Rosenthal Award, for the outstanding performance on the electrical engineering PhD Qualifying Examination #at NYU, in 2010, and the [http://acassoc.org/pera/super_pages.php?ID=pera2 Shimemura Young Author Prize] (with Prof. Zhong-Ping Jiang) at #the 9th Asian Control Conference, Istanbul, Turkey, 2013. \n
 
 == Experiences
-- Application Support Engineer, [http://www.mathworks.com The MathWorks, Inc.], Natick, MA, Jun 2014
-- Research Intern, [http://www.merl.com Mitsubishi Electric Research Labs (MERL)], Cambridge, MA, Jun 2013 - Aug 2013
+- Controls Systems Engineer, [http://www.mathworks.com The MathWorks, Inc.], Natick, MA, July 2014 - present
+- Application Support Engineer, [http://www.mathworks.com The MathWorks, Inc.], Natick, MA, June 2014 - July 2015
+- Research Intern, [http://www.merl.com Mitsubishi Electric Research Labs (MERL)], Cambridge, MA, June 2013 - August 2013
 
 == Education
 
@@ -145,7 +146,8 @@ IASTED Asian Conference on Modelling, Identification and Control, Phuket, Thaila
 
 - {{[C-9]}} *Yu Jiang* and Zhong-Ping Jiang, "Robust adaptive dynamic programming for nonlinear control design," In Proceedings of the IEEE Conference on Decision and Control, Maui, Hawaii, USA, pp. 1896-1901, Dec. 2012\n
 
-- {{[C-8]}} *Yu Jiang* and Zhong-Ping Jiang, "Computational adaptive optimal control with an application to blood glucose regulation in type 1 diabetics," in Proceedings of the Chinese Control Conference, Hefei, China, pp. 2938-2943, July, 2012\n
+- {{[C-8]}} *Yu Jiang* and Zhong-Ping Jiang, "Computational adaptive optimal control with an application to blood glucose regulation in type 1 diabetics," in Proceedings of the Chinese Control Conference, Hefei, China, pp. 2938-2943, July, 2012\n 
+[https://github.com/yujiangnb/Paper_Automatica2012_CTLTI, [Code]]\n
 
 - {{[C-7]}} *Yu Jiang* and Zhong-Ping Jiang, "Robust adaptive dynamic programming: An overview of recent results," International Symposium on Mathematical Theory of Networks and Systems, Melbourne, Australia, 2012\n
 
@@ -154,7 +156,8 @@ IASTED Asian Conference on Modelling, Identification and Control, Phuket, Thaila
 - {{[C-5]}}  *Yu Jiang*, Srinivasa Chemudupati, Jan Morup Jorgensen, Zhong-Ping Jiang, and Charles S. Peskin, "Optimal control mechanism involving the human kidney," In Proceedings of The Joint IEEE Conference on Decision and Control and European Control Conference, Orlando, FL, USA, pp. 3688-3693, 2011\n
 
 - {{[C-4]}} *Yu Jiang* and Zhong-Ping Jiang, "Approximate dynamic programming for stochastic systems with additive and multiplicative noise," 
- IEEE Multi-Conference on Systems and Control, pp. 185-190, Denver, CO, 2011\n
+ IEEE Multi-Conference on Systems and Control, pp. 185-190, Denver, CO, 2011\n 
+ [https://github.com/yujiangnb/Paper_TCASII2012_MMPOWER, [Code]\n
 
 - {{[C-3]}} *Yu Jiang*, Zhong-Ping Jiang, and Ning Qian, "Optimal control mechanisms in human arm reaching movements," In Proceedings of Chinese Control Conference, pp. 1377-1382, Yantai, China, 2011\n
 
