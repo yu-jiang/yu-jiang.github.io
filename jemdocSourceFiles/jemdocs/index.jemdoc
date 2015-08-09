@@ -6,7 +6,7 @@
 PhD in Electrical Engineering
 Email: yujiang@nyu.edu\n
 Public Profiles: [http://www.linkedin.com/in/yujiang26 Linkedin], [https://www.facebook.com/yu.jiang.26 Facebook], [http://scholar.google.com/citations?user=QYanTRsAAAAJ Google Scholar], [http://www.mathworks.com/matlabcentral/profile/authors/5012545-yu MATLAB Central],
-[https://github.com/yujiangnb/ GitHub]
+[https://github.com/yu-jiang/ GitHub]
 
 ~~~
 
@@ -73,7 +73,9 @@ Please feel free to [yu.jiang@nyu.edu email me] to
 - {{[J-15]}} Tao Bian, *Yu Jiang*, and Zhong-Ping Jiang, "Adaptive dynamic programming for stochastic systems with state and control dependent noise," IEEE Transactions on Automatic Control, submitted, April 2014.\n
 
 - {{[J-14]}} *Yu Jiang* and Zhong-Ping Jiang, "Global adaptive dynamic programming for continuous-time nonlinear systems," IEEE Transactions on Automatic Control, accepted as Full Paper\n
-[http://arxiv.org/abs/1401.0020 {{[}}arXiv{{]}}]\n
+[http://arxiv.org/abs/1401.0020 {{[}}arXiv{{]}}]
+[https://github.com/yu-jiang/Paper_TAC2015_GADP {{[}}Code{{]}}]
+\n
 
 - {{[J-13]}} *Yu Jiang*, Yebin Wang, Scott Bortoff, and Zhong-Ping Jiang, "Optimal co-Design of nonlinear control systems based on a modified policy iteration method," IEEE Transactions on Neural Networks and Learning Systems, vol. 26, no. 2, pp. 409--414, Jan 2015
 
@@ -116,8 +118,7 @@ Please feel free to [yu.jiang@nyu.edu email me] to
 [bibtex\2012AutomaticaComputational.txt {{[}}Bibtex{{]}}]
 [http://www.sciencedirect.com/science/article/pii/S0005109812003664 {{[}}Link{{]}}]
 [./papers/2012/automatica/Jiang_automatica12.pdf {{[}}Preprint{{]}}]
-[http://www.mathworks.com/matlabcentral/fileexchange/46550-adaptive-dynamic-programming-for-uncertain-continuous-time-linear-systems/  {{[}}MATLAB_code{{]}}]
-[https://files.nyu.edu/yj348/public/papers/2012/automatica/second_order_example.m {{[}}Matlab_code_2{{]}}]
+[https://github.com/yu-jiang/Paper_Automatica2012_CTLTI {{[}}MATLAB_code{{]}}]
 \n
 
 
