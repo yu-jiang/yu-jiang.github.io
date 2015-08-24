@@ -107,7 +107,7 @@ Please feel free to [yu.jiang@nyu.edu email me] to
 [bibtex\2012TCASIIrobust.txt {{[}}Bibtex{{]}}]
 [http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&arnumber=6297448  {{[}}Link{{]}}]
 [papers/2012/tcas12tr.pdf {{[}}Extended version{{]}}]
-[papers/2012/ieeetcas2/Jiang_tcasII2012.zip {{[}}Matlab code{{]}}]\n
+[https://github.com/yu-jiang/Paper_TCASII2012_MMPOWER {{[}}Matlab code{{]}}]\n
 
 - {{[J-3]}}  Ning Qian, *Yu Jiang*, Zhong-Ping Jiang, and Pietro Mazzoni, "Movement duration, Fitts's law, and an infinite-horizon optimal feedback control model for biological motor systems," Neural Computation, vol. 25, no. 3, pp. 697-724, 2012\n
 [http://www.ncbi.nlm.nih.gov/pubmed/23272916 {{[}}Link{{]}}]
