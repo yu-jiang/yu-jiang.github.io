@@ -1,4 +1,60 @@
-/* Default css file for jemdoc. */
+/* CSS File for Yu Jiang' Webpage*/
+
+
+/* ----- top menu ----- */
+
+{% assign navborder = 3 %}
+{% assign navborder_active = 6 %}
+
+nav {
+  font-size:15px;
+  width:100%;
+  position:fixed;
+  z-index:100;
+  top:0;
+  left:0;
+  background:#2e2e2e;
+}
+
+nav ul {
+  list-style:none;
+  text-align:center;
+  padding:0;
+  margin:0;
+  letter-spacing:-4px;
+}
+
+nav ul li {
+  display:inline-block;
+  border-top:{{navborder}}px solid;
+  padding: {{navborder}}px;
+  *display:inline;
+  zoom:1;
+  line-height:normal;
+  letter-spacing:normal;
+  text-transform:uppercase;
+  min-width:110px;
+  line-height:60px;
+  margin:0;
+}
+
+nav ul li a, nav ul li a:visited {
+  display:block;
+  color:#fff;
+  text-decoration:none;
+  font-weight:600;
+  opacity:.75;
+}
+
+nav ul li a:hover {
+  opacity:1
+}
+nav ul li:hover, nav ul li.active {
+  border-top-width: {{navborder_active}}px;
+  padding-top: 0em;
+}
+
+/* End of Top Menu*/
 
 table#tlayout {
     border: none;
@@ -32,7 +88,7 @@ body {
 }
 
 #layout-content {
-	padding-top: 0.0em;
+	padding-top: 4em;
 	padding-left: 1.0em;
 	padding-right: 1.0em;
     border: none;

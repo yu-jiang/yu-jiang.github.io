@@ -9,7 +9,7 @@ layout: default
 Email: yu.jiang@nyu.edu<br />
 Public Profiles: <a href="http://www.linkedin.com/in/yujiang26">Linkedin</a>, <a href="https://www.facebook.com/yu.jiang.26">Facebook</a>, <a href="http://scholar.google.com/citations?user=QYanTRsAAAAJ">Google Scholar</a>, <a href="http://www.mathworks.com/matlabcentral/profile/authors/5012545-yu">MATLAB Central</a>,
 <a href="https://github.com/yu-jiang/">GitHub</a></p>
-</td></tr></table>
+</td>
 <h2>Experiences</h2>
 <ul>
 <li><p>Controls Systems Engineer, <a href="http://www.mathworks.com">The MathWorks, Inc.</a>, Natick, MA, July 2015 - present</p>
@@ -244,4 +244,11 @@ Chinese Control Conference, pp. 5815-5820, Beijing, China, 2010<br /></p>
 <a href="./papers/2014/2014YuPhdThesis.pdf">[Download]</a><br /></p>
 </li>
 </ul>
+
+<nav><ul>
+      {% for node in site.posts reversed %}
+        {% capture id %}{{ node.id | remove:'/' | downcase }}{% endcapture %}
+        <li class="p-{{id}}"><a href="#{{id}}">{{node.title}}</a></li>
+      {% endfor %}
+    </ul></nav>
 
