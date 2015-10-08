@@ -1,4 +1,167 @@
-/* Default css file for jemdoc. */
+/* CSS File for Yu Jiang' Webpage*/
+
+/* ----- sections/articles ----- */
+
+.section {
+  position:relative;
+  display:block;
+  width:100%;
+  min-height:300px;
+  padding:210px 0;
+  background:url(img/bgnoise.png);
+  /* generated noise from noisetexturegenerator.com */
+}
+
+.section:first-of-type {
+    padding-top: 140px;
+}
+
+
+#footer {
+  padding: 8px 0;
+  min-height:0;
+  text-align:center;
+  background-color:#2e2e2e;
+  background-image:none;
+}
+#footer .container p { font-size:13px; margin:0; }
+
+.subtlecircle {
+  text-align:center;
+  z-index:3;
+  border-radius:50%;
+  -moz-border-radius:50%;
+  -webkit-border-radius:50%;
+  box-shadow: 0px 1px 15px rgba(0,0,0,0.05);
+  background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAF0lEQVQIHWP8//+/MQMaYELjg7kUCgIASm8DOqGzfp8AAAAASUVORK5CYII=);
+}
+
+.sectiondivider {
+  width:270px;
+  height:270px;
+  padding:15px;
+  position:absolute;
+  top:-135px;
+  left:50%;
+  margin-left:-135px;
+}
+
+.sectiondivider img {
+  width:200px;
+  height:240px;
+  position: static;
+  margin-top: -20px;
+}
+
+.sectiondivider .fa-stack {
+  font-size: 130px;
+  position: static;
+  margin-top: -8px;
+}
+.sectiondivider .fa-circle { color: #fff; }
+
+.sectiondivider h5 {
+  font-size:15px;
+  font-weight:700;
+  text-transform:uppercase;
+  position:absolute;
+  bottom:50px;
+  left:auto;
+  text-align:center;
+  display:block;
+  z-index:6;
+  width:240px;
+}
+
+.sectiondivider.imaged {
+  text-shadow: 1px 1px 3px #333;
+}
+
+
+.columned {
+  -webkit-column-count: 3;
+  -moz-column-count:    3;
+  column-count:         3;
+
+  -webkit-column-gap: 40px;
+  -moz-column-gap:    40px;
+  column-gap:         40px;
+
+  -webkit-column-rule: 1px outset rgba(255,255,255,0.5);
+  -moz-column-rule:    1px outset rgba(255,255,255,0.5);
+  column-rule:         1px outset rgba(255,255,255,0.5);
+}
+.longlist { font-size: 14px !important; }
+.longlist li { margin-bottom: 3px; }
+
+
+/* ----- base grid----- */
+
+.container               { position: relative; width: 960px; margin: 0 auto; padding: 0; }
+.container .column       { float: left; display: inline; margin-left: 10px; margin-right: 10px; }
+.row                     { margin-bottom: 20px; }
+
+.container .small.column { width: 300px; }
+.container .half.column  { width: 460px; }
+.container .big.column   { width: 620px; }
+.container .full.column  { width: 940px; }
+
+
+/* ----- top menu ----- */
+
+{% assign navborder = 3 %}
+{% assign navborder_active = 6 %}
+
+nav {
+  font-size:15px;
+  width:100%;
+  position:fixed;
+  z-index:100;
+  top:0;
+  left:0;
+  background:#f6f6f6;
+  border: 1px solid #dddddd;
+}
+
+nav ul {
+  list-style:none;
+  text-align:center;
+  padding:0;
+  margin:0;
+  letter-spacing:-4px;
+}
+
+nav ul li {
+  display:inline-block;
+  border-top:{{navborder}}px solid;
+  padding: {{navborder}}px;
+  *display:inline;
+  zoom:1;
+  line-height:normal;
+  letter-spacing:normal;
+  text-transform:uppercase;
+  min-width:110px;
+  line-height:60px;
+  margin:0;
+}
+
+nav ul li a, nav ul li a:visited {
+  display:block;
+  color:#224b8d;
+  text-decoration:none;
+  font-weight:600;
+  opacity:.75;
+}
+
+/*nav ul li a:hover {
+  opacity:1
+}
+nav ul li:hover, nav ul li.active {
+  border-top-width: {{navborder_active}}px;
+  padding-top: 0em;
+}*/
+
+/* End of Top Menu*/
 
 table#tlayout {
     border: none;
@@ -32,7 +195,7 @@ body {
 }
 
 #layout-content {
-	padding-top: 0.0em;
+	padding-top: 0em;
 	padding-left: 1.0em;
 	padding-right: 1.0em;
     border: none;
@@ -363,5 +526,5 @@ img {
 
 table.imgtable, table.imgtable td {
     border: none;
-    text-align: left;
+    text-align: center;
 }
