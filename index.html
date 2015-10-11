@@ -9,7 +9,7 @@ layout: default
       {% endfor %}
 </ul></nav>
 
-	
+
 	{% for page in site.posts reversed %}
       {% capture id %}{{ page.id | remove:'/' | downcase }}{% endcapture %}
       <div id="{{id}}" class="section p-{{id}}">
@@ -24,8 +24,9 @@ layout: default
             <i class="fa fa-circle fa-stack-2x"></i>
             <i class="fa fa-{{ page.fa-icon }} fa-stack-1x"></i>
           </span>
-          <h2 class="icon-title">{{ page.title }}</h2>
-        </div>
+          <h1 class="icon-title">{{ page.title }}</h1>
+          </div>
+          {% elsif page.menu %}
         {% endif %}
         <div class="container {{ page.style }}">
           {{ page.content }}
