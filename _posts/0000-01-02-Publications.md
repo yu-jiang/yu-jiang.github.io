@@ -35,14 +35,14 @@ menu: pub
 
 - [J-15] Tao Bian, **Yu Jiang**, and Zhong-Ping Jiang, "Adaptive dynamic programming for stochastic systems with state and control dependent noise," IEEE Transactions on Automatic Control, submitted, April 2014.
 
-- [J-14] **Yu Jiang** and Zhong-Ping Jiang, "Global adaptive dynamic programming for continuous-time nonlinear systems," IEEE Transactions on Automatic Control, accepted as Full Paper <br/>
+- [J-14] **Yu Jiang** and Zhong-Ping Jiang, "Global adaptive dynamic programming for continuous-time nonlinear systems," IEEE Transactions on Automatic Control, vol. 60, no. 11, pp. 2917--2929, Nov 2015<br/>
 [[arXiv]](http://arxiv.org/abs/1401.0020)
 [[Code]](https://github.com/yu-jiang/Paper_TAC2015_GADP)
 
 
--  [J-13]  **Yu Jiang**, Yebin Wang, Scott Bortoff, and Zhong-Ping Jiang, "Optimal co-Design of nonlinear control systems based on a modified policy iteration method," IEEE Transactions on Neural Networks and Learning Systems, vol. 26, no. 2, pp. 409--414, Jan 2015
+- [J-13]  **Yu Jiang**, Yebin Wang, Scott Bortoff, and Zhong-Ping Jiang, "Optimal co-Design of nonlinear control systems based on a modified policy iteration method," IEEE Transactions on Neural Networks and Learning Systems, vol. 26, no. 2, pp. 409--414, Jan 2015
 
--  [J-12]  **Yu Jiang**, Yebin Wang, Scott Bortoff, and Zhong-Ping Jiang, "An Iterative Approach to the Optimal Co-Design of Linear Control System," International Journal of Control, submitted, Nov 2014
+-  [J-12]  **Yu Jiang**, Yebin Wang, Scott Bortoff, and Zhong-Ping Jiang, "An Iterative Approach to the Optimal Co-Design of Linear Control System," International Journal of Control, 2015,  DOI:10.1080/00207179.2015.1091510
 
 -  [J-11]  Tao Bian, **Yu Jiang**, and Zhong-Ping Jiang, "Decentralized and adaptive optimal control of large-scale systems with application to power systems," IEEE Transactions on Industrial Electronics, to appear
 
