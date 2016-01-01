@@ -4,7 +4,7 @@ bg: blue
 color: white
 menu: pub
 ---
-# Publications
+## Publications
 <div class="infoblock">
 <div class="blockcontent">
 <p>Please feel free to <a href="mailto:yu.jiang@nyu.edu">email me</a> to </p>
@@ -24,14 +24,14 @@ menu: pub
 
 - [**My Google Scholar Page**](http://scholar.google.com/citations?user=QYanTRsAAAAJ )
 
-## Patent
-- Yebin Wang, **Yu Jiang**, and Scott Bortoff, "Motion Control System for Performing Different Tasks," A patent filed by Mitsubishi Electric Research Labs in Oct. 2013.
+### Patent
+- Yebin Wang, **Yu Jiang**, and Scott Bortoff, ["Motion Control System for Performing Different Tasks,"](https://www.google.com/patents/US20150115860), Mitsubishi Electric Research Laboratories, US Patent Number US20150115860 A1.
 
-## Book Chapter
+### Book Chapter
 
 - **Yu Jiang** and Zhong-Ping Jiang, "Robust adaptive dynamic programming," in Reinforcement Learning and Approximate Dynamic Programming for Feedback Control, F. L. Lewis and D. Liu, Eds, John Wiley and Sons, 2013.
 
-## Journal Papers
+### Journal Papers
 
 - [J-15] Tao Bian, **Yu Jiang**, and Zhong-Ping Jiang, "Adaptive dynamic programming for stochastic systems with state and control dependent noise," IEEE Transactions on Automatic Control, submitted, April 2014.
 
@@ -90,7 +90,7 @@ IEEE Transactions on Neural Networks, vol. 22, no.12, 2392-2398, 2011 <br/>
 [[Link]](http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6026952)
 
 
-## Conference Papers
+### Conference Papers
 
 -  [C-16]  **Yu Jiang** and Zhong-Ping Jiang, "Global adaptive dynamic programming and global optimal control for a class of nonlinear systems," in proceedings of the 2014 IFAC World Congress, vol. 19, no. 1, pp. 9756--9761, Cape Town, South Africa, August 2014
 
