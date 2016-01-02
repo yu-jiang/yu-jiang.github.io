@@ -4,14 +4,22 @@ bg: blue
 color: white
 menu: pub
 ---
-<a name = "publications"></a>
 ## Publications
-
 <div class="infoblock">
 <div class="blockcontent">
-<p>- Updated on 2016-01-02   </p>
-<p>- Source code and supplementary materials are avaialbe upon <a href="mailto:yu.jiang@nyu.edu">request</a> </p>
-
+<p>Please feel free to <a href="mailto:yu.jiang@nyu.edu">email me</a> to </p>
+<ul>
+<li><p>request reproduction code for a simulation</p>
+</li>
+<li><p>ask clarification on an issue</p>
+</li>
+<li><p>discuss any related research topics</p>
+</li>
+<li><p>inform me any bugs<i>typos</i>broken links</p>
+</li>
+<li><p>invite me as a reviewer</p>
+</li>
+</ul>
 </div></div>
 
 - [**My Google Scholar Page**](http://scholar.google.com/citations?user=QYanTRsAAAAJ )

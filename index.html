@@ -3,14 +3,45 @@ layout: default
 ---
 
 
+
+<div id="layout-menu">
+<div class="menu-category">Yu Jiang</div>
+<div class="menu-item"><a href="index.html" class="current">Home</a></div>
+<div class="menu-item"><a href="#publications">Publications</a></div>
+</div>  
+
+<div id="layout-content">
 	{% for page in site.posts reversed %}
         <div class="container {{ page.style }}">
+
           {{ page.content }}
+
         </div>
     {% endfor %}
+</div>
 	
-	<div id="footer">
-<div id="footer-text">
-Page updated on 2015-12-31 </a>.
-</div>
-</div>
+	
+
+
+
+<script type="text/javascript">
+$(document).ready(function(){
+  $('#navigation a, #fixedbar a').on('click', function(e) {
+    e.preventDefault();
+  });
+  
+  $(window).on('scroll',function() {
+    var scrolltop = $(this).scrollTop();
+
+    if(scrolltop >= 215) {
+      $('#fixedbar').fadeIn(250);
+    }
+    
+    else if(scrolltop <= 210) {
+      $('#fixedbar').fadeOut(250);
+    }
+  });
+});
+</script>
+
+
