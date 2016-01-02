@@ -1,8 +1,5 @@
 ---
 title: "Publications"
-bg: blue
-color: white
-menu: pub
 ---
 <a name = "publications"></a>
 ## Publications
@@ -16,13 +13,16 @@ menu: pub
 
 - [**My Google Scholar Page**](http://scholar.google.com/citations?user=QYanTRsAAAAJ )
 
+<a name = "publications-patent"></a>
 ### Patent
 - Yebin Wang, **Yu Jiang**, and Scott Bortoff, ["Motion Control System for Performing Different Tasks,"](https://www.google.com/patents/US20150115860), Mitsubishi Electric Research Laboratories, US Patent Number US20150115860 A1.
 
+<a name = "publications-book"></a>
 ### Book Chapter
 
 - **Yu Jiang** and Zhong-Ping Jiang, "Robust adaptive dynamic programming," in Reinforcement Learning and Approximate Dynamic Programming for Feedback Control, F. L. Lewis and D. Liu, Eds, John Wiley and Sons, 2013.
 
+<a name = "publications-journal"></a>
 ### Journal Papers
 
 - [J-15] Tao Bian, **Yu Jiang**, and Zhong-Ping Jiang, "Adaptive dynamic programming for stochastic systems with state and control dependent noise," IEEE Transactions on Automatic Control, submitted, April 2014.
@@ -81,7 +81,7 @@ menu: pub
 IEEE Transactions on Neural Networks, vol. 22, no.12, 2392-2398, 2011 <br/>
 [[Link]](http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6026952)
 
-
+<a name = "publications-conf"></a>
 ### Conference Papers
 
 -  [C-16]  **Yu Jiang** and Zhong-Ping Jiang, "Global adaptive dynamic programming and global optimal control for a class of nonlinear systems," in proceedings of the 2014 IFAC World Congress, vol. 19, no. 1, pp. 9756--9761, Cape Town, South Africa, August 2014
@@ -121,7 +121,10 @@ Chinese Control Conference, pp. 5815-5820, Beijing, China, 2010
 
 -  [C-1]  **Yu Jiang** and Jie Huang, "Output regulation for a class of weakly minimum phase systems and its application to a nonlinear benchmark system," In Proceedings of American Control Conference, pp. 5321-5326, St. Louis, USA, 2009
 
-
+<a name = "publications-thesis"></a>
 ### PhD Dissertation
-- **Yu Jiang**, Robust Adaptive Dynamic Programming for Continuous-Time Linear and Nonlinear Systems, Department of Electrical and Computer Engineering, New York University, 2014
-[[Download]](./papers/2014/2014YuPhdThesis.pdf)
+ - **Yu Jiang**, Robust Adaptive Dynamic Programming for Continuous-Time Linear and Nonlinear Systems, Department of Electrical and Computer Engineering, New York University, 2014. [[Download]](./papers/2014/2014YuPhdThesis.pdf)
+
+    - Best Ph.D. Dissertation Award in Electrical Engineering, NYU, 2015
+
+
