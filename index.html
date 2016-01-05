@@ -4,50 +4,12 @@ layout: default
 
 
 
-<div id="layout-menu">
-<div class="menu-category">Home</div>
-<div class="menu-item"><a href="index.html">Resume</a></div>
-<div class="menu-item"><a href="#resume-awards">Awards</a></div>
-<div class="menu-category">Publications</div>
-<div class="menu-item"><a href="#publications-patent">Patent</a></div>
-<div class="menu-item"><a href="#publications-book">Book Chapter</a></div>
-<div class="menu-item"><a href="#publications-journal">Journal</a></div>
-<div class="menu-item"><a href="#publications-conf">Conference</a></div>
-<div class="menu-item"><a href="#publications-thesis">Dissertation</a></div>
-</div>  
-
 <div id="layout-content">
 	{% for page in site.posts reversed %}
         <div class="container {{ page.style }}">
-
           {{ page.content }}
-
         </div>
     {% endfor %}
 </div>
-	
-	
-
-
-
-<script type="text/javascript">
-$(document).ready(function(){
-  $('#navigation a, #fixedbar a').on('click', function(e) {
-    e.preventDefault();
-  });
-  
-  $(window).on('scroll',function() {
-    var scrolltop = $(this).scrollTop();
-
-    if(scrolltop >= 215) {
-      $('#fixedbar').fadeIn(250);
-    }
-    
-    else if(scrolltop <= 210) {
-      $('#fixedbar').fadeOut(250);
-    }
-  });
-});
-</script>
 
 
