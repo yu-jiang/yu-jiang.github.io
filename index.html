@@ -2,14 +2,7 @@
 layout: default
 ---
 
-
-
-<div id="layout-content">
-	{% for page in site.posts reversed %}
-        <div class="container {{ page.style }}">
-          {{ page.content }}
-        </div>
-    {% endfor %}
-</div>
-
+	{% include profile.html%}     
+	{% include resume.html%}
+	{% include publications.html%}
 
