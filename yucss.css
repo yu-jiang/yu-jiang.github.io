@@ -22,6 +22,7 @@ body {
 	padding-right: 8px;
 	font-size: 1.0em;
 	width: auto;
+	height: 100%;
 	white-space: nowrap;
     text-align: left;
     vertical-align: top;
@@ -35,7 +36,7 @@ body {
 
 #layout-content {
 	
-	padding-top: 0.0em;
+	padding-top: 3.0em;
 	padding-left: 10.0em;
 	padding-right: 1.0em;
     border: none;
@@ -48,6 +49,7 @@ body {
 #layout-menu a {
 	line-height: 1.5em;
 	margin-left: 0.5em;
+	padding-right: 8px;
 }
 
 tt {
