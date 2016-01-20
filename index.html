@@ -1,22 +1,18 @@
 ---
 layout: default
 ---
-<div id="layout-content">	
-<div class="container ">
-	{% include profile.html%}     
+{% include profile.html%}     
 	
-	<h2> New Posts</h2>
-	<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
+<h2> New Posts</h2>
+<ul>
+{% for news in site.categories.news limit:3%}
+<li>
+  {{news.date}}  <a href="{{ news.url }}">{{ news.title }}</a>
+  <p>{{news.meta}}</p>
+</li>
   {% endfor %}
-  See all archived posts.
+  <!-- See all archived posts.-->
 </ul>
-	
 	
 	{% include resume.html%}
 	{% include publications.html%}
-</div>
-</div>
