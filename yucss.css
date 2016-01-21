@@ -21,6 +21,7 @@ body {
 	padding-left: 10px;
 	padding-right: 8px;
 	font-size: 1.4em;
+	font-weight: bold;
 	width: auto;
 	height: 100%;
 	white-space: nowrap;
@@ -86,6 +87,8 @@ div.menu-category {
 	border-bottom: 1px solid gray;
 	margin-top: 0.8em;
 	padding-top: 0.2em;
+	padding-left: 0.3em;
+	padding-right: 0.2em;
 	padding-bottom: 0.1em;
 	font-weight: bold;
 }
