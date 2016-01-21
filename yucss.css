@@ -20,7 +20,7 @@ body {
 	padding-top: 0.5em;
 	padding-left: 10px;
 	padding-right: 8px;
-	font-size: 1.0em;
+	font-size: 1.5em;
 	width: auto;
 	height: 100%;
 	white-space: nowrap;
@@ -37,7 +37,7 @@ body {
 #layout-content {
 	
 	padding-top: 3.0em;
-	padding-left: 10.0em;
+	padding-left: 15.0em;
 	padding-right: 1.0em;
     border: none;
     background: white;
@@ -49,7 +49,7 @@ body {
 #layout-menu a {
 	line-height: 1.5em;
 	margin-left: 0.5em;
-	padding-right: 8px;
+	padding-right: 10px;
 }
 
 tt {
