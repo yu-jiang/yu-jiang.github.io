@@ -7,7 +7,7 @@ layout: default
 <ul>
 {% for news in site.categories.news limit:3%}
 <li>
-  {{news.date}}  <a href="{{ news.url }}">{{ news.title }}</a>
+  <a href="{{ news.url }}">{{ news.title }}</a>
   <p>{{news.meta}}</p>
 </li>
   {% endfor %}
