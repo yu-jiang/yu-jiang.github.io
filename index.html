@@ -8,7 +8,7 @@ layout: default
 {% for news in site.categories.news limit:3%}
 <li>
   <a href="{{ news.url }}">{{ news.title }}</a>
-  <p>{{news.meta}}</p>
+  <p>{{news.content}}</p>
 </li>
   {% endfor %}
   <!-- See all archived posts.-->
