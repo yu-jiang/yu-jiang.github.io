@@ -6,8 +6,8 @@ author: Yu Jiang
 ---
 ### To install
 1. Download ruby and dev kit from http://rubyinstaller.org/downloads/
-2. Install both of them. When install ruby, it is better to check the option to add the path. Install the kit to c:\DevKit
-3. Open cmd, and cd to c:\DevKit
+2. Install both of them. When install ruby, it is better to check the option to add the path. Install the kit to, for example, `c:\DevKit`
+3. Open cmd, and `cd` to `c:\DevKit`
 4. Run
 
 	```
