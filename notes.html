@@ -7,7 +7,7 @@ layout: default
 <ul>
 {% for notes in site.categories.notes %}
 <li>
-  {{notes.date | date: '%D'}} <a href="{{ notes.url }}">{{ notes.title }}</a>
+  {{notes.date | date: '%D'}} <a href="{{site.baseurl}}{{ notes.url }}">{{ notes.title }}</a>
   <p>{{notes.content}}</p>
 </li>
   {% endfor %}
