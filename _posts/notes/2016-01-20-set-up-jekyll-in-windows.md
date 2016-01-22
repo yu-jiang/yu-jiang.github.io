@@ -1,7 +1,8 @@
 ---
 title: Setting up Jekyll in Windows
-layout: default
+layout: news
 category: [notes, jekyll]
+author: Yu Jiang
 ---
 ### To install
 1. Download ruby and dev kit from http://rubyinstaller.org/downloads/
