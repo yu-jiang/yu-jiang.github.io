@@ -17,10 +17,10 @@ body {
 	position:fixed;
 	background: #f6f6f6;
 	border: 1px solid #dddddd;
-	padding-top: 0.5em;
+	padding-top: 2.0em;
 	padding-left: 10px;
 	padding-right: 8px;
-	font-size: 1.4em;
+	font-size: 1.3em;
 	width: auto;
 	height: 100%;
 	white-space: nowrap;
@@ -35,7 +35,6 @@ body {
 
 
 #layout-content {
-	
 	padding-top: 3.0em;
 	padding-left: 13.5em;
 	padding-right: 1.0em;
@@ -83,18 +82,17 @@ a:hover {
 }
 
 div.menu-category {
-	border-bottom: 1px solid gray;
-	margin-top: 0.8em;
+	margin-top: 0.0em;
 	padding-top: 0.2em;
 	padding-left: 0.3em;
 	padding-right: 0.2em;
-	padding-bottom: 0.1em;
+	padding-bottom: 0.0em;
 	font-weight: bold;
 }
 
 div.menu-item {
-	padding-left: 16px;
-	text-indent: -16px;
+	padding-left: 15px;
+	text-indent:  0px;
 }
 
 div#toptitle {

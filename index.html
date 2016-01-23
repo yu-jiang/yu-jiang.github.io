@@ -1,8 +1,8 @@
 ---
 layout: default
 ---
-{% include profile.html%}     
-	
+{% include profile.html%}
+
 <h2> News</h2>
 <ul>
 {% for news in site.categories.news limit:3%}
@@ -13,6 +13,5 @@ layout: default
   {% endfor %}
   <!-- See all archived posts.-->
 </ul>
-	
+
 	{% include resume.html%}
-	{% include publications.html%}
