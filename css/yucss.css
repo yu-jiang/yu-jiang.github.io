@@ -88,11 +88,12 @@ div.menu-category {
 	padding-right: 0.2em;
 	padding-bottom: 0.0em;
 	font-weight: bold;
+	font-size: 110%;
 }
 
 div.menu-item {
-	padding-left: 15px;
-	text-indent:  0px;
+	padding-left: 1em;
+    font-size: 90%;
 }
 
 div#toptitle {
