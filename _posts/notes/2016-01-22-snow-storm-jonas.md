@@ -1,8 +1,8 @@
 ---
-title: "2016-01-22 Snow storm jonas "
-meta: First snow storm this year.
-category: notes
+title: 2016-01-22 Snow storm jonas
 layout: news
+category: [notes, jekyll]
+author: Yu Jiang
 ---
 
 First snow storm this year.
