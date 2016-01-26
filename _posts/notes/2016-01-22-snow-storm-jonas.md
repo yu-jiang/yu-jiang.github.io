@@ -7,4 +7,4 @@ author: Yu Jiang
 (Post to test figure inseration in jekyll)
 First snow storm this year. 
 
-![mysnowman]({{site.url}}/images/posts/2016-01-22-snowman.jpg)
+![mysnowman]({{site.url}}./images/posts/2016-01-22-snowman.jpg)
