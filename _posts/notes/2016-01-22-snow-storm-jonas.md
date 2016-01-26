@@ -4,7 +4,6 @@ layout: news
 category: [notes, jekyll]
 author: Yu Jiang
 ---
-(Post to test figure inseration in jekyll)
 First snow storm this year. 
-
-![mysnowman]({{site.url}}/images/posts/2016-01-22-snowman.JPG)
+(Post to test figure inseration in jekyll)
+![mysnowman]({{site.url}}/images/posts/2016-01-22-snowman.JPG) *My snowman*
