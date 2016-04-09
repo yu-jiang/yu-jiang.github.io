@@ -1,5 +1,5 @@
 ---
-title: "2016-03-29 New Automatica Paper"
+title: "2016-04-09 New Automatica Paper"
 meta: A technic note I co-authored is accepted by IEEE Transactions on Automatic Control
 category: news
 layout: news
