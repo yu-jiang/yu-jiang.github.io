@@ -5,7 +5,7 @@ layout: default
 
 <h1> News</h1>
 <ul>
-{% for news in site.categories.news limit:3%}
+{% for news in site.categories.news limit:4%}
 <li>
   <a href="{{ news.url }}">{{ news.title }}</a>
   <p>{{news.content}}</p>
