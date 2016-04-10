@@ -5,8 +5,7 @@ category: news
 layout: news
 ---
 
-The paper "Adaptive Dynamic
-Programming for Stochastic Systems with State and Control Dependent
+The paper "Adaptive dynamic
+programming for stochastic systems with state and control dependent
 Noise", written by T. Bian, Y. Jiang, and Z.P. Jiang, has been accepted for publication in the Technical Notes and
 Correspondence section of the IEEE Transactions on Automatic Control.
-I am honored to be a co-authror.
