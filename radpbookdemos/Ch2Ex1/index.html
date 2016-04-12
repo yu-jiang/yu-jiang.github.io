@@ -6,7 +6,7 @@
    <!--
 This HTML was auto-generated from MATLAB code.
 To make changes, update the MATLAB code and republish this document.
-      --><title>A Simulink model that implements the linear ADP algorithm</title><meta name="generator" content="MATLAB 8.5"><link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"><meta name="DC.date" content="2016-04-05"><meta name="DC.source" content="LinearADPSimulinkPad.m"><style type="text/css">
+      --><title>Ch2Ex1_main</title><meta name="generator" content="MATLAB 8.5"><link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"><meta name="DC.date" content="2016-04-12"><meta name="DC.source" content="Ch2Ex1_main.m"><style type="text/css">
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outine:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}
 
 html { min-height:100%; margin-bottom:1px; }
@@ -66,9 +66,11 @@ table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px soli
 
 
 
-  </style></head><body><div class="content"><h1>A Simulink model that implements the linear ADP algorithm</h1><!--introduction--><p>This example shows how to implement the linear ADP algorithm in Simulink. The plant dynamics are not known to the controller, yet the controller learns the optimal performance via real-time data.</p><p>Copyright 2016 Yu Jiang</p><!--/introduction--><h2>Contents</h2><div><ul><li><a href="#1">Open the model</a></li><li><a href="#2">Simulate the system</a></li></ul></div><h2>Open the model<a name="1"></a></h2><pre class="codeinput">open_system(<span class="string">'LinearADPSimullink_R2015a'</span>);
-</pre><img vspace="5" hspace="5" src="LinearADPSimulinkPad_01.png" alt=""> <img vspace="5" hspace="5" src="LinearADPSimulinkPad_02.png" alt=""> <h2>Simulate the system<a name="2"></a></h2><pre class="codeinput">sim(<span class="string">'LinearADPSimullink_R2015a'</span>);
-</pre><img vspace="5" hspace="5" src="LinearADPSimulinkPad_03.png" alt=""> <p class="footer"><br><a href="http://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2015a</a><br></p></div><!--
+  </style></head><body><div class="content"><h2>Contents</h2><div><ul><li><a href="#1">A Simulink model that implements the linear ADP algorithm</a></li><li><a href="#2">Open the model</a></li><li><a href="#3">Simulate the system</a></li><li><a href="#4">Clean up</a></li></ul></div><h2>A Simulink model that implements the linear ADP algorithm<a name="1"></a></h2><p>This example shows how to implement the linear ADP algorithm in Simulink. The plant dynamics are not known to the controller, yet the controller learns the optimal performance via real-time data.</p><p>Copyright 2016 Yu Jiang</p><pre class="codeinput">mdl = <span class="string">'LinearADPSimullink_R2015a'</span>;
+</pre><h2>Open the model<a name="2"></a></h2><pre class="codeinput">open_system(mdl);
+</pre><img vspace="5" hspace="5" src="Ch2Ex1_main_01.png" alt=""> <img vspace="5" hspace="5" src="Ch2Ex1_main_02.png" alt=""> <h2>Simulate the system<a name="3"></a></h2><pre class="codeinput">sim(mdl);
+</pre><img vspace="5" hspace="5" src="Ch2Ex1_main_03.png" alt=""> <h2>Clean up<a name="4"></a></h2><pre class="codeinput">close_system(mdl,0);
+</pre><p class="footer"><br><a href="http://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2015a</a><br></p></div><!--
 ##### SOURCE BEGIN #####
 %% A Simulink model that implements the linear ADP algorithm
 %
@@ -77,11 +79,14 @@ table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px soli
 % learns the optimal performance via real-time data.
 %
 % Copyright 2016 Yu Jiang
+mdl = 'LinearADPSimullink_R2015a';
 %% Open the model
 %
-open_system('LinearADPSimullink_R2015a');
+open_system(mdl);
 %% Simulate the system
 %
-sim('LinearADPSimullink_R2015a');
+sim(mdl);
+%% Clean up
+close_system(mdl,0);
 ##### SOURCE END #####
 --></body></html>

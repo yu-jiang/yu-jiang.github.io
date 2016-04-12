@@ -6,7 +6,7 @@
    <!--
 This HTML was auto-generated from MATLAB code.
 To make changes, update the MATLAB code and republish this document.
-      --><title>Off-policy learning for a turbocharged diesel engine</title><meta name="generator" content="MATLAB 8.5"><link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"><meta name="DC.date" content="2016-04-08"><meta name="DC.source" content="RADP_Ch2Ex2_main.m"><style type="text/css">
+      --><title>Off-policy learning for a turbocharged diesel engine</title><meta name="generator" content="MATLAB 8.5"><link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"><meta name="DC.date" content="2016-04-12"><meta name="DC.source" content="Ch2Ex2_main.m"><style type="text/css">
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outine:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}
 
 html { min-height:100%; margin-bottom:1px; }
@@ -161,44 +161,44 @@ k_save  = norm(K-Kopt);  <span class="comment">% keep track of the differences b
     disp(K);
 <span class="keyword">end</span>
 </pre><pre class="codeoutput">K_1=
-   47.8327    0.7785    2.9004   42.1546  -24.8890   -0.0909
-   38.7652    0.4848    0.5802   20.7824  -11.6966    0.0712
+   47.8320    0.7786    2.9033   42.1550  -24.8832   -0.0909
+   38.7663    0.4846    0.5759   20.7817  -11.7055    0.0712
 
 K_2=
-   20.3866    0.4444    1.2041   27.3859  -15.6168   -0.1539
-   18.1105    0.2602    0.0325   11.4404   -6.2470    0.0293
+   20.1870    0.4586    1.6149   27.4476  -14.8243   -0.1542
+   18.4894    0.2331   -0.7410   11.3220   -7.7517    0.0297
 
 K_3=
-   11.3687    0.3886    0.4585   24.9271  -13.7566   -0.1668
-    9.6886    0.2055    0.0396    9.3035   -5.0997    0.0184
+   11.3660    0.3934    0.5952   24.9508  -13.4836   -0.1669
+    9.7093    0.1947   -0.2655    9.2501   -5.7129    0.0185
 
 K_4=
-   10.7552    0.3875    0.4006   24.8447  -13.6680   -0.1672
-    9.0006    0.2031    0.0681    9.2035   -5.0791    0.0180
+   10.7615    0.3866    0.3609   24.8407  -13.7212   -0.1672
+    8.9878    0.2050    0.1491    9.2116   -4.9713    0.0180
 
 K_5=
-   10.7537    0.3875    0.4006   24.8446  -13.6677   -0.1672
-    8.9983    0.2031    0.0682    9.2032   -5.0795    0.0180
+   10.7537    0.3875    0.3998   24.8445  -13.6683   -0.1672
+    8.9982    0.2031    0.0696    9.2033   -5.0784    0.0180
 
 K_6=
-   10.7537    0.3875    0.4005   24.8446  -13.6678   -0.1672
-    8.9983    0.2031    0.0682    9.2032   -5.0795    0.0180
+   10.7536    0.3875    0.4010   24.8447  -13.6669   -0.1672
+    8.9984    0.2031    0.0672    9.2031   -5.0813    0.0180
 
 K_7=
-   10.7537    0.3875    0.4006   24.8446  -13.6677   -0.1672
-    8.9983    0.2031    0.0681    9.2032   -5.0796    0.0180
+   10.7536    0.3875    0.4010   24.8446  -13.6669   -0.1672
+    8.9984    0.2031    0.0673    9.2031   -5.0812    0.0180
 
 K_8=
-   10.7537    0.3875    0.4006   24.8446  -13.6677   -0.1672
-    8.9983    0.2031    0.0682    9.2032   -5.0795    0.0180
+   10.7536    0.3875    0.4010   24.8446  -13.6669   -0.1672
+    8.9984    0.2031    0.0672    9.2031   -5.0813    0.0180
 
 K_9=
-   10.7537    0.3875    0.4006   24.8446  -13.6677   -0.1672
-    8.9983    0.2031    0.0681    9.2032   -5.0795    0.0180
+   10.7536    0.3875    0.4010   24.8446  -13.6669   -0.1672
+    8.9984    0.2031    0.0673    9.2031   -5.0812    0.0180
 
 K_10=
-   10.7537    0.3875    0.4006   24.8446  -13.6677   -0.1672
-    8.9983    0.2031    0.0682    9.2032   -5.0795    0.0180
+   10.7536    0.3875    0.4010   24.8446  -13.6670   -0.1672
+    8.9984    0.2031    0.0673    9.2031   -5.0812    0.0180
 
 </pre><h2>Post-learning simulations<a name="4"></a></h2><pre class="codeinput">[tt,xx]=ode45(@(t,x)aug_sys(t,x,K,ifLearned,expl_noise_freq), <span class="keyword">...</span>
     [t(end) 10],X(end,:)');
@@ -249,7 +249,7 @@ annotation(figure(3),<span class="string">'textarrow'</span>,[0.2630173564753 0.
 
 <span class="comment">% Uncomment to save figure</span>
 <span class="comment">% print('Ch2_ex2_fig2_y','-depsc')</span>
-</pre><img vspace="5" hspace="5" src="RADP_Ch2Ex2_main_01.png" alt=""> <img vspace="5" hspace="5" src="RADP_Ch2Ex2_main_02.png" alt=""> <img vspace="5" hspace="5" src="RADP_Ch2Ex2_main_03.png" alt=""> <h2>Display results<a name="6"></a></h2><pre class="codeinput">disp(<span class="string">'Approximate Cost Matrix'</span>)
+</pre><img vspace="5" hspace="5" src="Ch2Ex2_main_01.png" alt=""> <img vspace="5" hspace="5" src="Ch2Ex2_main_02.png" alt=""> <img vspace="5" hspace="5" src="Ch2Ex2_main_03.png" alt=""> <h2>Display results<a name="6"></a></h2><pre class="codeinput">disp(<span class="string">'Approximate Cost Matrix'</span>)
 P
 disp(<span class="string">'Optimal Cost Matrix'</span>)
 Popt
@@ -261,11 +261,11 @@ Kopt
 
 P =
 
-  766.7587    1.4019   97.3262  119.0936 -111.2561    0.6265
-    1.4019    0.1032   -0.6581    3.9893   -1.8219    0.0150
-   97.3262   -0.6581   71.6924   -1.3764  -29.0646    0.0230
-  119.0936    3.9893   -1.3764  233.8102 -126.0940   -1.1828
- -111.2561   -1.8219  -29.0646 -126.0940   88.0898    0.5859
+  766.7573    1.4022   97.3336  119.0949 -111.2412    0.6265
+    1.4022    0.1031   -0.6595    3.9891   -1.8247    0.0150
+   97.3336   -0.6595   71.6427   -1.3831  -29.1477    0.0230
+  119.0949    3.9891   -1.3831  233.8091 -126.1072   -1.1828
+ -111.2412   -1.8247  -29.1477 -126.1072   87.9347    0.5859
     0.6265    0.0150    0.0230   -1.1828    0.5859    0.5687
 
 Optimal Cost Matrix
@@ -283,8 +283,8 @@ Approximate Gain Matrix
 
 K =
 
-   10.7537    0.3875    0.4006   24.8446  -13.6677   -0.1672
-    8.9983    0.2031    0.0682    9.2032   -5.0795    0.0180
+   10.7536    0.3875    0.4010   24.8446  -13.6670   -0.1672
+    8.9984    0.2031    0.0673    9.2031   -5.0812    0.0180
 
 Optimal Gain Matrix
 
