@@ -6,7 +6,7 @@
    <!--
 This HTML was auto-generated from MATLAB code.
 To make changes, update the MATLAB code and republish this document.
-      --><title>Ch3Ex1_main</title><meta name="generator" content="MATLAB 9.0"><link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"><meta name="DC.date" content="2016-04-12"><meta name="DC.source" content="Ch3Ex1_main.m"><style type="text/css">
+      --><title>Ch3Ex1_main</title><meta name="generator" content="MATLAB 8.4"><link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"><meta name="DC.date" content="2016-04-12"><meta name="DC.source" content="Ch3Ex1_main.m"><style type="text/css">
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outine:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}
 
 html { min-height:100%; margin-bottom:1px; }
@@ -88,7 +88,7 @@ IterMax = 20;  <span class="comment">% Number of iterations</span>
 X = [0.1,-5,0.2,2,zeros(1,PsiLength^2+PsiLength+1)];
 
 T = 0.01; <span class="comment">% Length for each time interval</span>
-</pre><h2 id="2">Online Data Collection</h2><pre class="codeinput"><span class="keyword">for</span> i = 1:N
+</pre><h2>Online Data Collection<a name="2"></a></h2><pre class="codeinput"><span class="keyword">for</span> i = 1:N
 	[t,X] = ode45(@adpSysWrapper, <span class="keyword">...</span>
 		[i-1,i]*T, <span class="keyword">...</span>
 		[X(end,1:4) zeros(1, PsiLength^2 + PsiLength + 1)]);
@@ -133,7 +133,7 @@ w = zeros(PsiLength,1);
 	<span class="keyword">end</span>
 	pp = p; <span class="comment">%save the previous p for convergence check</span>
 <span class="keyword">end</span>
-</pre><h2 id="3">Post learning</h2><p>Terminate exploration noise but keep appying the inital gains until the states enters the region of attraction</p><pre class="codeinput"><span class="comment">% Compute the region of attraction</span>
+</pre><h2>Post learning<a name="3"></a></h2><p>Terminate exploration noise but keep appying the inital gains until the states enters the region of attraction</p><pre class="codeinput"><span class="comment">% Compute the region of attraction</span>
 D = getRegionOfAttraction(p);
 <span class="comment">% Keep checking if state is in the region of attraction</span>
 currentStates = x_save(end,:);
@@ -146,7 +146,7 @@ currentStates = x_save(end,:);
 	currentStates = x_save(end,:);
 	currentTime = t_save(end);
 <span class="keyword">end</span>
-</pre><h2 id="4">Update controller and finish the rest of the simulation</h2><pre class="codeinput">[t,y] = ode45(@(t,x) simpleSysWrapper(t,x,-w), <span class="keyword">...</span>
+</pre><h2>Update controller and finish the rest of the simulation<a name="4"></a></h2><pre class="codeinput">[t,y] = ode45(@(t,x) simpleSysWrapper(t,x,-w), <span class="keyword">...</span>
 	currentTime+[0,5], <span class="keyword">...</span>
 	currentStates);
 t_save = [t_save
@@ -158,10 +158,10 @@ x_save = [x_save
 [t0,y0] = ode45(@(t,x) simpleSysWrapper(t,x,w*0), <span class="keyword">...</span>
 	currentTime+[0,5], <span class="keyword">...</span>
 	currentStates);
-</pre><h2 id="5">Plotting results</h2><p>Create figure folder</p><pre class="codeinput"><span class="keyword">if</span> exist(<span class="string">'simFigures'</span>,<span class="string">'dir'</span>) == 0
+</pre><h2>Plotting results<a name="5"></a></h2><p>Create figure folder</p><pre class="codeinput"><span class="keyword">if</span> exist(<span class="string">'simFigures'</span>,<span class="string">'dir'</span>) == 0
 	mkdir(<span class="string">'simFigures'</span>);
 <span class="keyword">end</span>
-</pre><h2 id="6">Figure 1 Time course</h2><pre class="codeinput">figure(1)
+</pre><h2>Figure 1 Time course<a name="6"></a></h2><pre class="codeinput">figure(1)
 <span class="comment">% subplot(221)</span>
 plot(t_save,x_save(:,1),t0, y0(:,1), <span class="string">'r--'</span>, <span class="string">'LineWidth'</span>, 2)
 xlabel(<span class="string">'Time (sec)'</span>)
@@ -190,7 +190,7 @@ annotation(<span class="string">'textarrow'</span>,[0.366326530612245 0.26811224
 	<span class="string">'FontSize'</span>,12);
 
 print(<span class="string">'.\simFigures\Ch3_ex1_fig1_x'</span>,<span class="string">'-depsc'</span>);
-</pre><img vspace="5" hspace="5" src="Ch3Ex1_main_01.png" alt=""> <h2 id="7">Figure 2</h2><p>Plot the value function surfaces and compare the inital one and the optimized one</p><pre class="codeinput">xxb = -0.5:0.05:0.5;
+</pre><img vspace="5" hspace="5" src="Ch3Ex1_main_01.png" alt=""> <h2>Figure 2<a name="7"></a></h2><p>Plot the value function surfaces and compare the inital one and the optimized one</p><pre class="codeinput">xxb = -0.5:0.05:0.5;
 xxw = -0.2:0.02:0.2;
 [XX,YY] = meshgrid(xxb, xxw);
 VV = zeros(size(XX));
@@ -222,7 +222,7 @@ annotation(<span class="string">'textarrow'</span>,[0.833928571428571 0.86814814
 	<span class="string">'FontSize'</span>,12);
 
 print(<span class="string">'.\simFigures\Ch3_ex1_fig2_v'</span>,<span class="string">'-depsc'</span>)
-</pre><img vspace="5" hspace="5" src="Ch3Ex1_main_02.png" alt=""> <h2 id="8">Figure 3 -- Region of Attraction</h2><p>Note: This section will be skipped if you are running an order version of MATLAB which does not have the function delaunayTriangulation</p><pre class="codeinput">SkipSection = false;
+</pre><img vspace="5" hspace="5" src="Ch3Ex1_main_02.png" alt=""> <h2>Figure 3 -- Region of Attraction<a name="8"></a></h2><p>Note: This section will be skipped if you are running an order version of MATLAB which does not have the function delaunayTriangulation</p><pre class="codeinput">SkipSection = false;
 <span class="keyword">try</span>
 	delaunayTriangulation;
 <span class="keyword">catch</span> e
@@ -277,11 +277,11 @@ print(<span class="string">'.\simFigures\Ch3_ex1_fig2_v'</span>,<span class="str
 
 	print(<span class="string">'.\simFigures\Ch3_ex1_fig3_Omega'</span>,<span class="string">'-depsc'</span>)
 <span class="keyword">end</span>
-</pre><img vspace="5" hspace="5" src="Ch3Ex1_main_03.png" alt=""> <h2 id="9">Save Numerical Results and Clean Up</h2><p>Uncomment the following code to save data</p><pre class="codeinput"><span class="comment">% if exist('simResults','dir') == 0</span>
+</pre><img vspace="5" hspace="5" src="Ch3Ex1_main_03.png" alt=""> <h2>Save Numerical Results and Clean Up<a name="9"></a></h2><p>Uncomment the following code to save data</p><pre class="codeinput"><span class="comment">% if exist('simResults','dir') == 0</span>
 <span class="comment">% 	mkdir('simResults')</span>
 <span class="comment">% end</span>
 <span class="comment">% save .\simResults\simResults.mat</span>
-</pre><p class="footer"><br><a href="http://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2016b</a><br></p></div><!--
+</pre><p class="footer"><br><a href="http://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2014b</a><br></p></div><!--
 ##### SOURCE BEGIN #####
 % Main Script
 close all
