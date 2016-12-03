@@ -3,12 +3,12 @@ layout: default
 ---
 {% include profile.html%}
 
-<h1> News</h1>
+<h1> Updates </h1>
 <ul>
 {% for news in site.categories.news limit:4%}
 <li>
   <a href="{{ news.url }}">{{ news.title }}</a>
-  <p>{{news.content}}</p>
+  <p>{{news.meta}}</p>
 </li>
   {% endfor %}
   <!-- See all archived posts.-->
