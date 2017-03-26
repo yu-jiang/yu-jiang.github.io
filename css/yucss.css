@@ -15,17 +15,17 @@ body {
 
 #layout-menu {
 	position:fixed;
-	background: #f6f6f6;
+	background: #f0f0f0;
 	border: 2px solid #dddddd;
 	padding-top: 2.0em;
 	padding-left: 0px;
 	padding-right: 8px;
-  padding-bottom: 1.0em;
+    padding-bottom: 1.0em;
 	font-size: 1.3em;
 	width: auto;
 	height: 100%;
 	white-space: nowrap;
-    text-align: left;
+    text-align: center;
     vertical-align: top;
 }
 
@@ -156,12 +156,7 @@ p {
 	margin-top: 0.0em;
 	margin-bottom: 0.8em;
 	padding: 0;
-	line-height: 1.3;
-}
-
-pre {
-	padding: 0;
-	margin: 0;
+	line-height: 2;
 }
 
 div#footer {
