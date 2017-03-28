@@ -1,15 +1,14 @@
 ---
 layout: default
 ---
-   
-	
+
+
 <h1> Posts </h1>
 <ul>
-{% for notes in site.categories.notes %}
+{% for notes in site.posts%}
 <li>
   {{notes.date | date: '%D'}} <a href="{{site.baseurl}}{{ notes.url }}">{{ notes.title }}</a>
   <p>{{notes.content}}</p>
 </li>
   {% endfor %}
-  <!-- See all archived posts.-->
 </ul>
