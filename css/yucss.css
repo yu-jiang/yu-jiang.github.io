@@ -15,32 +15,31 @@ body {
 	line-height: 1.6;
 }
 
+/* The navigation menu*/
 #layout-menu {
+  overflow: hidden;
 	position:fixed;
-	background: #f0f0f0;
+	background: #f4f4f4;
 	border: 2px solid #dddddd;
-	padding-top: 2.0em;
+	padding-top: 0.0em;
 	padding-left: 0px;
 	padding-right: 8px;
   padding-bottom: 1.0em;
-	font-size: 1.3em;
-	width: auto;
-	height: 100%;
-	white-space: nowrap;
-    text-align: right;
-    vertical-align: top;
+	font-size: 1.2em;
+  top: 0;
+	width:  100%;
+    text-align: center;
 }
 
 #layout-menu td {
 	background: #f4f4f4;
-    vertical-align: top;
 }
 
 
 #layout-content {
-	padding-top: 3.0em;
-	padding-left: 13.5em;
-	padding-right: 1.0em;
+	padding-top: 6.0em;
+	padding-left: 10em;
+	padding-right: 10em;
     border: none;
     background: white;
     text-align: left;
@@ -49,9 +48,9 @@ body {
 }
 
 #layout-menu a {
-	line-height: 1.5em;
-	margin-left: 0.5em;
+	margin: 0.3em;
 	padding-right: 10px;
+  text-align: center;
 }
 
 tt {
@@ -74,7 +73,7 @@ a:hover {
 
 #layout-menu a.current:link, #layout-menu a.current:visited {
 	color: #022b6d;
-	border-bottom: 1px gray solid;
+	border-bottom: 2px gray solid;
 }
 #layout-menu a:link, #layout-menu a:visited, #layout-menu a:hover {
 	color: #527bbd;
