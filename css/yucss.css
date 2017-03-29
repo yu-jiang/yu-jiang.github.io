@@ -38,8 +38,8 @@ body {
 
 #layout-content {
 	padding-top: 6.0em;
-	padding-left: 10em;
-	padding-right: 10em;
+	padding-left: 100px;
+	padding-right: 100px;
     border: none;
     background: white;
     text-align: left;
@@ -48,7 +48,7 @@ body {
 }
 
 #layout-menu a {
-	margin: 0.3em;
+	margin: 10px;
 	padding-right: 10px;
   text-align: center;
 }
