@@ -22,7 +22,7 @@ body {
 	padding-top: 2.0em;
 	padding-left: 0px;
 	padding-right: 8px;
-    padding-bottom: 1.0em;
+  padding-bottom: 1.0em;
 	font-size: 1.3em;
 	width: auto;
 	height: 100%;
@@ -96,7 +96,7 @@ div.menu-category {
 
 div.menu-item {
 	padding-left: 1em;
-    font-size: 90%;
+  font-size: 90%;
 }
 
 div#toptitle {
@@ -362,9 +362,7 @@ tr.heading {
     border-bottom: 2px solid black;
 }
 
-img {
-    border: none;
-}
+
 
 table.imgtable, table.imgtable td {
     border: none;

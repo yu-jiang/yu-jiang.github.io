@@ -7,7 +7,7 @@ layout: news
 
 My new book "Robust Adaptive Dynamic Programming", collaborated with my former PhD Thesis advisor, is coming soon.
 
-![RADP Book Cover](http://media.wiley.com/product_data/coverImage300/49/11191326/1119132649.jpg)
+![Book Cover](http://media.wiley.com/product_data/coverImage300/49/11191326/1119132649.jpg)
 
 
 Find it on
