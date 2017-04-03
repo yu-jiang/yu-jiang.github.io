@@ -23,9 +23,9 @@ body {
 	position:fixed;
 	background: #4863A0;
 	padding-top:  10px;
-	padding-left: 100px;
+	padding-left: 80px;
   padding-bottom: 10px;
-	font-size: 1.2em;
+	font-size: 1.4em;
   top: 0;
 	width:  100%;
   text-align: left;
@@ -333,6 +333,7 @@ img.eqwl {
 table {
     border: 2px solid black;
     border-collapse: collapse;
+	line-height: 1.6;
 }
 
 td {
@@ -341,10 +342,12 @@ td {
     padding-right: 0.5em;
     text-align: center;
     border:0px solid gray;
+	line-height: 1.6;
 }
 
 table + table {
     margin-top: 1em;
+	line-height: 1.6;
 }
 
 tr.heading {
