@@ -61,9 +61,10 @@ pre, tt {
 	font-family: monaco, monospace;
 }
 
+
 a, a > tt {
-	color: #224b8d;
-	text-decoration: none;
+  color: #2B60DE;
+  text-decoration: none;
 }
 
 a:hover {
