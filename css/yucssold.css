@@ -7,12 +7,10 @@ table#tlayout {
 }
 
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	background: white;
-  background-color: #fff;
+	font-family: Georgia, serif;
 	padding-bottom: 8px;
-  padding-top: 8px;
-	margin: 0px;
+	margin: 4px;
 	padding: 0;
 	line-height: 1.6;
 }
@@ -21,14 +19,16 @@ body {
 #layout-menu {
   overflow: hidden;
 	position:fixed;
-	background: #4863A0;
-	padding-top:  10px;
-	padding-left: 100px;
-  padding-bottom: 10px;
+	background: #f4f4f4;
+	border: 2px solid #dddddd;
+	padding-top: 0.0em;
+	padding-left: 0px;
+	padding-right: 8px;
+  padding-bottom: 1.0em;
 	font-size: 1.2em;
   top: 0;
 	width:  100%;
-  text-align: left;
+    text-align: center;
 }
 
 #layout-menu td {
@@ -48,7 +48,8 @@ body {
 }
 
 #layout-menu a {
-	margin: 20px;
+	margin: 10px;
+	padding-right: 10px;
   text-align: center;
 }
 
@@ -67,7 +68,7 @@ a, a > tt {
 }
 
 a:hover {
-	border-bottom: 2px white solid;
+	border-bottom: 1px gray dotted;
 }
 
 #layout-menu a.current:link, #layout-menu a.current:visited {
@@ -75,7 +76,7 @@ a:hover {
 	border-bottom: 2px gray solid;
 }
 #layout-menu a:link, #layout-menu a:visited, #layout-menu a:hover {
-	color: #ffffff;
+	color: #527bbd;
 	text-decoration: none;
 }
 #layout-menu a:hover {
@@ -83,10 +84,12 @@ a:hover {
 }
 
 div.menu-category {
-	margin-top: 0.2em;
-	padding-top: 0.1em;
-	padding-left: 0.1em;
-	padding-bottom: 0.2em;
+	margin-top: 0.0em;
+	padding-top: 0.2em;
+	padding-left: 0.3em;
+	padding-right: 0.2em;
+	padding-bottom: 0.0em;
+	font-weight: bold;
 	font-size: 110%;
 }
 
@@ -95,13 +98,14 @@ div.menu-item {
   font-size: 90%;
 }
 
-/*	padding-bottom: 0.2em;
+div#toptitle {
+	padding-bottom: 0.2em;
 	margin-bottom: 1.5em;
 	border-bottom: 3px double gray;
 }
 
- Reduce space if we begin the page with a title. */
-/*div#toptitle + h2, div#toptitle + h3 {
+/* Reduce space if we begin the page with a title. */
+div#toptitle + h2, div#toptitle + h3 {
 	margin-top: -0.7em;
 }
 
@@ -110,7 +114,7 @@ div#subtitle {
 	margin-bottom: 0.0em;
 	padding-top: 0em;
 	padding-bottom: 0.1em;
-}*/
+}
 
 em {
 	font-style: italic;
@@ -122,7 +126,7 @@ strong {
 
 
 h1, h2, h3 {
-	color: #4863A0;
+	color: #527bbd;
 	margin-top: 0.7em;
 	margin-bottom: 0.3em;
 	padding-bottom: 0.2em;
@@ -156,21 +160,20 @@ p {
 	line-height: 1.6;
 }
 
-footer {
+div#footer {
 	font-size: small;
 	border-top: 1px solid #c0c0c0;
 	padding-top: 0.1em;
 	margin-top: 4.0em;
 	color: #c0c0c0;
-  text-align: center;
 }
 
-#footer a {
+div#footer a {
 	color: #80a0b0;
 }
 
-#footer-text {
-	float: center;
+div#footer-text {
+	float: left;
 	padding-bottom: 8px;
 }
 
@@ -185,6 +188,13 @@ dt {
 	margin-bottom: 0;
 }
 
+dl {
+	margin-left: 20px;
+}
+
+dd {
+	color: #222222;
+}
 
 dd > *:first-child {
 	margin-top: 0;
@@ -267,7 +277,7 @@ div.codeblock > div.blockcontent {
 	background: #f6f6f6;
 }
 
-/*span.pycommand {
+span.pycommand {
 	color: #000070;
 }
 
@@ -302,7 +312,7 @@ span.comment, span.comment > *, span.string, span.string > * {
 	padding-left: 0.5em;
 	margin-bottom: 0.5em;
 }
-*/
+
 #layout-content h1:first-child, #layout-content h2:first-child, #layout-content h3:first-child {
 	margin-top: -0.7em;
 }
@@ -339,7 +349,7 @@ td {
     padding-left: 0.5em;
     padding-right: 0.5em;
     text-align: center;
-    border:0px solid gray;
+    border: 1px solid gray;
 }
 
 table + table {
