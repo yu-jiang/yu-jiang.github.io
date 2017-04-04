@@ -23,9 +23,9 @@ body {
 	position:fixed;
 	background: #4863A0;
 	padding-top:  10px;
-	padding-left: 80px;
+	padding-left: 78px;
   padding-bottom: 10px;
-	font-size: 1.4em;
+	font-size: 1.5em;
   top: 0;
 	width:  100%;
   text-align: left;
@@ -37,7 +37,7 @@ body {
 
 
 #layout-content {
-	padding-top: 6.0em;
+	padding-top: 7em;
 	padding-left: 100px;
 	padding-right: 100px;
     border: none;
@@ -159,10 +159,11 @@ p {
 
 footer {
 	font-size: small;
-	border-top: 1px solid #c0c0c0;
+	border-top: 1px solid #8e959a;
 	padding-top: 0.1em;
+  padding-bottom: 50px;
 	margin-top: 4.0em;
-	color: #c0c0c0;
+	color: #8e959a;
   text-align: center;
 }
 
