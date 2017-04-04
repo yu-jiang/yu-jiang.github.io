@@ -23,9 +23,9 @@ body {
 	position:fixed;
 	background: #4863A0;
 	padding-top:  10px;
-	padding-left: 78px;
+	padding-left: 80px;
   padding-bottom: 10px;
-	font-size: 1.5em;
+	font-size: 1.3em;
   top: 0;
 	width:  100%;
   text-align: left;
@@ -44,7 +44,7 @@ body {
     background: white;
     text-align: left;
     vertical-align: top;
-	line-height: 170%;
+	line-height: 150%;
 }
 
 #layout-menu a {
@@ -86,14 +86,9 @@ a:hover {
 div.menu-category {
 	margin-top: 0.2em;
 	padding-top: 0.1em;
-	padding-left: 0.1em;
+	padding-left: 0em;
 	padding-bottom: 0.2em;
-	font-size: 110%;
-}
-
-div.menu-item {
-	padding-left: 1em;
-  font-size: 90%;
+	font-size: 100%;
 }
 
 /*	padding-bottom: 0.2em;
