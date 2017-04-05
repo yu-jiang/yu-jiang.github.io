@@ -1,5 +1,3 @@
-/* Default css file for jemdoc. */
-
 table#tlayout {
     border: none;
     border-collapse: separate;
@@ -37,7 +35,7 @@ body {
 
 
 #layout-content {
-	padding-top: 7em;
+	padding-top: 6em;
 	padding-left: 100px;
 	padding-right: 100px;
     border: none;
