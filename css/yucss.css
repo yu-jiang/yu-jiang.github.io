@@ -45,6 +45,18 @@ body {
 	line-height: 150%;
 }
 
+#layout-blog-content {
+	padding-top: 6em;
+	padding-left: 400px;
+	padding-right: 100px;
+    border: none;
+    background: white;
+    text-align: left;
+    vertical-align: top;
+	line-height: 150%;
+}
+
+
 #layout-menu a {
 	margin: 20px;
   text-align: center;
@@ -87,6 +99,13 @@ div.menu-category {
 	padding-left: 0em;
 	padding-bottom: 0.2em;
 	font-size: 100%;
+}
+
+div.sidebar {
+   float: left;
+   max-width: 300px;
+   margin-top: 6em;
+   margin-left: 50px;
 }
 
 /*	padding-bottom: 0.2em;
