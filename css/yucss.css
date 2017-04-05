@@ -12,7 +12,7 @@ body {
   padding-top: 8px;
 	margin: 0px;
 	padding: 0;
-	line-height: 1.6;
+  line-height: 150%;
 }
 
 /* The navigation menu*/
@@ -42,7 +42,7 @@ body {
     background: white;
     text-align: left;
     vertical-align: top;
-	line-height: 150%;
+    line-height: 150%;
 }
 
 #layout-blog-content {
@@ -60,15 +60,6 @@ body {
 #layout-menu a {
 	margin: 20px;
   text-align: center;
-}
-
-tt {
-    background: #ffffdd;
-}
-
-pre, tt {
-	font-size: 100%;
-	font-family: monaco, monospace;
 }
 
 
@@ -108,22 +99,6 @@ div.sidebar {
    margin-left: 50px;
 }
 
-/*	padding-bottom: 0.2em;
-	margin-bottom: 1.5em;
-	border-bottom: 3px double gray;
-}
-
- Reduce space if we begin the page with a title. */
-/*div#toptitle + h2, div#toptitle + h3 {
-	margin-top: -0.7em;
-}
-
-div#subtitle {
-	margin-top: 0.0em;
-	margin-bottom: 0.0em;
-	padding-top: 0em;
-	padding-bottom: 0.1em;
-}*/
 
 em {
 	font-style: italic;
@@ -139,7 +114,7 @@ h1, h2, h3 {
 	margin-top: 0.7em;
 	margin-bottom: 0.3em;
 	padding-bottom: 0.2em;
-	line-height: 1.0;
+	line-height: 1.5;
 	padding-top: 0.5em;
 	border-bottom: 1px solid #aaaaaa;
 }
@@ -166,7 +141,7 @@ p {
 	margin-top: 0.0em;
 	margin-bottom: 0.8em;
 	padding: 0;
-	line-height: 1.6;
+	line-height: 150%;
 }
 
 footer {
@@ -192,6 +167,7 @@ ul, ol, dl {
 	margin-top: 0.2em;
 	padding-top: 0;
 	margin-bottom: 0.8em;
+  line-height: 150%;
 }
 
 dt {
@@ -207,33 +183,9 @@ dd > *:first-child {
 ul {
 	list-style-position: outside;
 	list-style-type: square;
+  line-height: 175%;
 }
 
-p + ul, p + ol {
-	margin-top: -0.5em;
-}
-
-li ul, li ol {
-	margin-top: -0.3em;
-}
-
-ol {
-	list-style-position: outside;
-	list-style-type: decimal;
-}
-
-li p, dd p {
-	margin-bottom: 0.3em;
-}
-
-
-ol ol {
-	list-style-type: lower-alpha;
-}
-
-ol ol ol {
-	list-style-type: lower-roman;
-}
 
 p + div.codeblock {
 	margin-top: -0.6em;
@@ -281,44 +233,9 @@ div.codeblock > div.blockcontent {
 	background: #f6f6f6;
 }
 
-/*span.pycommand {
-	color: #000070;
-}
-
-span.statement {
-	color: #008800;
-}
-span.builtin {
-	color: #000088;
-}
-span.special {
-	color: #990000;
-}
-span.operator {
-	color: #880000;
-}
-span.error {
-	color: #aa0000;
-}
-span.comment, span.comment > *, span.string, span.string > * {
-	color: #606060;
-}
-
-@media print {
-	#layout-menu { display: none; }
-}
-
-#fwtitle {
-	margin: 2px;
-}
-
-#fwtitle #toptitle {
-	padding-left: 0.5em;
-	margin-bottom: 0.5em;
-}
-*/
 #layout-content h1:first-child, #layout-content h2:first-child, #layout-content h3:first-child {
 	margin-top: -0.7em;
+  line-height: 150%;
 }
 
 div#toptitle h1, #layout-content div#toptitle h1 {
@@ -346,7 +263,7 @@ img.eqwl {
 table {
     border: 2px solid black;
     border-collapse: collapse;
-	line-height: 1.6;
+line-height: 150%;
 }
 
 td {
