@@ -29,7 +29,7 @@ free to reach out to me if you are interested in any part of my research work.
 [Facebook](https://www.facebook.com/yu.jiang.26/),
 [MATLAB Central](http://www.mathworks.com/matlabcentral/profile/authors/5012545-yu),
 [GitHub](https://github.com/yu-jiang/),
-[Zhihu 知乎](https://www.zhihu.com/people/yujiangnyu")
+[Zhihu 知乎](https://www.zhihu.com/people/yujiangnyu)
 * Email (best way to reach out to me): yu.jiang@nyu.edu
 
 # Awards
