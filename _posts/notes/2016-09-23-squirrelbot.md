@@ -1,5 +1,5 @@
 ---
-title: 2016-09-23 Squirrelbot
+title: Squirrelbot
 layout: news
 category: [notes, jekyll]
 author: Yu Jiang

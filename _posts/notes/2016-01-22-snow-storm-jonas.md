@@ -1,11 +1,11 @@
 ---
-title: 2016-01-22 Snow storm jonas
+title: Snow storm jonas
 layout: news
 category: [notes, jekyll]
 author: Yu Jiang
 ---
 
-First snow storm this year. 
+First snow storm this year.
 (Post to test figure inseration in jekyll)
 
 

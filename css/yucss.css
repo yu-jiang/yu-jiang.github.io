@@ -5,7 +5,7 @@ table#tlayout {
 }
 
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Roboto Condensed", Helvetica, Arial, sans-serif;
 	background: white;
   background-color: #fff;
 	padding-bottom: 8px;
@@ -46,8 +46,8 @@ body {
 }
 
 #layout-blog-content {
-	padding-top: 6em;
-	padding-left: 400px;
+	padding-top: 50px;
+	padding-left: 200px;
 	padding-right: 100px;
     border: none;
     background: white;
@@ -93,12 +93,22 @@ div.menu-category {
 }
 
 div.sidebar {
-   float: left;
-   max-width: 300px;
-   margin-top: 6em;
-   margin-left: 50px;
+   font-size: 80%;
+   float:left;
+   max-width: 150px;
+   margin-top: 80px;
+   margin-left: 20px;
 }
 
+
+div.sidebar ul{
+margin-left: -20px;
+}
+
+div.sidebar h2{
+margin-top: -12px;
+border-bottom: none;
+}
 
 em {
 	font-style: italic;

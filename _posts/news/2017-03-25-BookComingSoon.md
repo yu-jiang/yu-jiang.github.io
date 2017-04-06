@@ -1,5 +1,5 @@
 ---
-title: "2017-03-25 New Book Coming Soon"
+title: New Book Coming Soon
 meta: My new book "Robust Adaptive Dynamic Programming", collaborated with my former PhD Thesis advisor, is coming soon.
 category: news
 layout: news

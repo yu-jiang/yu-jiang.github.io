@@ -1,5 +1,5 @@
 ---
-title: "2016-11-17 Museum of Science Boston"
+title: Museum of Science Boston
 meta: Volunteered at Boston Museum of Science to help brainstorm new ideas for future interactive exhibits related to feedback control.
 category: news
 layout: news

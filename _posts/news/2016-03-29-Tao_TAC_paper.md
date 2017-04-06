@@ -1,5 +1,5 @@
 ---
-title: "2016-03-29 New TAC Paper"
+title: New TAC Paper
 meta: A technic note I co-authored is accepted by IEEE Transactions on Automatic Control
 category: news
 layout: news

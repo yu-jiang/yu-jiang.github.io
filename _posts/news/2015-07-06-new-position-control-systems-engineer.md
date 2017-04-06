@@ -1,5 +1,5 @@
 ---
-title: 2015-07-06 Software Engineer (Control Systems Toolbox Team) at MathWorks.
+title: Software Engineer at MathWorks.
 category: news
 layout: news
 ---
