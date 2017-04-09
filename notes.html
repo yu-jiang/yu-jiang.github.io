@@ -6,9 +6,11 @@ layout: blog
 <h1> Posts </h1>
 <ul>
 {% for notes in site.posts%}
+{% if notes.category == "news" or notes.category == "notes" %}
 <li>
   {{notes.date | date: '%D'}} <a href="{{site.baseurl}}{{ notes.url }}">{{ notes.title }}</a>
   <p>{{notes.content}}</p>
 </li>
-  {% endfor %}
+{% endif %}
+{% endfor %}
 </ul>

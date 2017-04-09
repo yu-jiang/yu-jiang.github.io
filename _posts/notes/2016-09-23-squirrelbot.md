@@ -15,3 +15,6 @@ Here are some Youtube videos of it...
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lX42HA9wD7M" frameborder="0" allowfullscreen></iframe>
 
 I have written all the detailed steps in an article (in Chinese) on [Zhihu](https://zhuanlan.zhihu.com/p/22386141)
+
+
+{{% include https://zhuanlan.zhihu.com/p/22386141}}
