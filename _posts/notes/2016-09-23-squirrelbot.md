@@ -1,16 +1,17 @@
 ---
 title: Squirrelbot
 layout: news
-category: [notes, jekyll]
+category: notes
+meta: My weekend project, the Squirrelbot. It is a hand-made mini robot and it moves like a squirrel.
 author: Yu Jiang
 ---
 
 My weekend project: The Squirrelbot. It is a hand-made mini robot and it moves like a squirrel.
 
-Here are some videos of it... </br>
+Here are some Youtube videos of it...
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SHZ7XyHSaOQ" frameborder="0" allowfullscreen></iframe>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/SHZ7XyHSaOQ?list=PLbc58JcTDQEx7wjk5AjwjACrvdC_WouBc" frameborder="0" align="middle" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lX42HA9wD7M" frameborder="0" allowfullscreen></iframe>
 
-</br>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/lX42HA9wD7M?list=PLbc58JcTDQEx7wjk5AjwjACrvdC_WouBc" frameborder="0" align="middle" allowfullscreen></iframe>
+I have written all the detailed steps in an article (in Chinese) on [Zhihu](https://zhuanlan.zhihu.com/p/22386141)
