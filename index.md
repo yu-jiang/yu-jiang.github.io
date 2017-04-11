@@ -9,7 +9,7 @@ layout: sitepage
 
 # About Me
 Hello. My name is Yu Jiang. I am currently a Software Developer of Simulink
-Control Design at MathWorks.
+Control Design at MathWorks. [[My CV in PDF]]({{site.url}}/YuJiangCV.pdf)
 
 Prior to joining the company, I lived in the New York City for five years and
 obtained a PhD degree in Electrical Engineering from New York University in May 2014.
