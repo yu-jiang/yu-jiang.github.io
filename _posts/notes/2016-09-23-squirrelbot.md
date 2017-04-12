@@ -4,6 +4,7 @@ layout: news
 category: notes
 meta: My weekend project, the Squirrelbot. It is a hand-made mini robot and it moves like a squirrel.
 author: Yu Jiang
+comments: true
 ---
 
 My weekend project: The Squirrelbot. It is a hand-made mini robot and it moves like a squirrel.

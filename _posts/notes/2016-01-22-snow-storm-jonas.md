@@ -3,6 +3,7 @@ title: Snow storm jonas
 layout: news
 category: [notes, jekyll]
 author: Yu Jiang
+comments: true
 ---
 
 First snow storm this year.
