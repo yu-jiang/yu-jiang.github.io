@@ -5,9 +5,9 @@ title: Categories
 
 <h1> Categories </h1>
     {% for tag in site.categories %}
-    <a href="#{{ tag[0] | slugify }}" class="post-tag"> {{ tag[0] }} | </a>
+    <a href="#{{ tag[0] | slugify }}" class="post-tag"> {{ tag[0] }}::</a>
 	{% endfor %}	
-  
+    
   
     {% for tag in site.categories %}
     <h2>{{ tag[0] }}</h2>
