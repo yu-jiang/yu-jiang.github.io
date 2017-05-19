@@ -3,14 +3,12 @@ layout: blog
 ---
 
 
-<h1> Posts </h1>
+<h1> Recent Posts </h1>
 <ul>
-{% for notes in site.posts%}
-{% if notes.category contains "news" %}
+{% for notes in site.posts limit:5%}
 <li>
   {{notes.date | date: '%D'}} <a href="{{site.baseurl}}{{ notes.url }}">{{ notes.title }}</a>
   <p>{{notes.content}}</p>
 </li>
-{% endif %}
 {% endfor %}
 </ul>
