@@ -1,70 +1,11 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
-  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
-<head>
-<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-<link rel="stylesheet" href="{{site.url}}/css/yucss.css" type="text/css" />
-<title>Yu Jiang's Homepage</title>
-</head>
-{% include nav.html %}
-
-<!-- Side bar for recent posts
-<div class="sidebar">
-<div class="infoblock">
-<div class="blockcontent">
-  <h2>Recent Posts</h2>
-  <ul>
-      {% for post in site.posts limit:5 %}
-      {% if post.category contains "radp" %}
-      {% else %}
-        <li><a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a></li>
-        {% endif %}
-      {% endfor %}
-  </ul>
-</div>
-</div>
-
-<div class="infoblock">
-<div class="blockcontent">
-  <h2>Categories</h2>
-  <ul>
-    <li><a href = "{{site.url}}/categories/news/">News</a></li>
-    <li><a href = "{{site.url}}/categories/notes/">Notes</a></li>
-  </ul>
-</div>
-</div>
--->
-
-<div class="sidebar">
-<div class="infoblock">
-<div class="blockcontent">
-  <ul>
-    <li><a href = "{{site.url}}/blog/">Recent Posts</a></li>
-	<li><a href = "{{site.url}}/categories/">Categories</a></li>
-	<li><a href = "{{site.url}}/tags/">Tags</a></li>
-    <li><a href = "{{site.url}}/blog-archive/">Archives</a></li>
-  </ul>
-</div>
-</div>
-</div>
-
-
-<div>
-<div id="layout-blog-content">
+---
+layout: default
+---
+<h1> All Posts </h1>
+<ul>
+<li><a href = "{{site.url}}/blog/">Recent</a></li>
+<li><a href = "{{site.url}}/blog-archive/">Archives</a> </li>
+<li><a href = "{{site.url}}/blog-categories/">Categories</a></li>
+<li><a href = "{{site.url}}/blog-tags/">Tags</a></li>
+</ul>
 {{ content }}
-</div>
-{% include footer.html %}
-</div>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-  ga('create', 'UA-46742675-1', 'nyu.edu');
-  ga('send', 'pageview');
-</script>
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js">
-</div>
-<script id="dsq-count-scr" src="//yu-jiangs-github-blog.disqus.com/count.js" async></script>
-</body>
-</html>

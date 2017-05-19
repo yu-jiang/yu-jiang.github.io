@@ -17,22 +17,21 @@ body {
 
 /* The navigation menu*/
 #layout-menu {
-  overflow: hidden;
+    overflow: hidden;
 	position:fixed;
 	background: #4863A0;
 	padding-top:  10px;
 	padding-left: 80px;
-  padding-bottom: 10px;
+    padding-bottom: 10px;
 	font-size: 1.3em;
-  top: 0;
+    top: 0;
 	width:  100%;
-  text-align: left;
+    text-align: left;
 }
 
 #layout-menu td {
 	background: #f4f4f4;
 }
-
 
 #layout-content {
 	padding-top: 6em;
@@ -92,21 +91,24 @@ div.menu-category {
 	font-size: 100%;
 }
 
-div.sidebar {
-   font-size: 80%;
-   float:left;
-   max-width: 150px;
-   margin-top: 80px;
-   margin-left: 20px;
+div.sidebar {   
+   float:relative;   
+   margin-top: 40px;
+   margin-left: 0px;
+   
+   padding-top: 0.1em;
+   padding-left: 0em;
+   padding-bottom: 0.2em;
+   font-size: 100%;
 }
 
 
 div.sidebar ul{
-margin-left: -20px;
+margin-left: 0px;
 }
 
 div.sidebar h2{
-margin-top: -12px;
+margin-top: 0px;
 border-bottom: none;
 }
 
