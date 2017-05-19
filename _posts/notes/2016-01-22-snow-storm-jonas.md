@@ -1,7 +1,8 @@
 ---
 title: Snow storm jonas
 layout: news
-category: [notes, jekyll]
+tag: jekyll
+category: notes
 author: Yu Jiang
 comments: true
 ---

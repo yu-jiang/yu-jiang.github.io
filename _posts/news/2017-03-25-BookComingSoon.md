@@ -3,6 +3,7 @@ title: New Book Coming Soon
 meta: My new book "Robust Adaptive Dynamic Programming", collaborated with my former PhD Thesis advisor, is coming soon.
 category: news
 layout: news
+tag: [Book, RADP]
 comments: true
 ---
 

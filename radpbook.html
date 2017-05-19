@@ -85,7 +85,7 @@ The book is currently with the publisher.
 
 <ul>
 {% for notes in site.posts%}
-{% if notes.category == "radp" %}
+{% if notes.tag == "radpbook" %}
 <li>
   {{notes.date | date: '%D'}} <a href="{{site.baseurl}}{{ notes.url }}">{{ notes.title }}</a>
   <p>{{notes.content}}</p>

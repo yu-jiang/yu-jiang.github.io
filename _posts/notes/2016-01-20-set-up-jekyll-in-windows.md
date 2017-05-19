@@ -1,7 +1,8 @@
 ---
 title: Setting up Jekyll in Windows
 layout: news
-category: [notes, jekyll]
+category: notes
+tag: jekyll
 author: Yu Jiang
 comments: true
 ---
