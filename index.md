@@ -8,10 +8,9 @@ layout: sitepage
 [comment]: # (Insert my resume below)
 
 # About Me
-Hello. My name is Yu Jiang. I am currently a Software Developer of Simulink
-Control Design at MathWorks. [[My CV in PDF]]({{site.url}}/YuJiangCV.pdf)
+Hello. My name is Yu Jiang. I am current a Senior Controls Engineer / Controls Researcher at ClearMotion. Prior to joining the company, I worked at MathWorks as a Software Engineer of Simulink Control Design Toolbox.  [[My CV in PDF]]({{site.url}}/YuJiangCV.pdf) 
 
-Prior to joining the company, I lived in the New York City for five years and
+I lived in the New York City for five years and
 obtained a PhD degree in Electrical Engineering from New York University in May 2014.
 During my PhD, I made some contributions to Adaptive Dynamic Programming (ADP)
 for nonlinear control design. The bulk of my research work has been
@@ -43,7 +42,8 @@ free to reach out to me if you are interested in any part of my research work.
 
 
 # Experiences
-* Controls Systems Engineer, <a href="http://www.mathworks.com">The MathWorks, Inc.</a>, Natick, MA, July 2015 - present
+* Senoir Controls Engineer / Controls Researcher,  <a href="http://www.clearmotion.com">ClearMotion, Inc.</a>, Woburn, MA July 2017 - Present
+* Controls Systems Engineer / Software Engineer, <a href="http://www.mathworks.com">The MathWorks, Inc.</a>, Natick, MA, July 2015 - June 2017
 * Application Support Engineer, <a href="http://www.mathworks.com">The MathWorks, Inc.</a>, Natick, MA, June 2014 - July 2015
 * Research Intern, <a href="http://www.merl.com">Mitsubishi Electric Research Labs (MERL)</a>, Cambridge, MA, June 2013 - August 2013
 
