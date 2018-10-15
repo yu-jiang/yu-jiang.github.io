@@ -42,7 +42,7 @@ free to reach out to me if you are interested in any part of my research work.
 
 
 # Experiences
-* Senoir Controls Engineer / Controls Researcher,  <a href="http://www.clearmotion.com">ClearMotion, Inc.</a>, Woburn, MA July 2017 - Present
+* Senior Controls Engineer / Controls Researcher,  <a href="http://www.clearmotion.com">ClearMotion, Inc.</a>, Woburn, MA July 2017 - Present
 * Controls Systems Engineer / Software Engineer, <a href="http://www.mathworks.com">The MathWorks, Inc.</a>, Natick, MA, July 2015 - June 2017
 * Application Support Engineer, <a href="http://www.mathworks.com">The MathWorks, Inc.</a>, Natick, MA, June 2014 - July 2015
 * Research Intern, <a href="http://www.merl.com">Mitsubishi Electric Research Labs (MERL)</a>, Cambridge, MA, June 2013 - August 2013
