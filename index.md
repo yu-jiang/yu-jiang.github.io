@@ -10,13 +10,12 @@ layout: sitepage
 # About Me
 Hello. My name is Yu Jiang. I am currently the Controls Tech Lead at <a href="http://www.isee.ai">isee ai</a>, 
 an autonomous trucking startup out of MIT. Prior to joining the company, I worked at ClearMotion, Inc. and MathWorks. 
-[comment]: # [[My CV in PDF]]({{site.url}}/YuJiangCV.pdf) 
 
 I lived in the New York City for five years and
 obtained a PhD degree in Electrical Engineering from New York University in May 2014.
 During my PhD, I made some contributions to Adaptive Dynamic Programming (ADP)
 for nonlinear control design. The bulk of my research work has been
-included in the book "Robust Adaptive Dynamic Programming", written by me and my
+included in the book "Robust Adaptive Dynamic Programming", co-authored by me and my
 PhD Thesis advisor.
 
 I have broad interests in numerical methods in differential equations,
