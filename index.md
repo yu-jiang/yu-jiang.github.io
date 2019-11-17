@@ -8,7 +8,9 @@ layout: sitepage
 [comment]: # (Insert my resume below)
 
 # About Me
-Hello. My name is Yu Jiang. I am current a Senior Controls Engineer / Controls Researcher at ClearMotion. Prior to joining the company, I worked at MathWorks as a Software Engineer of Simulink Control Design Toolbox.  [[My CV in PDF]]({{site.url}}/YuJiangCV.pdf) 
+Hello. My name is Yu Jiang. I am currently the Controls Tech Lead at isee ai <a href="http://www.isee.ai">isee ai</a>, 
+an autonomous trucking startup out of MIT. Prior to joining the company, I worked at ClearMotion, Inc. as a Senior Controls Engineer, 
+and at MathWorks as a Software Engineer of Simulink Control Design Toolbox.  [[My CV in PDF]]({{site.url}}/YuJiangCV.pdf) 
 
 I lived in the New York City for five years and
 obtained a PhD degree in Electrical Engineering from New York University in May 2014.
