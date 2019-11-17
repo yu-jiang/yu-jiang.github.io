@@ -8,9 +8,9 @@ layout: sitepage
 [comment]: # (Insert my resume below)
 
 # About Me
-Hello. My name is Yu Jiang. I am currently the Controls Tech Lead at isee ai <a href="http://www.isee.ai">isee ai</a>, 
-an autonomous trucking startup out of MIT. Prior to joining the company, I worked at ClearMotion, Inc. as a Senior Controls Engineer, 
-and at MathWorks as a Software Engineer of Simulink Control Design Toolbox.  [[My CV in PDF]]({{site.url}}/YuJiangCV.pdf) 
+Hello. My name is Yu Jiang. I am currently the Controls Tech Lead at <a href="http://www.isee.ai">isee ai</a>, 
+an autonomous trucking startup out of MIT. Prior to joining the company, I worked at ClearMotion, Inc. and MathWorks. 
+[[My CV in PDF]]({{site.url}}/YuJiangCV.pdf) 
 
 I lived in the New York City for five years and
 obtained a PhD degree in Electrical Engineering from New York University in May 2014.
@@ -31,7 +31,7 @@ free to reach out to me if you are interested in any part of my research work.
 [MATLAB Central](http://www.mathworks.com/matlabcentral/profile/authors/5012545-yu),
 [GitHub](https://github.com/yu-jiang/),
 [Zhihu 知乎](https://www.zhihu.com/people/yujiangnyu)
-* Email (best way to reach out to me): yu.jiang@nyu.edu
+* Email (the best way to reach out to me): yu.jiang@nyu.edu
 
 # Awards
 * Excellent Reviewer, for the Journal of Guidance, Control, and Dynamics (JGCD), between Oct. 1, 2015 – Sept. 30, 2016.
@@ -44,7 +44,9 @@ free to reach out to me if you are interested in any part of my research work.
 
 
 # Experiences
-* Senior Controls Engineer / Controls Researcher,  <a href="http://www.clearmotion.com">ClearMotion, Inc.</a>, Woburn, MA July 2017 - Present
+* Controls Tech Lead, <a href="http://www.isee.ai">isee ai</a>, Cambridge, MA Sep 2019 - Present
+* Principal Controls Engineer, <a href="http://www.isee.ai">isee ai</a>, Cambridge, MA Jan 2019 - Sep 2019
+* Senior Controls Engineer / Controls Researcher,  <a href="http://www.clearmotion.com">ClearMotion, Inc.</a>, Woburn, MA July 2017 - Jan 2019
 * Controls Systems Engineer / Software Engineer, <a href="http://www.mathworks.com">The MathWorks, Inc.</a>, Natick, MA, July 2015 - June 2017
 * Application Support Engineer, <a href="http://www.mathworks.com">The MathWorks, Inc.</a>, Natick, MA, June 2014 - July 2015
 * Research Intern, <a href="http://www.merl.com">Mitsubishi Electric Research Labs (MERL)</a>, Cambridge, MA, June 2013 - August 2013
