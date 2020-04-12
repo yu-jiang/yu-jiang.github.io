@@ -8,10 +8,9 @@ layout: sitepage
 [comment]: # (Insert my resume below)
 
 # About Me
-Hello. My name is Yu Jiang. I am currently the Controls Tech Lead at <a href="http://www.isee.ai">isee ai</a>, 
-an autonomous trucking startup out of MIT. Prior to joining the company, I worked at <a href="http://www.clearmotion.com">ClearMotion</a> and <a href="http://www.mathworks.com">MathWorks</a>. 
+Hello. My name is Yu Jiang. I am currently the owner and consultant at <a href="https://findop.xyz"> Findop Solutions LLC </a>, a consulting company founded by myself in the Greater Boston Area. Prior to starting the company, I was the Controls Tech Lead at <a href="http://www.isee.ai">isee ai</a>, an autonomous trucking startup out of MIT. I also worked at <a href="http://www.clearmotion.com">ClearMotion</a> and <a href="http://www.mathworks.com">MathWorks</a>. 
 
-I lived in the New York City for five years and
+Before starting my career in industry, I lived in the New York City for five years and
 obtained a PhD degree in Electrical Engineering from New York University in May 2014.
 During my PhD, I made some contributions to Adaptive Dynamic Programming (ADP)
 for nonlinear control design. The bulk of my research work has been
