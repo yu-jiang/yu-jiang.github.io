@@ -8,7 +8,7 @@ layout: sitepage
 [comment]: # (Insert my resume below)
 
 # About Me
-Hello. My name is Yu Jiang. I am currently the owner and consultant at <a href="https://findop.xyz"> Findop Solutions LLC </a>, a consulting company founded by myself in the Greater Boston Area. Prior to starting the company, I was the Controls Tech Lead at <a href="http://www.isee.ai">isee ai</a>, an autonomous trucking startup out of MIT. I also worked at <a href="http://www.clearmotion.com">ClearMotion</a> and <a href="http://www.mathworks.com">MathWorks</a>. 
+Hello. My name is Yu Jiang. Based in the Greater Boston Area, I work as a consultant for autonomous vehicle-related software stacks and control algorithms. Before that, I was the Controls Tech Lead at <a href="http://www.isee.ai">isee ai</a>, an autonomous trucking startup out of MIT. I also worked at <a href="http://www.clearmotion.com">ClearMotion</a> and <a href="http://www.mathworks.com">MathWorks</a>. 
 
 Before starting my career in industry, I lived in the New York City for five years and
 obtained a PhD degree in Electrical Engineering from New York University in May 2014.
@@ -42,7 +42,7 @@ free to reach out to me if you are interested in any part of my research work.
 
 
 # Experiences
-* Controls Tech Lead, <a href="http://www.isee.ai">isee ai</a>, Cambridge, MA Sep 2019 - Present
+* Controls Tech Lead, <a href="http://www.isee.ai">isee ai</a>, Cambridge, MA Sep 2019 - Apr 2020
 * Principal Controls Engineer, <a href="http://www.isee.ai">isee ai</a>, Cambridge, MA Jan 2019 - Sep 2019
 * Senior Controls Engineer / Controls Researcher,  <a href="http://www.clearmotion.com">ClearMotion, Inc.</a>, Woburn, MA July 2017 - Jan 2019
 * Controls Systems Engineer / Software Engineer, <a href="http://www.mathworks.com">The MathWorks, Inc.</a>, Natick, MA, July 2015 - June 2017
