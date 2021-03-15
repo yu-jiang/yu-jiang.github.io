@@ -42,6 +42,7 @@ free to reach out to me if you are interested in any part of my research work.
 
 
 # Experiences
+* Self-employed Consultant, Wellesley, MA Apr 2020 - Present
 * Controls Tech Lead, <a href="http://www.isee.ai">isee ai</a>, Cambridge, MA Sep 2019 - Apr 2020
 * Principal Controls Engineer, <a href="http://www.isee.ai">isee ai</a>, Cambridge, MA Jan 2019 - Sep 2019
 * Senior Controls Engineer / Controls Researcher,  <a href="http://www.clearmotion.com">ClearMotion, Inc.</a>, Woburn, MA July 2017 - Jan 2019
