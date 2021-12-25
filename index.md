@@ -8,7 +8,7 @@ layout: sitepage
 [comment]: # (Insert my resume below)
 
 # About Me
-Hello. My name is Yu Jiang. Based in the Greater Boston Area, I work as a consultant for autonomous vehicle-related software stacks and control algorithms. Before that, I was the Controls Tech Lead at <a href="http://www.isee.ai">isee ai</a>, an autonomous trucking startup out of MIT. I also worked at <a href="http://www.clearmotion.com">ClearMotion</a> and <a href="http://www.mathworks.com">MathWorks</a>. 
+Hello. My name is Yu Jiang. I am a principal scientist at <a href="http://www.clearmotion.com">ClearMotion</a>, and I also work as a consultant for autonomous vehicle-related software stacks and control algorithms. Previously, I was the Controls Tech Lead at <a href="http://www.isee.ai">isee ai</a>, an autonomous trucking startup out of MIT. I was also a developer at <a href="http://www.mathworks.com">MathWorks</a> where I was responsible for the Simulink Control Design toolbox. 
 
 Before starting my career in industry, I lived in the New York City for five years and
 obtained a PhD degree in Electrical Engineering from New York University in May 2014.
@@ -42,7 +42,8 @@ free to reach out to me if you are interested in any part of my research work.
 
 
 # Experiences
-* Self-employed Consultant, Wellesley, MA Apr 2020 - Present
+* Principal Scientist, Billerica, MA, May 2021 - Present
+* Self-employed Consultant, Wellesley, MA, Apr 2020 - Present
 * Controls Tech Lead, <a href="http://www.isee.ai">isee ai</a>, Cambridge, MA Sep 2019 - Apr 2020
 * Principal Controls Engineer, <a href="http://www.isee.ai">isee ai</a>, Cambridge, MA Jan 2019 - Sep 2019
 * Senior Controls Engineer / Controls Researcher,  <a href="http://www.clearmotion.com">ClearMotion, Inc.</a>, Woburn, MA July 2017 - Jan 2019
