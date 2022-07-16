@@ -1,0 +1,307 @@
+table#tlayout {
+    border: none;
+    border-collapse: separate;
+    background: white;
+}
+
+body {
+  font-family: "Roboto Condensed", Helvetica, Arial, sans-serif;
+	background: white;
+  background-color: #fff;
+	padding-bottom: 8px;
+  padding-top: 8px;
+	margin: 0px;
+	padding: 0;
+  line-height: 150%;
+}
+
+/* The navigation menu*/
+#layout-menu {
+    overflow: hidden;
+	position:fixed;
+	background: #4863A0;
+	padding-top:  10px;
+	padding-left: 80px;
+    padding-bottom: 10px;
+	font-size: 1.3em;
+    top: 0;
+	width:  100%;
+    text-align: left;
+}
+
+#layout-menu td {
+	background: #f4f4f4;
+}
+
+#layout-content {
+	padding-top: 6em;
+	padding-left: 100px;
+	padding-right: 100px;
+    border: none;
+    background: white;
+    text-align: left;
+    vertical-align: top;
+    line-height: 150%;
+}
+
+#layout-blog-content {
+	padding-top: 50px;
+	padding-left: 200px;
+	padding-right: 100px;
+    border: none;
+    background: white;
+    text-align: left;
+    vertical-align: top;
+	line-height: 150%;
+}
+
+
+#layout-menu a {
+	margin: 20px;
+  text-align: center;
+}
+
+
+a, a > tt {
+  color: #2B60DE;
+  text-decoration: none;
+}
+
+a:hover {
+	border-bottom: 2px white solid;
+}
+
+#layout-menu a.current:link, #layout-menu a.current:visited {
+	color: #022b6d;
+	border-bottom: 2px gray solid;
+}
+#layout-menu a:link, #layout-menu a:visited, #layout-menu a:hover {
+	color: #ffffff;
+	text-decoration: none;
+}
+#layout-menu a:hover {
+	text-decoration: none;
+}
+
+div.menu-category {
+	margin-top: 0.2em;
+	padding-top: 0.1em;
+	padding-left: 0em;
+	padding-bottom: 0.2em;
+	font-size: 100%;
+}
+
+div.sidebar {   
+   float:relative;   
+   margin-top: 40px;
+   margin-left: 0px;
+   
+   padding-top: 0.1em;
+   padding-left: 0em;
+   padding-bottom: 0.2em;
+   font-size: 100%;
+}
+
+
+div.sidebar ul{
+margin-left: 0px;
+}
+
+div.sidebar h2{
+margin-top: 0px;
+border-bottom: none;
+}
+
+em {
+	font-style: italic;
+}
+
+strong {
+	font-weight: bold;
+}
+
+
+h1, h2, h3 {
+	color: #4863A0;
+	margin-top: 0.7em;
+	margin-bottom: 0.3em;
+	padding-bottom: 0.2em;
+	line-height: 1.5;
+	padding-top: 0.5em;
+	border-bottom: 1px solid #aaaaaa;
+}
+
+h1 {
+	font-size: 165%;
+}
+
+h2 {
+	padding-top: 0.8em;
+	font-size: 125%;
+}
+
+h2 + h3 {
+    padding-top: 0.2em;
+}
+
+h3 {
+	font-size: 110%;
+	border-bottom: none;
+}
+
+p {
+	margin-top: 0.0em;
+	margin-bottom: 0.8em;
+	padding: 0;
+	line-height: 150%;
+}
+
+footer {
+	font-size: small;
+	border-top: 1px solid #8e959a;
+	padding-top: 0.1em;
+  padding-bottom: 50px;
+	margin-top: 4.0em;
+	color: #8e959a;
+  text-align: center;
+  
+}
+
+#footer a {
+	color: #80a0b0;
+}
+
+#footer-text {
+	float: center;
+	padding-bottom: 8px;
+}
+
+ul, ol, dl {
+	margin-top: 0.2em;
+	padding-top: 0;
+	margin-bottom: 0.8em;
+  line-height: 150%;
+}
+
+dt {
+	margin-top: 0.5em;
+	margin-bottom: 0;
+}
+
+
+dd > *:first-child {
+	margin-top: 0;
+}
+
+ul {
+	list-style-position: outside;
+	list-style-type: square;
+  line-height: 175%;
+}
+
+
+p + div.codeblock {
+	margin-top: -0.6em;
+}
+
+div.codeblock, div.infoblock {
+	margin-right: 0%;
+	margin-top: 1.2em;
+	margin-bottom: 1.3em;
+}
+
+div.blocktitle {
+	font-weight: bold;
+	color: #cd7b62;
+	margin-top: 1.2em;
+	margin-bottom: 0.1em;
+}
+
+div.blockcontent {
+	border: 1px solid silver;
+	padding: 0.3em 0.5em;
+}
+
+div.infoblock > div.blockcontent {
+	background: #ffffee;
+}
+
+div.blockcontent p + ul, div.blockcontent p + ol {
+	margin-top: 0.4em;
+}
+
+div.infoblock p {
+	margin-bottom: 0em;
+}
+
+div.infoblock li p, div.infoblock dd p {
+	margin-bottom: 0.5em;
+}
+
+div.infoblock p + p {
+	margin-top: 0.8em;
+}
+
+div.codeblock > div.blockcontent {
+	background: #f6f6f6;
+}
+
+#layout-content h1:first-child, #layout-content h2:first-child, #layout-content h3:first-child {
+	margin-top: -0.7em;
+  line-height: 150%;
+}
+
+div#toptitle h1, #layout-content div#toptitle h1 {
+	margin-bottom: 0.0em;
+	padding-bottom: 0.1em;
+	padding-top: 0;
+	margin-top: 0.5em;
+	border-bottom: none;
+}
+
+img.eq {
+	padding: 0;
+	padding-left: 0.1em;
+	padding-right: 0.1em;
+	margin: 0;
+}
+
+img.eqwl {
+	padding-left: 2em;
+	padding-top: 0.6em;
+	padding-bottom: 0.2em;
+	margin: 0;
+}
+
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+line-height: 150%;
+}
+
+td {
+    padding: 2px;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    text-align: center;
+    border:0px solid gray;
+	line-height: 1.6;
+}
+
+table + table {
+    margin-top: 1em;
+	line-height: 1.6;
+}
+
+tr.heading {
+    font-weight: bold;
+    border-bottom: 2px solid black;
+}
+
+
+
+table.imgtable, table.imgtable td {
+    border: none;
+    text-align: left;
+	line-height: 1.6;
+}
