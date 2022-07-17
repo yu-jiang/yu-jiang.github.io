@@ -14,6 +14,17 @@ I always consider myself as an applied mathematician, and am always passionate i
 
 I like to share my knowledge and research in publications. In addition to 30+ papers I co-authored and published in top journals or presented in prestigious conferences, I am the first author of the book "Robust Adaptive Dynamic Programming", published by Wiley, 2017.
 
+# News #
+<div>
+<ul>
+{% for notes in site.posts limit:4%}
+<li>
+  {{notes.date | date: '%D'}} <a href="{{site.baseurl}}{{ notes.url }}">{{ notes.title }}</a>
+</li>
+{% endfor %}
+</ul>
+</div>
+
 # Contact
 * Follow me on:
 [Linkedin](http://www.linkedin.com/in/yujiang26),
