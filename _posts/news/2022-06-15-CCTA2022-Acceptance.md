@@ -1,6 +1,6 @@
 ---
 title: Paper accepted by CCTA 2022
-meta: 
+meta: Our paper, titled "Terrain-based vehicle localization using an active suspension system" has been accepted by CCTA 2022
 category: news
 layout: news
 comments: true

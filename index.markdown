@@ -17,9 +17,10 @@ I like to share my knowledge and research in publications. In addition to 30+ pa
 # News #
 <div>
 <ul>
-{% for notes in site.posts limit:4%}
+{% for notes in site.posts limit:5%}
 <li>
-  {{notes.date | date: '%D'}} <a href="{{site.baseurl}}{{ notes.url }}">{{ notes.title }}</a>
+  {{notes.date | date: '%D'}} <a href="{{site.baseurl}}{{ notes.url }}">{{ notes.title }}</a>  
+  <p>{{ notes.meta }}<a href="{{site.baseurl}}{{ notes.url }}"> [...]</a></p>  
 </li>
 {% endfor %}
 </ul>

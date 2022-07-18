@@ -1,6 +1,6 @@
 ---
 title: Paper accepted by IROS 2022
-meta: 
+meta: Our paper, titled "An Adaptive Approach to Whole-Body Balance Control of Wheel-Bipedal Robot Ollie" has been accepted by IROS 2022
 category: news
 layout: news
 comments: true
