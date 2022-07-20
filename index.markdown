@@ -7,7 +7,7 @@ layout: sitepage
 
 [comment]: # (Insert my resume below)
 
-# About Me
+# Welcome 
 Hello. My name is Yu Jiang, and I am based in the Greater Boston Area. I hold a PhD degree in Electrical Engineering (Control Theory) from New York University. I have been working in industry for almost a decade.
 
 I always consider myself as an applied mathematician, and am always passionate in understanding the fundamental mathematics behind every challenging problem and solving it using elegant mathematical tools, such as equations, algorithms, and/or programs. 
