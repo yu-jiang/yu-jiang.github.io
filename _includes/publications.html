@@ -129,6 +129,28 @@ Chinese Control Conference, pp. 5815-5820, Beijing, China, 2010</p></li>
 </ul></li>
 </ul>
 
-        </div>
+<h2>Conference Papers (YAML)</h2>
 
-</div>
+<ol reversed>
+  {% for paper in site.data.publication_list_conf.publications %}
+    <li>
+      <p> 
+        {{ paper.authors }},
+        &quot;{{ paper.title }} &quot;,
+        {{ paper.booktitle}},
+        pp. {{ paper.pages}},       
+        {{ paper.address }},
+        {{ paper.month}},
+        {{ paper.year}}        
+      <br/>  
+      {% for linkItem in paper.links %}          
+          <a href="{{linkItem.link}}">[{{linkItem.text}}]</a>&nbsp;
+      {% endfor %}
+      </p>
+    </li>
+  {% endfor %}
+</ol>
+  
+</div></div>
+
+

@@ -1,0 +1,22 @@
+﻿---
+publications:
+
+- title: Output regulation for a class of weakly minimum phase systems and its application to a nonlinear benchmark system
+  type: conference
+  booktitle: In Proceedings of American Control Conference
+  authors: <strong>Yu Jiang</strong> and Jie Huang
+  address: St. Louis, MI
+  month: June
+  year: 2009
+  pages: 5321-5326
+  links:
+    - text: Link
+      link: https://ieeexplore.ieee.org/document/5159972
+
+- title: Test
+  links:
+    - text: Link1
+      link: https://www.google.com
+    - text: Link2
+      link: www.google.com
+...
