@@ -1,4 +1,4 @@
-﻿---
+---
 books:
 - title: Robust Adaptive Dynamic Programming
   authors: <strong>Yu Jiang</strong> and Zhong-Ping Jiang,
@@ -245,7 +245,35 @@ conferences:
     - text: Link
       link: https://ieeexplore.ieee.org/document/5159972
 
+
+
 journals:
+- title: Robust adaptive dynamic programming for large-scale systems with an application to multimachine power systems
+  authors: <strong>Yu Jiang</strong> and Zhong-Ping Jiang
+  journal: IEEE Transactions on Circuits and Systems, Part II
+  volume: 59
+  number: 10
+  papges: 693-697
+  year: 2012
+  links:
+    - text: Link
+      link: https://ieeexplore.ieee.org/document/6297448
+    - text: MATLAB Code
+      link: https://github.com/yu-jiang/Paper_TCASII2012_MMPOWER
+  
+- title: "Movement duration, Fitts's law, and an infinite-horizon optimal feedback control model for biological motor systems"
+  authors: Ning Qian, <strong>Yu Jiang</strong>, Zhong-Ping Jiang, and Pietro Mazzoni
+  journal: Neural Computation
+  volume: 25
+  number: 3
+  pages: 697-724
+  year: 2012
+  links:
+    - text: Link
+      link: http://www.ncbi.nlm.nih.gov/pubmed/23272916
+    - text: Research Gate
+      link: "https://www.researchgate.net/publication/234009598_Movement_Duration_Fitts's_Law_and_an_Infinite-Horizon_Optimal_Feedback_Control_Model_for_Biological_Motor_Systems"
+
 - title: Computational adaptive optimal control for continuous-time linear systems with completely unknown system dynamics
   authors: <strong>Yu Jiang</strong> and Zhong-Ping Jiang
   journal: Automatic
