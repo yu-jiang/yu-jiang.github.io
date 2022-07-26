@@ -39,7 +39,7 @@ Please also refer to my online scholar profiles:
 <ul>
 <li>
   <p><strong>Yu Jiang</strong>, Robust Adaptive Dynamic Programming for Continuous-Time Linear and Nonlinear Systems, Department of Electrical and Computer Engineering, New York University, 2014. (Best Ph.D. Dissertation Award in Electrical Engineering, NYU, 2015)
-  <br/> <a href="{{site.url}}/papers/2014/2014YuPhdThesis.pdf">[Download]</a>
+  <a href="{{site.url}}/papers/2014/2014YuPhdThesis.pdf">[Download]</a>
 </li>
 </ul>
 
@@ -59,8 +59,7 @@ Please also refer to my online scholar profiles:
       {{ patent.authors}},
       &quot;{{ patent.title }}&quot;,
       {{ patent.number }},
-      {{ patent.date}}
-    <br/>
+      {{ patent.date}}&nbsp;
     {% for linkItem in patent.links %}   
       <a href="{{linkItem.link}}">[{{ linkItem.text  }}]</a>&nbsp;
     {% endfor %}  
@@ -80,13 +79,14 @@ Please also refer to my online scholar profiles:
         &quot;{{ paper.title }}&quot;,
         {{ paper.journal}},
         vol. {{ paper.volume }},
-        no. {{ 12 }},
-        pp. {{ paper.pages}},       
-        {{ paper.year}}        
-      <br/>  
-      {% for linkItem in paper.links %}          
+        no. {{ paper.number }},
+        {% if paper.pages %}        
+          pp. {{ paper.pages}},
+        {% endif %}         
+        {{ paper.year}} &nbsp;
+        {% for linkItem in paper.links %}          
           <a href="{{linkItem.link}}">[{{linkItem.text}}]</a>&nbsp;
-      {% endfor %}
+        {% endfor %}
       </p>
     </li>
   {% endfor %}
@@ -101,14 +101,19 @@ Please also refer to my online scholar profiles:
         {{ paper.authors }},
         &quot;{{ paper.title }}&quot;,
         {{ paper.booktitle}},
-        pp. {{ paper.pages}},       
+        {% if paper.pages %}        
+          pp. {{ paper.pages}},
+        {% endif %}                
         {{ paper.address }},
         {{ paper.month}},
-        {{ paper.year}}        
-      <br/>  
-      {% for linkItem in paper.links %}          
+        {{ paper.year}}
+        {% if paper.note %}
+          <strong>（{{paper.note}}）</strong>
+        {% endif %}
+        &nbsp;
+        {% for linkItem in paper.links %}          
           <a href="{{linkItem.link}}">[{{linkItem.text}}]</a>&nbsp;
-      {% endfor %}
+        {% endfor %}
       </p>
     </li>
   {% endfor %}
