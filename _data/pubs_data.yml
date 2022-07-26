@@ -1,4 +1,5 @@
 ---
+################################################# BOOKS #############################################
 books:
 - title: Robust Adaptive Dynamic Programming
   authors: <strong>Yu Jiang</strong> and Zhong-Ping Jiang,
@@ -17,6 +18,7 @@ books:
       link: https://yu-jiang.github.io/radpbook/
       
 
+################################################# PATENTS #############################################
 patents:
 - title: Vehicle localization systems and methods
   authors: Allen Chung-Hao Chen, <strong>Yu Jiang</strong>, Jack A Ekchian, Marco Giovanardi
@@ -58,7 +60,7 @@ patents:
     - text: Google Patents
       link: https://www.google.com/patents/US20150115860
   
-
+################################################# CONFERENCE #############################################
 conferences:
 - title: An adaptive approach to whole-body balance control of wheel-bipedal robot Ollie
   authors: Jingfan Zhang,  Shuai Wang, Haitao Wang, Jie Lai, Zhenshan Bing, <strong>Yu Jiang</strong>, Yu Zheng, Zhengyou Zhang
@@ -246,8 +248,19 @@ conferences:
       link: https://ieeexplore.ieee.org/document/5159972
 
 
-
+################################################# JOURNAL #############################################
 journals:
+- title: Robust adaptive dynamic programming with an application to power systems
+  authors: <strong>Yu Jiang</strong> and Zhong-Ping Jiang
+  journal: IEEE Transactions on Neural Networks and Learning Systems
+  volume: 24
+  number: 7
+  papges: 1150-1156
+  year: 2013
+  links:
+    - text: Link
+      link: https://ieeexplore.ieee.org/document/6484168
+      
 - title: Robust adaptive dynamic programming for large-scale systems with an application to multimachine power systems
   authors: <strong>Yu Jiang</strong> and Zhong-Ping Jiang
   journal: IEEE Transactions on Circuits and Systems, Part II
