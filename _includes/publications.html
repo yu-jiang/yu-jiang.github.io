@@ -1,9 +1,7 @@
 <h1>Research Publications</h1>
 <div class="infoblock">
-<div class="blockcontent">
-<p>- Source code and supplementary materials are avaialbe upon <a href="mailto:yu.jiang@nyu.edu">request</a> </p>
-
-</div></div>
+Please also check <a href="http://scholar.google.com/citations?user=QYanTRsAAAAJ"><strong>My Google Scholar Page</strong></a>
+</div>
 
 <!--<ul>
 <li><a href="http://scholar.google.com/citations?user=QYanTRsAAAAJ"><strong>My Google Scholar Page</strong></a></li>
@@ -11,39 +9,66 @@
 
 <p><a name = "publications-book"></a></p>
 <h2>Book</h2>
+<ol reversed>
+  {% for book in site.data.pubs_data.books %}
+  <li>
+    <p>
+      {{ book.authors}},
+      &quot;{{ book.title }}&quot;,
+      {{ book.publisher }},
+      {{ book.year }}
+    <figure>
+      <img src="{{ book.figure-src }}" alt="{{ book.figure-txt}}" width="140" height="200">
+    </figure>      
+    {% for linkItem in book.links %}   
+      <a href="{{linkItem.link}}">[{{ linkItem.text  }}]</a>&nbsp;
+    {% endfor %}  
+    </p>    
+  </li>
+  {% endfor %}
+</ol>
+
+<p><a name = "publications-thesis"></a></p>
+
+<h2>PhD Dissertation</h2>
 <ul>
 <li>
-Yu Jiang and Zhong-Ping Jiang, "Robust Adaptive Dynamic Programming," Wiley, 2017
-<figure>
-  <img src="http://media.wiley.com/product_data/coverImage300/49/11191326/1119132649.jpg" alt="RADP Book Cover" width="140" height="200">
-</figure>
-Available on
-<a href="https://www.amazon.com/Adaptive-Dynamic-Programming-Systems-Engineering/dp/1119132649">[Amazon]</a>
-<a href="https://www.barnesandnoble.com/w/robust-adaptive-dynamic-programming-yu-jiang/1124577479">[Barns & Noble]</a>
-<a href="http://www.wiley.com/WileyCDA/WileyTitle/productCd-1119132649.html">[Wiley]</a>.
-For supplementary information, see <a href="{{site.url}}/radpbook/">[RADP Book webpage]</a>.
+  <p><strong>Yu Jiang</strong>, Robust Adaptive Dynamic Programming for Continuous-Time Linear and Nonlinear Systems, Department of Electrical and Computer Engineering, New York University, 2014. (Best Ph.D. Dissertation Award in Electrical Engineering, NYU, 2015)
+  <br/> <a href="{{site.url}}/papers/2014/2014YuPhdThesis.pdf">[Download]</a>
 </li>
 </ul>
 
 
 <h2>Book Chapter</h2>
-
 <ul>
 <li><strong>Yu Jiang</strong> and Zhong-Ping Jiang, &quot;Robust adaptive dynamic programming,&quot; in Reinforcement Learning and Approximate Dynamic Programming for Feedback Control, F. L. Lewis and D. Liu, Eds, John Wiley and Sons, 2013.</li>
 </ul>
-
 <p><a name = "publications-patent"></a></p>
-<h2>Patent</h2>
-<ul>
-<li>Yebin Wang, <strong>Yu Jiang</strong>, and Scott Bortoff, <a href="https://www.google.com/patents/US20150115860">&quot;Motion Control System for Performing Different Tasks,&quot;</a> Mitsubishi Electric Research Laboratories, US Patent Number US20150115860 A1.</li>
-</ul>
+
+
+<h2>Patents</h2>
+<ol reversed>
+  {% for patent in site.data.pubs_data.patents %}
+  <li>
+    <p>
+      {{ patent.authors}},
+      &quot;{{ patent.title }}&quot;,
+      {{ patent.number }},
+      {{ patent.date}}
+    <br/>
+    {% for linkItem in patent.links %}   
+      <a href="{{linkItem.link}}">[{{ linkItem.text  }}]</a>&nbsp;
+    {% endfor %}  
+    </p>    
+  </li>
+  {% endfor %}
+</ol>
 
 <p><a name = "publications-journal"></a></p>
 
 <h2>Journal Papers</h2>
-
 <ol reversed>
-  {% for paper in site.data.pubs_data.journal %}
+  {% for paper in site.data.pubs_data.journals %}
     <li>
       <p> 
         {{ paper.authors }},
@@ -65,7 +90,7 @@ For supplementary information, see <a href="{{site.url}}/radpbook/">[RADP Book w
 
 <h2>Conference Papers</h2>
 <ol reversed>
-  {% for paper in site.data.pubs_data.conference %}
+  {% for paper in site.data.pubs_data.conferences %}
     <li>
       <p> 
         {{ paper.authors }},
@@ -84,22 +109,7 @@ For supplementary information, see <a href="{{site.url}}/radpbook/">[RADP Book w
   {% endfor %}
 </ol>
 
-<p><a name = "publications-thesis"></a></p>
 
-<h2>PhD Dissertation</h2>
-
-<ul>
-<li><p><strong>Yu Jiang</strong>, Robust Adaptive Dynamic Programming for Continuous-Time Linear and Nonlinear Systems, Department of Electrical and Computer Engineering, New York University, 2014. <a href="./papers/2014/2014YuPhdThesis.pdf">[Download]</a></p>
-
-<ul>
-<li>Best Ph.D. Dissertation Award in Electrical Engineering, NYU, 2015</li>
-</ul></li>
-</ul>
-
-<h2>Conference Papers (YAML)</h2>
-
-
-  
 </div></div>
 
 

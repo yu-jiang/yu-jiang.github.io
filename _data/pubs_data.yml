@@ -1,6 +1,33 @@
 ﻿---
-conference:
+books:
+- title: Robust Adaptive Dynamic Programming
+  authors: <strong>Yu Jiang</strong> and Zhong-Ping Jiang,
+  publisher: Wiley
+  year: 2017
+  figure-src: http://media.wiley.com/product_data/coverImage300/49/11191326/1119132649.jpg
+  figure-txt: RADP Book Cover
+  links:
+    - text: Amazon
+      link: https://www.amazon.com/Adaptive-Dynamic-Programming-Systems-Engineering/dp/1119132649
+    - text: Barns & Noble
+      link: https://www.barnesandnoble.com/w/robust-adaptive-dynamic-programming-yu-jiang/1124577479
+    - text: Wiley
+      link: http://www.wiley.com/WileyCDA/WileyTitle/productCd-1119132649.html
+    - text: Supplimentary Materials
+      link: https://yu-jiang.github.io/radpbook/
+      
 
+patents:
+- title: Motion-control system for performing different tasks
+  authors: Yebin Wang, <strong>Yu Jiang</strong>, and Scott Bortoff
+  number: US9529341B2
+  date: Dec. 27, 2016
+  links:
+    - text: Google Patents
+      link: https://www.google.com/patents/US20150115860
+  
+
+conferences:
 - title: Output regulation for a class of weakly minimum phase systems and its application to a nonlinear benchmark system  
   booktitle: In Proceedings of American Control Conference
   authors: <strong>Yu Jiang</strong> and Jie Huang
@@ -12,8 +39,7 @@ conference:
     - text: Link
       link: https://ieeexplore.ieee.org/document/5159972
 
-journal:
-
+journals:
 - title: Approximate dynamic programming for optimal stationary control with control-dependent noise
   authors: <strong>Yu Jiang</strong> and Zhong-Ping Jiang
   journal: IEEE Transactions on Neural Networks
@@ -24,7 +50,9 @@ journal:
   links:
     - text: Link
       link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6026952
-   
+
+book:
+
 ...
 
 
