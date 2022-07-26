@@ -246,6 +246,19 @@ conferences:
       link: https://ieeexplore.ieee.org/document/5159972
 
 journals:
+- title: Computational adaptive optimal control for continuous-time linear systems with completely unknown system dynamics
+  authors: <strong>Yu Jiang</strong> and Zhong-Ping Jiang
+  journal: Automatic
+  volume: 48
+  number: 10
+  year: 2011
+  pages: 2699-2704
+  links:
+    - text: Link
+      link: https://www.sciencedirect.com/science/article/abs/pii/S0005109812003664
+    - text: MATLAB Code
+      link: https://github.com/yu-jiang/Paper_Automatica2012_CTLTI
+      
 - title: Approximate dynamic programming for optimal stationary control with control-dependent noise
   authors: <strong>Yu Jiang</strong> and Zhong-Ping Jiang
   journal: IEEE Transactions on Neural Networks
