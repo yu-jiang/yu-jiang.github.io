@@ -60,6 +60,23 @@ patents:
   
 
 conferences:
+- title: An adaptive approach to whole-body balance control of wheel-bipedal robot Ollie
+  authors: Jingfan Zhang,  Shuai Wang, Haitao Wang, Jie Lai, Zhenshan Bing, <strong>Yu Jiang</strong>, Yu Zheng, Zhengyou Zhang
+  booktitle: IROS 2022, accepted
+  year: 2022
+
+- title: Terrain-based vehicle localization using an active suspension system
+  authors: <strong>Yu Jiang</strong>, John Eisenmann, Billy Graves, vijay sridhar, Zackary Anderson
+  booktitle: 2022 IEEE Conference on Control Technology and Applications (CCTA), accepted
+  year: 2022
+
+- title: Adaptive dynamic programming for nonlinear nonaffine systems
+  authors: Tao Bian, <strong>Yu Jiang</strong>, and Zhong-Ping Jiang
+  booktitle: In Proceedings of the 53rd IEEE Conference on Decision and Control
+  pages: 3603-3608
+  month: December
+  year: 2014
+  address: Los Angeles, CA
 
 - title: Global adaptive dynamic programming and global optimal control for a class of nonlinear systems
   booktitle: In proceedings of the 2014 IFAC World Congress
@@ -245,33 +262,6 @@ book:
 ...
 
 
-<li><p> , &quot;,&quot;
-IEEE Transactions on Neural Networks, vol. 22, no.12, 2392-2398, 2011 <br/>
-<a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6026952">[Link]</a></p></li>
-</ol>
-
-<ol reversed>
-<li><p><strong>Yu Jiang</strong> and Zhong-Ping Jiang, &quot;Global adaptive dynamic programming and global optimal control for a class of nonlinear systems,&quot; in proceedings of the 2014 IFAC World Congress, vol. 19, no. 1, pp. 9756--9761, Cape Town, South Africa, August 2014</p></li>
-<li><p> Weinan Gao, <strong>Yu Jiang</strong>, Zhong-Ping Jiang, and Tianyou Chai, &quot;Adaptive and optimal output feedback
-control of linear systems: an adaptive dynamic programming approach,&quot; In proceedings of the 11th World Congress on Intelligent Control and Automation, Shenyang, China, pp. 2085-2090, June 2014.</p></li>
-<li><p> <strong>Yu Jiang</strong> and Zhong-Ping Jiang, &quot;Robust adaptive dynamic programming for sensorimotor control with signal-dependent noise,&quot; IEEE Signal Processing in Medicine and Biology Symposium, Brooklyn, NY, 2013</p></li>
-<li><p>  Zhong-Ping Jiang and <strong>Yu Jiang</strong>, &quot;Robust Adaptive Dynamic Programming: Recent results and applications,&quot; In Proceedings of the Chinese Control Conference, Xi&#39;An, China, pp. 968-973, 2013</p></li>
-<li><p>  <strong>Yu Jiang</strong> and Zhong-Ping Jiang, &quot;Robust adaptive dynamic programming for optimal nonlinear control,&quot; In Proceedings of the Asian Control Conference, Istanbul, Turkey, June 2013 <strong>(Shimemura Young Author Award)</strong></p></li>
-<li><p> Zhong-Ping Jiang and <strong>Yu Jiang</strong>, &quot;A new approach to robust and optimal nonlinear control design,&quot;
-IASTED Asian Conference on Modelling, Identification and Control, Phuket, Thailand, 2013</p></li>
-<li><p> <strong>Yu Jiang</strong> and Zhong-Ping Jiang, &quot;Adaptive dynamic programming as a theory of motor control,&quot; IEEE Signal Processing in Medicine and Biology Symposium, New York, NY, 2012</p></li>
-<li><p>  <strong>Yu Jiang</strong> and Zhong-Ping Jiang, &quot;Robust adaptive dynamic programming for nonlinear control design,&quot; In Proceedings of the IEEE Conference on Decision and Control, Maui, Hawaii, USA, pp. 1896-1901, Dec. 2012</p></li>
-<li><p> <strong>Yu Jiang</strong> and Zhong-Ping Jiang, &quot;Computational adaptive optimal control with an application to blood glucose regulation in type 1 diabetics,&quot; in Proceedings of the Chinese Control Conference, Hefei, China, pp. 2938-2943, July, 2012  </p></li>
-<li><p>  <strong>Yu Jiang</strong> and Zhong-Ping Jiang, &quot;Robust adaptive dynamic programming: An overview of recent results,&quot; International Symposium on Mathematical Theory of Networks and Systems, Melbourne, Australia, 2012</p></li>
-<li><p> <strong>Yu Jiang</strong> and Zhong-Ping Jiang, &quot;Robust approximate dynamic programming and global stabilization with nonlinear dynamic uncertainties,&quot; In Proceedings of The Joint IEEE Conference on Decision and Control and European Control Conference, Orlando, FL, USA, pp. 115-120, 2011</p></li>
-<li><p>   <strong>Yu Jiang</strong>, Srinivasa Chemudupati, Jan Morup Jorgensen, Zhong-Ping Jiang, and Charles S. Peskin, &quot;Optimal control mechanism involving the human kidney,&quot; In Proceedings of The Joint IEEE Conference on Decision and Control and European Control Conference, Orlando, FL, USA, pp. 3688-3693, 2011</p></li>
-<li><p> <strong>Yu Jiang</strong> and Zhong-Ping Jiang, &quot;Approximate dynamic programming for stochastic systems with additive and multiplicative noise,&quot;
-IEEE Multi-Conference on Systems and Control, pp. 185-190, Denver, CO, 2011</p></li>
-<li><p>  <strong>Yu Jiang</strong>, Zhong-Ping Jiang, and Ning Qian, &quot;Optimal control mechanisms in human arm reaching movements,&quot; In Proceedings of Chinese Control Conference, pp. 1377-1382, Yantai, China, 2011</p></li>
-<li><p>  <strong>Yu Jiang</strong> and Zhong-Ping Jiang, &quot;Approximate dynamic programming for output feedback control,&quot;
-Chinese Control Conference, pp. 5815-5820, Beijing, China, 2010</p></li>
-<li><p> <strong>Yu Jiang</strong> and Jie Huang, &quot;Output regulation for a class of weakly minimum phase systems and its application to a nonlinear benchmark system,&quot; In Proceedings of American Control Conference, pp. 5321-5326, St. Louis, USA, 2009</p></li>
-</ol>
 
 
 Journal
