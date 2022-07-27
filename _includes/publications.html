@@ -78,9 +78,9 @@ Please also refer to my online scholar profiles:
         {{ paper.authors }},
         &quot;{{ paper.title }}&quot;,
         {{ paper.journal}},
-        vol. {{ paper.volume }},
-        no. {{ paper.number }},
-        {% if paper.pages %}        
+        {% if paper.volume %} vol. {{ paper.volume }}, {% endif %}
+        {% if paper.volume %} no. {{ paper.number }},  {% endif %}
+        {% if paper.pages %}
           pp. {{ paper.pages}},
         {% endif %}         
         {{ paper.year}} &nbsp;
@@ -104,7 +104,7 @@ Please also refer to my online scholar profiles:
         {% if paper.pages %} pp. {{ paper.pages}}, {% endif %}
         {% if paper.address %} {{ paper.address }}, {% endif %}
         {% if paper.month %} {{ paper.month}}, {% endif %}
-        {% if paper.year %} {{ paper.year}}{% endif %}
+        {% if paper.year %} {{ paper.year}} {% endif %}
         {% if paper.note %}
           <strong>（{{paper.note}}）</strong>
         {% endif %}        
