@@ -256,12 +256,12 @@ conferences:
 ################################################# JOURNAL #############################################
 #######################################################################################################
 journals:
-- title: Ultra-fast Mode Reversal Coriolis Gyroscopes
+- title: Ultra-fast mode reversal coriolis gyroscopes
   journal: IEEE/ASME Transactions on Mechatronics
   authors: Yuchen Wang, Jiakun Hou, Chong Li, Jin Wu, <strong>Yu Jiang</strong>, Ming Liu, and John Y. Hung
   year: accepted
 
-- title: "Computer Vision for Road Imaging and Pothole Detection: A State-of-the-Art Review of Systems and Algorithms"
+- title: "Computer vision for road imaging and pothole detection: a state-of-the-art review of systems and algorithms"
   authors: Nachuan Ma, Jiahe Fan, Wenshuo Wang, Jin Wu, <strong>Yu Jiang</strong>, Lihua Xie, and Rui Fan
   journal: Transportation Safety and Environment  
   year: accepted
