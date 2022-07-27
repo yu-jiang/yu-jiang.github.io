@@ -114,7 +114,7 @@ conferences:
     - text: Link
       link: https://ieeexplore.ieee.org/document/6736781
 
-- title: "Robust Adaptive Dynamic Programming: Recent results and applications"
+- title: "Robust adaptive dynamic programming: recent results and applications"
   booktitle: In Proceedings of the Asian Control Conference
   authors: Zhong-Ping Jiang and <strong>Yu Jiang</strong>
   address: Xi'An, China
