@@ -321,7 +321,7 @@ journals:
   pages: 34-75
   year: 2016
 
-- title: An Iterative Approach to the Optimal Co-Design of Linear Control System
+- title: An iterative approach to the optimal co-design of linear control system
   authors: <strong>Yu Jiang</strong>, Yebin Wang, Scott Bortoff, and Zhong-Ping Jiang
   journal: International Journal of Control
   volume: 89
@@ -347,7 +347,7 @@ journals:
       link: https://github.com/yu-jiang/Paper_TAC2015_GADP
 
 
-- title: Optimal co-Design of nonlinear control systems based on a modified policy iteration method
+- title: Optimal co-design of nonlinear control systems based on a modified policy iteration method
   authors: <strong>Yu Jiang</strong>, Yebin Wang, Scott Bortoff, and Zhong-Ping Jiang
   journal: IEEE Transactions on Neural Networks and Learning Systems
   volume: 26
