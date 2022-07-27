@@ -4,11 +4,6 @@ title: About
 permalink: /about/
 ---
 
-[comment]: # (Insert my picture)
-{% include profile.html%}
-
-[comment]: # (Insert my resume below)
-
 # About Me
 Hello. My name is Yu Jiang. I am a principal scientist at <a href="http://www.clearmotion.com">ClearMotion</a>, and I also work as a consultant for autonomous vehicle-related software stacks and control algorithms. Previously, I was the Controls Tech Lead at <a href="http://www.isee.ai">isee ai</a>, an autonomous trucking startup out of MIT. I was also a developer at <a href="http://www.mathworks.com">MathWorks</a> where I was responsible for the Simulink Control Design toolbox. 
 
