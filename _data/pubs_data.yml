@@ -23,6 +23,14 @@ books:
 ################################################# PATENTS #############################################
 #######################################################################################################
 patents:
+- title: Multi-lane road characterization and tracking algorithms
+  authors: John Eisenmann, William Graves, Yu Jiang, Marcus Proctor, and Jack Ekchian
+  number: US20220390239A1
+  date: Dec. 8, 2022
+  links:
+    - text: Google Patents
+      link: https://patents.google.com/patent/US20220390239A1/en
+
 - title: Vehicle localization systems and methods
   authors: Allen Chung-Hao Chen, <strong>Yu Jiang</strong>, Jack A Ekchian, Marco Giovanardi
   number: US20220196849A1
@@ -32,7 +40,7 @@ patents:
       link: https://patents.google.com/patent/US20220196849A1/en
 
 - title: Vehicular localization systems, methods, and controls
-  authors: <strong>Yu Jiang</strong>, Vijayaraghavan Sridhar, John Parker Eisenmann, William Graves, and Michael W Finnegan
+  authors: <strong>Yu Jiang</strong>, Vijayaraghavan Sridhar, John Eisenmann, William Graves, and Michael W Finnegan
   number: US20220189302A1
   date: June 16, 2022
   links:
@@ -69,13 +77,24 @@ patents:
 conferences:
 - title: An adaptive approach to whole-body balance control of wheel-bipedal robot Ollie
   authors: Jingfan Zhang,  Shuai Wang, Haitao Wang, Jie Lai, Zhenshan Bing, <strong>Yu Jiang</strong>, Yu Zheng, Zhengyou Zhang
-  booktitle: IROS 2022, accepted
+  booktitle: 2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
+  address: Kyoto, Japan
   year: 2022
+  month: October
+  links:
+    - text: Link
+      link: https://ieeexplore.ieee.org/abstract/document/9981985
 
 - title: Terrain-based vehicle localization using an active suspension system
-  authors: <strong>Yu Jiang</strong>, John Eisenmann, Billy Graves, vijay sridhar, Zackary Anderson
-  booktitle: 2022 IEEE Conference on Control Technology and Applications (CCTA), accepted
+  authors: <strong>Yu Jiang</strong>, John Eisenmann, Billy Graves, Vijayaraghavan Sridhar, Zackary Anderson
+  booktitle: 2022 IEEE Conference on Control Technology and Applications (CCTA)
+  pages: 752-757
+  month: August  
   year: 2022
+  address: Trieste, Italy
+  links:
+    - text: Link
+      link: https://ieeexplore.ieee.org/abstract/document/9965977
 
 - title: Adaptive dynamic programming for nonlinear nonaffine systems
   authors: Tao Bian, <strong>Yu Jiang</strong>, and Zhong-Ping Jiang
