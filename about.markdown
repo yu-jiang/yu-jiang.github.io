@@ -39,7 +39,7 @@ free to reach out to me if you are interested in any part of my research work.
 
 
 # Experiences
-* Principal Scientist, Billerica, MA, May 2021 - Present
+* Principal Scientist, <a href="http://www.clearmotion.com">ClearMotion, Inc.</a>, Billerica, MA, May 2021 - Present
 * Self-employed Consultant, Wellesley, MA, Apr 2020 - Present
 * Controls Tech Lead, <a href="http://www.isee.ai">isee ai</a>, Cambridge, MA Sep 2019 - Apr 2020
 * Principal Controls Engineer, <a href="http://www.isee.ai">isee ai</a>, Cambridge, MA Jan 2019 - Sep 2019
