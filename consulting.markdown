@@ -15,9 +15,3 @@ I started my part-time consulting business (Findop Solutions LLC) in 2020. I pro
 - Literature review / patent research on autonomous driving and robotics related inventions
 
 Note that due to my current engagement with ClearMotion, I will not be able to work on things related to **active vehicle suspension systems**
-
-# Contact #
-Please feel free to reach out
-- Email: findopxyz@gmail.com
-- Phone: 1.339.234.9530
-- Mailing address: Findop Solutions LLC, P.O.Box 553, Needham, MA 02494
