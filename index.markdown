@@ -7,20 +7,22 @@ layout: sitepage
 
 [comment]: # (Insert my resume below)
 
-# Welcome 
-Hello. My name is Yu Jiang, and I am based in the Greater Boston Area. I hold a PhD degree in Electrical Engineering (Control Theory) from New York University. I have been working in industry for almost a decade.
+# About 
+Hi, there. My name is Yu Jiang, and I am based in the Greater Boston Area. I hold a PhD degree in Electrical Engineering (Control Theory) from New York University. I have been working in industry for almost a decade.
 
 I always consider myself as an applied mathematician, and am always passionate in understanding the fundamental mathematics behind every challenging problem and solving it using elegant mathematical tools, such as equations, algorithms, and/or programs. 
 
 I like to share my knowledge and research in publications. In addition to 30+ papers I co-authored and published in top journals or presented in prestigious conferences, I am the first author of the book "Robust Adaptive Dynamic Programming", published by Wiley, 2017.
+
+Thanks for stopping by!
 
 # News #
 <div>
 <ul>
 {% for notes in site.posts limit:5%}
 <li>
-  {{notes.date | date: '%D'}} <a href="{{site.baseurl}}{{ notes.url }}">{{ notes.title }}</a>  
-  <p>{{ notes.meta }}<a href="{{site.baseurl}}{{ notes.url }}"> [...]</a></p>  
+  [{{notes.date | date: '%D'}}]: 
+  {{ notes.meta }}<a href="{{site.baseurl}}{{ notes.url }}"> [...]</a>
 </li>
 {% endfor %}
 </ul>
