@@ -4,7 +4,7 @@
 #######################################################################################################
 books:
 - title: Robust Adaptive Dynamic Programming
-  authors: <strong>Yu Jiang</strong> and Zhong-Ping Jiang,
+  authors: <strong>Yu Jiang</strong> and Zhong-Ping Jiang
   publisher: John Wiley and Sons
   year: 2017
   figure-src: http://media.wiley.com/product_data/coverImage300/49/11191326/1119132649.jpg
@@ -24,7 +24,7 @@ books:
 #######################################################################################################
 chapters:
 - title: Robust Adaptive Dynamic Programming
-  authors: <strong>Yu Jiang</strong> and Zhong-Ping Jiang,
+  authors: <strong>Yu Jiang</strong> and Zhong-Ping Jiang
   publisher: John Wiley and Sons
   editors: F. L. Lewis and D. Liu
   booktitle: Reinforcement Learning and Approximate Dynamic Programming for Feedback Control
@@ -40,7 +40,7 @@ chapters:
 #######################################################################################################
 patents:
 - title: Multi-lane road characterization and tracking algorithms
-  authors: John Eisenmann, William Graves, Yu Jiang, Marcus Proctor, and Jack Ekchian
+  authors: John Eisenmann, William Graves, <strong>Yu Jiang</strong>, Marcus Proctor, and Jack Ekchian
   number: US20220390239A1
   date: Dec. 8, 2022
   links:
@@ -91,7 +91,7 @@ patents:
 ################################################# CONFERENCE ##########################################
 #######################################################################################################
 conferences:
-- title: On XYZ-Motion Planning for Autonomous Vehicles with Active Suspension Systems
+- title: On XYZ-motion planning for autonomous vehicles with active suspension systems
   authors: <strong>Yu Jiang</strong>, Billy Graves, Marco Giovanardi, Zackary Anderson
   booktitle: 2023 American Control Conference (ACC)
   address: San Diego, CA
