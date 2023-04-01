@@ -21,12 +21,28 @@
   {% endfor %}
 </ol>
 
+<p><a name = "publications-chapter"></a></p>
 <h2>Book Chapter</h2>
 <ol reversed>
-<li><strong>Yu Jiang</strong> and Zhong-Ping Jiang, &quot;Robust adaptive dynamic programming,&quot; in Reinforcement Learning and Approximate Dynamic Programming for Feedback Control, F. L. Lewis and D. Liu, Eds, John Wiley and Sons, 2013.</li>
+  {% for chapter in site.data.pubs_data.chapters %}
+  <li>
+    <p>
+      {{ chapter.authors}},
+      &quot;{{ chapter.title }}&quot;,
+      in &quot;{{ chapter.booktitle }}&quot;,
+      {{chapter.editors}}, Eds,
+      {{ chapter.publisher }},
+      {{ chapter.year }}
+    <figure>
+      <img src="{{ chapter.figure-src }}" alt="{{ chapter.figure-txt}}" width="140" height="200">
+    </figure>      
+    {% for linkItem in chapter.links %}   
+      <a href="{{linkItem.link}}">[{{ linkItem.text  }}]</a>&nbsp;
+    {% endfor %}  
+    </p>    
+  </li>
+  {% endfor %}
 </ol>
-<p><a name = "publications-patent"></a></p>
-
 
 <h2>Patents</h2>
 <ol reversed>

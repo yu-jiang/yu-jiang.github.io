@@ -5,7 +5,7 @@
 books:
 - title: Robust Adaptive Dynamic Programming
   authors: <strong>Yu Jiang</strong> and Zhong-Ping Jiang,
-  publisher: Wiley
+  publisher: John Wiley and Sons
   year: 2017
   figure-src: http://media.wiley.com/product_data/coverImage300/49/11191326/1119132649.jpg
   figure-txt: RADP Book Cover
@@ -18,6 +18,22 @@ books:
       link: http://www.wiley.com/WileyCDA/WileyTitle/productCd-1119132649.html
     - text: Supplimentary Materials
       link: https://yu-jiang.github.io/radpbook/
+
+#######################################################################################################
+################################################# BOOKS Chapter  ######################################
+#######################################################################################################
+chapters:
+- title: Robust Adaptive Dynamic Programming
+  authors: <strong>Yu Jiang</strong> and Zhong-Ping Jiang,
+  publisher: John Wiley and Sons
+  editors: F. L. Lewis and D. Liu
+  booktitle: Reinforcement Learning and Approximate Dynamic Programming for Feedback Control
+  year: 2013
+  figure-src: https://media.wiley.com/product_data/coverImage300/0X/11181042/111810420X.jpg
+  figure-txt: RL&ADP Book Cover
+  links:
+    - text: Wiley
+      link: https://www.wiley.com/en-us/Reinforcement+Learning+and+Approximate+Dynamic+Programming+for+Feedback+Control-p-9781118104200    
       
 #######################################################################################################
 ################################################# PATENTS #############################################
@@ -75,11 +91,20 @@ patents:
 ################################################# CONFERENCE ##########################################
 #######################################################################################################
 conferences:
+- title: On XYZ-Motion Planning for Autonomous Vehicles with Active Suspension Systems
+  authors: <strong>Yu Jiang</strong>, Billy Graves, Marco Giovanardi, Zackary Anderson
+  booktitle: 2023 American Control Conference (ACC)
+  address: San Diego, CA
+  pages: (accepted)
+  year: 2023
+  month: May 
+
 - title: An adaptive approach to whole-body balance control of wheel-bipedal robot Ollie
   authors: Jingfan Zhang,  Shuai Wang, Haitao Wang, Jie Lai, Zhenshan Bing, <strong>Yu Jiang</strong>, Yu Zheng, Zhengyou Zhang
   booktitle: 2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
   address: Kyoto, Japan
   year: 2022
+  pages: 12835-12842
   month: October
   links:
     - text: Link
