@@ -7,14 +7,21 @@ layout: sitepage
 
 [comment]: # (Insert my resume below)
 
-# About 
-Hi, there. My name is Yu Jiang, and I am based in the Greater Boston Area. I hold a PhD degree in Electrical Engineering (Control Theory) from New York University. I have been working in industry for almost a decade.
+# About Me
 
-I always consider myself as an applied mathematician, and am always passionate in understanding the fundamental mathematics behind every challenging problem and solving it using elegant mathematical tools, such as equations, algorithms, and/or programs. 
+[comment]: # (Educational)
+My name is Yu Jiang (姜宇). I received the PhD degree in Electrical Engineering (Control Theory) from [New York University](https://www.nyu.edu). My PhD research topic was about bringing together reinforcement learning and nonlinear control theory for various applications (see my  [publications]({{site.url}}/publications/) for many of the related work).
 
-I like to share my knowledge and research in publications. In addition to 30+ papers I co-authored and published in top journals or presented in prestigious conferences, I am the first author of the book "Robust Adaptive Dynamic Programming", published by Wiley, 2017.
+[comment]: # (Industry)
+I have been working in industry for almost a decade. I started as a Software Engineer in the controls toolbox team at [MathWorks](https://www.mathworks.com). I was the Tech Lead of the controls team at the autonomous trucking company [ISEE AI](https://www.isee.ai). Currently, I am the Principal Scientist in the CTO-office at [ClearMotion](https://www.clearmotion.com). My area of expertise lies in motion planning and control of intelligent vehicles.
 
-Thanks for stopping by!
+
+[comment]: # (Acamedia Research)
+I am engaged in academic research and actively writing research articles, in addition to serving as a reviewer for various journals and conferences. Notably, I am honored to be a member of the editorial board of the prestigious IFAC journal, Control Engineering Practice (CEP). 
+
+[comment]: # (Consulting)
+Last by not least, I started my own consulting firm Findop Solutions LLC in early 2020, and I have been working as a part-time technical consultant / advisor for startup tech compainies.
+
 
 # News #
 <div>
