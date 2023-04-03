@@ -305,3 +305,33 @@ table.imgtable, table.imgtable td {
     text-align: left;
 	line-height: 1.6;
 }
+
+/* Social Media Icons */
+/* Style all font awesome icons */
+.fa {
+	padding: 20px;
+	font-size: 100px;
+	width: 30px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 50%;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+	opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+	background: #3B5998;
+	color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+	background: #55ACEE;
+	color: white;
+  }
