@@ -8,7 +8,7 @@ permalink: /resume/
 - [ClearMotion, Inc.](https://www.clearmotion.com), Billerica, MA
     - Principal Scientist, May 2021 - Present
 - [Findop Solutions LLC](https://www.findop.xyz),  Wellesley, MA
-    - Technical Consultant, Apr 2020 - Present
+    - Technical Consultant (Part-time), Apr 2020 - Present
 - [ISEE AI](https://www.isee.ai), Cambridge, MA
     - Controls Tech Lead,  Sep 2019 - Apr 2020
     - Principal Controls Engineer, Jan 2019 - Sep 2019    
@@ -18,7 +18,7 @@ permalink: /resume/
     - Controls Systems Engineer / Software Engineer, July 2015 - June 2017
     - Application Support Engineer, June 2014 - July 2015
 - [Mitsubishi Electric Research Labs (MERL)](https://www.merl.com), Cambridge, MA
-    - Research Intern, , Cambridge, MA, June 2013 - August 2013
+    - Research Intern
 
 # Education
 * Ph.D., Electrical Engineering, <a href="http://www.nyu.edu">New York University</a>, May 2014. (Advisor:<a href="http://engineering.nyu.edu/people/zhong-ping-jiang">Prof. Zhong-Ping Jiang</a>)
@@ -34,5 +34,6 @@ permalink: /resume/
 * National First Place, in the Chinese Graduate Mathematical Contest in Modeling, 2007
 * National First Place, in the Chinese Undergraduate Mathematical Contest in Modeling, 2005
 
-
+# Publications
+- See [{{site.url}}/publications/]({{site.url}}/publications/) for a full list of my publications.
 
