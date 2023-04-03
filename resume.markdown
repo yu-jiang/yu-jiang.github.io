@@ -5,23 +5,17 @@ permalink: /resume/
 ---
 
 # Professional Experiences
-- [ClearMotion, Inc.](https://www.clearmotion.com), Billerica, MA
-    - Principal Scientist, May 2021 - Present
-- [Findop Solutions LLC](https://www.findop.xyz),  Wellesley, MA
-    - Technical Consultant (Part-time), Apr 2020 - Present
-- [ISEE AI](https://www.isee.ai), Cambridge, MA
-    - Controls Tech Lead,  Sep 2019 - Apr 2020
-    - Principal Controls Engineer, Jan 2019 - Sep 2019    
-- [ClearMotion, Inc.](https://www.clearmotion.com), Billerica, MA
-    - Senior Controls Engineer / Controls Researcher, July 2017 - Jan 2019
-- [The MathWorks, Inc.](https://www.mathworks.com), Natick, MA
-    - Controls Systems Engineer / Software Engineer, July 2015 - June 2017
-    - Application Support Engineer, June 2014 - July 2015
-- [Mitsubishi Electric Research Labs (MERL)](https://www.merl.com), Cambridge, MA
-    - Research Intern
+- Principal Scientist at [ClearMotion, Inc.](https://www.clearmotion.com), Billerica, MA, May 2021 - Present
+- Technical Consultant at [Findop Solutions LLC](https://www.findop.xyz),  Wellesley, MA, Apr 2020 - Present
+- Tech Lead - Controls at [ISEE AI](https://www.isee.ai), Cambridge, MA, Sep 2019 - Apr 2020
+- Principal Controls Engineer at [ISEE AI](https://www.isee.ai), Cambridge, MA, Jan 2019 - Sep 2019
+- Senior Controls Engineer / Controls Researcher at [ClearMotion, Inc.](https://www.clearmotion.com), Billerica, MA, July 2017 - Jan 2019
+- Controls Systems Engineer / Software Engineer at [The MathWorks, Inc.](https://www.mathworks.com), Natick, MA, July 2015 - June 2017
+- Application Support Engineer at [The MathWorks, Inc.](https://www.mathworks.com), Natick, MA, June 2014 - July 2015
+- Research Intern at [Mitsubishi Electric Research Labs (MERL)](https://www.merl.com), Cambridge, MA, June 2013 - August 2013
 
 # Education
-* Ph.D., Electrical Engineering, <a href="http://www.nyu.edu">New York University</a>, May 2014. 
+* Ph.D., Electrical Engineering, <a href="http://www.nyu.edu">New York University</a>, May 2014
 * M.S., Automation Science and Engineering, <a href="http://www.scut.edu.cn/">South China University of Technology</a>, June 2009
 * B.S., Mathematics and Applied Mathematics, <a href="http://www.sysu.edu.cn">Sun Yat-sen (Zhong-Shan University)</a>, June 2006
 
