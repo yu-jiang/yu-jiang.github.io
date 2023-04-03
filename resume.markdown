@@ -21,8 +21,8 @@ permalink: /resume/
     - Research Intern
 
 # Education
-* Ph.D., Electrical Engineering, <a href="http://www.nyu.edu">New York University</a>, May 2014. (Advisor:<a href="http://engineering.nyu.edu/people/zhong-ping-jiang">Prof. Zhong-Ping Jiang</a>)
-* M.S., Automation Science and Engineering, <a href="http://www.scut.edu.cn/">South China University of Technology</a>, June 2009 (Advisor: <a href="http://www.mae.cuhk.edu.hk/%7Ejhuang/">Prof. Jie Huang</a>)
+* Ph.D., Electrical Engineering, <a href="http://www.nyu.edu">New York University</a>, May 2014. 
+* M.S., Automation Science and Engineering, <a href="http://www.scut.edu.cn/">South China University of Technology</a>, June 2009
 * B.S., Mathematics and Applied Mathematics, <a href="http://www.sysu.edu.cn">Sun Yat-sen (Zhong-Shan University)</a>, June 2006
 
 # Awards

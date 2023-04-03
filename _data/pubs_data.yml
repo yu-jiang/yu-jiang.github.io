@@ -99,6 +99,18 @@ conferences:
   year: 2023
   month: May 
 
+- title: "Approximate path following control of robotic manipulators: An adaptive dynamic programming-based method"
+  authors: Wei Qin, Xizhen Zhao, <strong>Yu Jiang</strong>, Xinghu Wang, Dabo Xu
+  month: November
+  year: 2022
+  booktitle: 2022 China Automation Congress (CAC)
+  pages: 3909-3914
+  address: Xiamen, China
+  links:
+    - text: Link
+      link: https://ieeexplore.ieee.org/abstract/document/10055214
+
+
 - title: An adaptive approach to whole-body balance control of wheel-bipedal robot Ollie
   authors: Jingfan Zhang,  Shuai Wang, Haitao Wang, Jie Lai, Zhenshan Bing, <strong>Yu Jiang</strong>, Yu Zheng, Zhengyou Zhang
   booktitle: 2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
@@ -109,6 +121,9 @@ conferences:
   links:
     - text: Link
       link: https://ieeexplore.ieee.org/abstract/document/9981985
+
+
+
 
 - title: Terrain-based vehicle localization using an active suspension system
   authors: <strong>Yu Jiang</strong>, John Eisenmann, Billy Graves, Vijayaraghavan Sridhar, Zackary Anderson
