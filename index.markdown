@@ -1,5 +1,5 @@
 ---
-layout: sitepage
+layout: default
 ---
 
 [comment]: # (Insert my picture)

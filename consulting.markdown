@@ -1,5 +1,5 @@
 ---
-layout: sitepage
+layout: default
 title: Consulting
 permalink: /consulting/
 ---
