@@ -1,17 +1,23 @@
 ---
 layout: default
-title: Consulting
-permalink: /consulting/
+title: Services
+permalink: /services/
 ---
 
-# Findop Solutions LLC #
+# Volunteered  Academic Services #
 
-I started my part-time consulting business (Findop Solutions LLC) in 2020. I provide technical consulting services including:
+I am an active reviewer for prestigous journals, including 
+* IEEE Transactions on Automatic Control
+* IEEE Transactions on Neural Network and Learning Systems
+* IEEE Transactions on Industrial Electronics
+* Control Engineering Practice
 
-- Helping you identify the right tools from control and optimization theories for your specific engineering applications
-- Prototyping control algorithms (e.g., PID, LQR, Adaptive, Robust, Learning-based) for various applications
-- Reviewing control architecture and algorithms design
-- Fundamentals on Simulink/Simscape modeling and model-based-design
-- Literature review / patent research on autonomous driving and robotics related inventions
+I serve on the editorial board of IFAC journal, Control Engineering Practice (CEP).
 
-Note that due to my current engagement with ClearMotion, I will not be able to work on things related to **active vehicle suspension systems**
+Please contact me at yu.jiang@nyu.edu for academic services requests
+
+# Consulting Services
+
+I started my part-time consulting business [Findop Solutions LLC](https://findop.xyz) in 2020 and work as a technical consultant (part-time since April 2021) for startup companies around the world. I specialize in control system design, AI, and applied mathematics in general.
+
+Please contact via findopxyz@gmail.com for consulting services.
