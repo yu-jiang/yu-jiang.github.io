@@ -20,7 +20,7 @@ books:
       link: https://yu-jiang.github.io/radpbook/
 
 #######################################################################################################
-################################################# BOOKS Chapter  ######################################
+################################################# BOOKS Chapters ######################################
 #######################################################################################################
 chapters:
 - title: Robust Adaptive Dynamic Programming
@@ -34,7 +34,19 @@ chapters:
   links:
     - text: Wiley
       link: https://www.wiley.com/en-us/Reinforcement+Learning+and+Approximate+Dynamic+Programming+for+Feedback+Control-p-9781118104200    
-      
+
+chapters:
+- title: Road Environment Perception for Safe and Comfortable Driving
+  authors: Sicen Guo, <strong>Yu Jiang</strong>, Jiahang Li, Dacheng Zhou, Shuai Su, Mohammud Junaid Bocus, Xingyi Zhu, Qijun Chen & Rui Fan
+  publisher: Springer
+  editors: R. Fan, S. Guo, and Mohammud Junaid Bocus
+  booktitle: Autonomous Driving Perception -- Fundamentals and Applications
+  year: 2023
+  figure-src: https://media.springernature.com/full/springer-static/cover-hires/book/978-981-99-4287-9?as=webp
+  figure-txt: Autonomous Driving Perception Book Cover
+  links:
+    - text: Springer
+      link: https://link.springer.com/chapter/10.1007/978-981-99-4287-9_11
 #######################################################################################################
 ################################################# PATENTS #############################################
 #######################################################################################################
