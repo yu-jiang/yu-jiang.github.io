@@ -13,7 +13,7 @@ layout: default
 My name is Yu Jiang (姜宇). I received the PhD degree in Electrical Engineering (Control Theory) from [New York University](https://www.nyu.edu). My PhD research topic was about bringing together reinforcement learning and nonlinear control theory for various applications (see my  [publications]({{site.url}}/publications/) for many of the related work).
 
 [comment]: # (Industry)
-I have been working in industry for almost a decade. Upon graduation, I joined [MathWorks](https://www.mathworks.com), and later became a Software Engineer in the controls toolbox team. I was the Tech Lead of the controls team at the autonomous trucking company [ISEE AI](https://www.isee.ai), an MIT spinout. Currently, I am the Principal Scientist in the CTO-office at [ClearMotion](https://www.clearmotion.com). My area of expertise lies in motion planning and control of intelligent vehicles.
+I have been working in industry for almost a decade. Upon graduation, I joined [MathWorks](https://www.mathworks.com), and later became a Software Engineer in the controls toolbox team. I was the Tech Lead of the controls team at the autonomous trucking company [ISEE AI](https://www.isee.ai), an MIT spinout. Currently, I am a Senior Technical Specliist in Advanced ReaSearch in the CTO-office at [ClearMotion](https://www.clearmotion.com). My area of expertise lies in motion planning and control of intelligent vehicles.
 
 
 [comment]: # (Acamedia Research)
