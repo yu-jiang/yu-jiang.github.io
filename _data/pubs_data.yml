@@ -23,19 +23,6 @@ books:
 ################################################# BOOKS Chapters ######################################
 #######################################################################################################
 chapters:
-- title: Robust Adaptive Dynamic Programming
-  authors: <strong>Yu Jiang</strong> and Zhong-Ping Jiang
-  publisher: John Wiley and Sons
-  editors: F. L. Lewis and D. Liu
-  booktitle: Reinforcement Learning and Approximate Dynamic Programming for Feedback Control
-  year: 2013
-  figure-src: https://media.wiley.com/product_data/coverImage300/0X/11181042/111810420X.jpg
-  figure-txt: RL&ADP Book Cover
-  links:
-    - text: Wiley
-      link: https://www.wiley.com/en-us/Reinforcement+Learning+and+Approximate+Dynamic+Programming+for+Feedback+Control-p-9781118104200    
-
-chapters:
 - title: Road Environment Perception for Safe and Comfortable Driving
   authors: Sicen Guo, <strong>Yu Jiang</strong>, Jiahang Li, Dacheng Zhou, Shuai Su, Mohammud Junaid Bocus, Xingyi Zhu, Qijun Chen & Rui Fan
   publisher: Springer
@@ -47,6 +34,18 @@ chapters:
   links:
     - text: Springer
       link: https://link.springer.com/chapter/10.1007/978-981-99-4287-9_11
+
+- title: Robust Adaptive Dynamic Programming
+  authors: <strong>Yu Jiang</strong> and Zhong-Ping Jiang
+  publisher: John Wiley and Sons
+  editors: F. L. Lewis and D. Liu
+  booktitle: Reinforcement Learning and Approximate Dynamic Programming for Feedback Control
+  year: 2013
+  figure-src: https://media.wiley.com/product_data/coverImage300/0X/11181042/111810420X.jpg
+  figure-txt: RL&ADP Book Cover
+  links:
+    - text: Wiley
+      link: https://www.wiley.com/en-us/Reinforcement+Learning+and+Approximate+Dynamic+Programming+for+Feedback+Control-p-9781118104200    
 #######################################################################################################
 ################################################# PATENTS #############################################
 #######################################################################################################
@@ -107,7 +106,7 @@ conferences:
   authors: <strong>Yu Jiang</strong>, Billy Graves, Marco Giovanardi, Zackary Anderson
   booktitle: 2023 American Control Conference (ACC)
   address: San Diego, CA
-  pages: (accepted)
+  pages: 3181-3186
   year: 2023
   month: May 
 
