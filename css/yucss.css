@@ -1,375 +1,205 @@
-table#tlayout {
-    border: none;
-    border-collapse: separate;
-    background: white;
-}
-
+/* General Styles */
 body {
-  font-family: "Roboto Condensed", Helvetica, Arial, sans-serif;
-	background: white;
-  background-color: #fff;
-	padding-bottom: 8px;
-  padding-top: 8px;
-	margin: 0px;
-	padding: 0;
-  line-height: 150%;
+    font-family: "Roboto Condensed", Helvetica, Arial, sans-serif;
+    background: white;
+    margin: 0;
+    padding: 8px 0;
+    line-height: 1.5;
 }
 
-/* The navigation menu*/
+table#tlayout, table {
+    border-collapse: collapse;
+    background: white;
+    line-height: 1.5;
+}
+
+td {
+    padding: 2px 0.5em;
+    text-align: center;
+    border: none;
+}
+
+/* Navigation Menu */
 #layout-menu {
     overflow: hidden;
-	position:fixed;
-	background: #4863A0;
-	padding-top:  10px;
-	padding-left: 80px;
-    padding-bottom: 10px;
-	font-size: 1.3em;
+    position: fixed;
     top: 0;
-	width:  100%;
-    text-align: left;
+    width: 100%;
+    background: #4863A0;
+    padding: 10px 80px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.3em;
 }
 
-#layout-menu td {
-	background: #f4f4f4;
+#layout-menu a {
+    margin: 0 20px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
 }
 
-#layout-content {
-	padding-top: 6em;
-	padding-left: 100px;
-	padding-right: 100px;
-    border: none;
+#layout-menu a.current {
+    color: #022b6d;
+    border-bottom: 2px solid gray;
+}
+
+#layout-menu a:hover {
+    text-decoration: none;
+}
+
+/* Layout Content */
+#layout-content, #layout-blog-content {
     background: white;
     text-align: left;
     vertical-align: top;
-    line-height: 150%;
+    line-height: 1.5;
+    padding: 6em 100px;
 }
 
 #layout-blog-content {
-	padding-top: 50px;
-	padding-left: 200px;
-	padding-right: 100px;
-    border: none;
-    background: white;
-    text-align: left;
-    vertical-align: top;
-	line-height: 150%;
+    padding: 50px 100px 50px 200px;
 }
 
-
-#layout-menu a {
-	margin: 20px;
-  text-align: center;
+/* Sidebar */
+div.sidebar {
+    margin: 40px 0 0 0;
+    font-size: 100%;
 }
 
-
-a, a > tt {
-  color: #2B60DE;
-  text-decoration: none;
+div.sidebar ul {
+    margin-left: 0;
 }
 
-#layout-menu a.current:link, #layout-menu a.current:visited {
-	color: #022b6d;
-	border-bottom: 2px gray solid;
-}
-#layout-menu a:link, #layout-menu a:visited, #layout-menu a:hover {
-	color: #ffffff;
-	text-decoration: none;
-}
-#layout-menu a:hover {
-	text-decoration: none;
+div.sidebar h2 {
+    margin: 0;
+    border-bottom: none;
 }
 
-div.menu-category {
-	margin-top: 0.2em;
-	padding-top: 0.1em;
-	padding-left: 0em;
-	padding-bottom: 0.2em;
-	font-size: 100%;
-}
-
-div.sidebar {   
-   float:relative;   
-   margin-top: 40px;
-   margin-left: 0px;
-   
-   padding-top: 0.1em;
-   padding-left: 0em;
-   padding-bottom: 0.2em;
-   font-size: 100%;
-}
-
-
-div.sidebar ul{
-margin-left: 0px;
-}
-
-div.sidebar h2{
-margin-top: 0px;
-border-bottom: none;
-}
-
-em {
-	font-style: italic;
-}
-
-strong {
-	font-weight: bold;
-}
-
-
+/* Headings */
 h1, h2, h3 {
-	color: #4863A0;
-	margin-top: 0.7em;
-	margin-bottom: 0.3em;
-	padding-bottom: 0.2em;
-	line-height: 1.5;
-	padding-top: 0.5em;
-	border-bottom: 1px solid #aaaaaa;
+    color: #4863A0;
+    margin: 0.7em 0 0.3em;
+    padding-bottom: 0.2em;
+    line-height: 1.5;
+    border-bottom: 1px solid #aaa;
 }
 
 h1 {
-	font-size: 165%;
+    font-size: 165%;
 }
 
 h2 {
-	padding-top: 0.8em;
-	font-size: 125%;
+    font-size: 125%;
+    padding-top: 0.8em;
+}
+
+h3 {
+    font-size: 110%;
+    border-bottom: none;
 }
 
 h2 + h3 {
     padding-top: 0.2em;
 }
 
-h3 {
-	font-size: 110%;
-	border-bottom: none;
+#layout-content h1:first-child, #layout-content h2:first-child, #layout-content h3:first-child {
+    margin-top: -0.7em;
 }
 
+/* Text Elements */
 p {
-	margin-top: 0.0em;
-	margin-bottom: 0.8em;
-	padding: 0;
-	line-height: 150%;
+    margin: 0 0 0.8em;
+    padding: 0;
 }
 
+em {
+    font-style: italic;
+}
+
+strong {
+    font-weight: bold;
+}
+
+ul, ol {
+    list-style-position: outside;
+    line-height: 1.75;
+    margin: 0.2em 0 0.8em;
+}
+
+/* Footer */
 footer {
-	font-size: small;
-	border-top: 1px solid #8e959a;
-	padding-top: 0.1em;
-  padding-bottom: 50px;
-	margin-top: 4.0em;
-	color: #8e959a;
-  text-align: center;
-  
+    font-size: small;
+    border-top: 1px solid #8e959a;
+    padding-top: 0.1em;
+    margin-top: 4em;
+    text-align: center;
+    color: #8e959a;
 }
 
 #footer a {
-	color: #80a0b0;
+    color: #80a0b0;
 }
 
-#footer-text {
-	float: center;
-	padding-bottom: 8px;
-}
-
-ul, ol, dl {
-	margin-top: 0.2em;
-	padding-top: 0;
-	margin-bottom: 0.8em;
-  line-height: 150%;
-}
-
-dt {
-	margin-top: 0.5em;
-	margin-bottom: 0;
-}
-
-
-dd > *:first-child {
-	margin-top: 0;
-}
-
-ul {
-	list-style-position: outside;
-	list-style-type: square;
-  line-height: 175%;
-}
-
-
-p + div.codeblock {
-	margin-top: -0.6em;
-}
-
+/* Code Blocks */
 div.codeblock, div.infoblock {
-	margin-right: 0%;
-	margin-top: 1.2em;
-	margin-bottom: 1.3em;
+    margin: 1.2em 0 1.3em;
 }
 
 div.blocktitle {
-	font-weight: bold;
-	color: #cd7b62;
-	margin-top: 1.2em;
-	margin-bottom: 0.1em;
+    font-weight: bold;
+    color: #cd7b62;
+    margin: 1.2em 0 0.1em;
 }
 
 div.blockcontent {
-	border: 1px solid silver;
-	padding: 0.3em 0.5em;
+    border: 1px solid silver;
+    padding: 0.3em 0.5em;
+    background: #f6f6f6;
 }
 
-div.infoblock > div.blockcontent {
-	background: #ffffee;
-}
-
-div.blockcontent p + ul, div.blockcontent p + ol {
-	margin-top: 0.4em;
-}
-
-div.infoblock p {
-	margin-bottom: 0em;
-}
-
-div.infoblock li p, div.infoblock dd p {
-	margin-bottom: 0.5em;
-}
-
-div.infoblock p + p {
-	margin-top: 0.8em;
-}
-
-div.codeblock > div.blockcontent {
-	background: #f6f6f6;
-}
-
-#layout-content h1:first-child, #layout-content h2:first-child, #layout-content h3:first-child {
-	margin-top: -0.7em;
-  line-height: 150%;
-}
-
-div#toptitle h1, #layout-content div#toptitle h1 {
-	margin-bottom: 0.0em;
-	padding-bottom: 0.1em;
-	padding-top: 0;
-	margin-top: 0.5em;
-	border-bottom: none;
-}
-
-img.eq {
-	padding: 0;
-	padding-left: 0.1em;
-	padding-right: 0.1em;
-	margin: 0;
-}
-
-img.eqwl {
-	padding-left: 2em;
-	padding-top: 0.6em;
-	padding-bottom: 0.2em;
-	margin: 0;
-}
-
-table {
-    border: 2px solid black;
-    border-collapse: collapse;
-line-height: 150%;
-}
-
-td {
-    padding: 2px;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
-    text-align: center;
-    border:0px solid gray;
-	line-height: 1.6;
-}
-
-table + table {
-    margin-top: 1em;
-	line-height: 1.6;
-}
-
-tr.heading {
-    font-weight: bold;
-    border-bottom: 2px solid black;
-}
-
-
-
-table.imgtable, table.imgtable td {
-    border: none;
-    text-align: left;
-	line-height: 1.6;
-}
-
-/* Social Media Icons */
-  
-/* The navigation menu */
+/* Social Media Navbar */
 .navbar {
-	overflow: hidden;
-	position:fixed;
-	background-color: #4863A0;
-	font-size: 1.3em;
-	top: 0;
-  }
-  
-  /* Navigation links */
-  .navbar a {
-	float: left;
-	font-size: 16px;
-	color: white;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
-  }
-  
-  /* The subnavigation menu */
-  .subnav {
-	float: left;
-	overflow: hidden;
-  }
-  
-  /* Subnav button */
-  .subnav .subnavbtn {
-	font-size: 16px;
-	border: none;
-	outline: none;
-	color: white;
-	padding: 14px 16px;
-	background-color: inherit;
-	font-family: inherit;
-	margin: 0;
-  }
-  
-  /* Add a red background color to navigation links on hover */
-  .navbar a:hover, .subnav:hover .subnavbtn {
-	background-color: red;
-  }
-  
-  /* Style the subnav content - positioned absolute */
-  .subnav-content {
-	display: none;
-	position: absolute;
-	left: 0;
-	background-color: red;
-	width: 100%;
-	z-index: 1;
-  }
-  
-  /* Style the subnav links */
-  .subnav-content a {
-	float: left;
-	color: white;
-	text-decoration: none;
-  }
-  
-  /* Add a grey background color on hover */
-  .subnav-content a:hover {
-	background-color: #eee;
-	color: black;
-  }
-  
-  /* When you move the mouse over the subnav container, open the subnav content */
-  .subnav:hover .subnav-content {
-	display: block;
-  }
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    background-color: #4863A0;
+    font-size: 1.3em;
+}
+
+.navbar a, .subnav .subnavbtn {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.navbar a:hover, .subnav:hover .subnavbtn {
+    background-color: red;
+}
+
+.subnav-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: red;
+    width: 100%;
+    z-index: 1;
+}
+
+.subnav-content a {
+    float: left;
+    color: white;
+    text-decoration: none;
+}
+
+.subnav-content a:hover {
+    background-color: #eee;
+    color: black;
+}
+
+.subnav:hover .subnav-content {
+    display: block;
+}
