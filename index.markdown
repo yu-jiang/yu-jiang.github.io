@@ -8,18 +8,20 @@ layout: default
 [comment]: # (Insert my resume below)
 
 # About Me
+[comment]: # (Life)
+- I have been living in the beautiful suburbs of Greater Boston for over 10 years with my wonderful family. Before settling in Massachusetts, I spent five years in New York City completing my PhD. Prior to that, I attended college at Sun Yat-sen University and pursued graduate studies at South China University of Technology.
 
 [comment]: # (Educational)
-- My name is Yu Jiang (姜宇). I received the PhD degree in Electrical Engineering (Control Theory) from [New York University](https://www.nyu.edu). My PhD research topic was about bringing together reinforcement learning and nonlinear control theory for various applications (see my  [publications]({{site.url}}/publications/) for many of the related work).
+- I earned a PhD in Electrical Engineering (Control Theory) from [New York University](https://www.nyu.edu). My doctoral research focused on integrating reinforcement learning with nonlinear control theory for diverse applications. For more details, see my [publications]({{site.url}}/publications/).
 
 [comment]: # (Industry)
-- I have been working in industry for more than a decade. Upon graduation, I joined [MathWorks](https://www.mathworks.com), and later became a Software Engineer in the controls toolbox team. I was the Tech Lead of the controls team at the autonomous trucking company [ISEE AI](https://www.isee.ai), an MIT spinout. Currently, I am a Senior Technical Scientist in the CTO-office at [ClearMotion](https://www.clearmotion.com). My area of expertise lies in motion planning and control of intelligent vehicles.
+- With over a decade of industry experience, I began my career at [MathWorks](https://www.mathworks.com), working as a Software Engineer on the controls toolbox team. Later, I became the Tech Lead of the controls team at the autonomous trucking company [ISEE AI](https://www.isee.ai), an MIT spinout. Currently, I serve as a Senior Technical Scientist in the CTO-office at [ClearMotion](https://www.clearmotion.com), specializing in motion planning and control for intelligent vehicles.
 
 [comment]: # (Acamedia Research)
-- I am engaged in academic research and actively writing research articles, in addition to serving as a reviewer for various journals and conferences. I served on the editorial board of the prestigious IFAC journal, Control Engineering Practice(CEP). 
+- Beyond my industry work, I am deeply involved in academic research, regularly publishing articles and reviewing for journals and conferences. I previously served on the editorial board of the renowned IFAC journal Control Engineering Practice (CEP).
 
 [comment]: # (Consulting)
-- Since early 2020, I have been working as a part-time technical consultant / advisor for startup tech companies.
+- Since early 2020, I have been working as a part-time technical consultant and advisor for tech startups, helping them navigate complex technical challenges.
 
 # Curriculum Vitae
 My latest portable CV can be downloaded [here]({{site.url}}/yujiang_cv.pdf). If you are interested in the source Latex code, see the projects on [Overleaf](https://www.overleaf.com/read/qhjmhvkkbckv#348ad0) and [Github](https://github.com/yu-jiang/LatexCV).
