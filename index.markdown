@@ -22,7 +22,7 @@ layout: default
 - Last by not least, I started my own consulting firm Findop Solutions LLC in early 2020, and I have been working as a part-time technical consultant / advisor for startup tech compainies.
 
 # Curriculum Vitae
-My latest portable CV can be downloaded [here]({{site.url}}/yujiang_cv.pdf/). If you are interested in the source Latex code, see the projects on [Overleaf](https://www.overleaf.com/read/qhjmhvkkbckv#348ad0) and [Github](https://github.com/yu-jiang/LatexCV).
+My latest portable CV can be downloaded [here]({{site.url}}/yujiang_cv.pdf). If you are interested in the source Latex code, see the projects on [Overleaf](https://www.overleaf.com/read/qhjmhvkkbckv#348ad0) and [Github](https://github.com/yu-jiang/LatexCV).
 
 # Professional Experiences
 - Senior Technical Scientist at [ClearMotion, Inc.](https://www.clearmotion.com), Billerica, MA, Nov 2023 - Present
