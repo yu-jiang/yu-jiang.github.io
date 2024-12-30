@@ -1,4 +1,11 @@
 /* General Styles */
+/* Ensure clicked links do not change color */
+a:link,
+a:visited {
+    color: #345ea0; /* Keep the same color as the parent element */
+    text-decoration: none; /* Maintain consistent styling */
+}
+
 body {
     font-family: "Roboto Condensed", Helvetica, Arial, sans-serif;
     background: white;
