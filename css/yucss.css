@@ -15,7 +15,7 @@ table#tlayout, table {
 
 td {
     padding: 2px 0.5em;
-    text-align: center;
+    text-align: left;
     border: none;
 }
 
@@ -26,7 +26,7 @@ td {
     top: 0;
     width: 100%;
     background: #4863A0;
-    padding: 10px 0px 10px 0px; /* Remove padding-right */
+    padding: 10px 0px; /* Remove padding-right */
     display: flex;
     justify-content: flex-end;
     font-size: 1.3em;
