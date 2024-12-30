@@ -10,16 +10,19 @@ layout: default
 # About Me
 
 [comment]: # (Educational)
-My name is Yu Jiang (姜宇). I received the PhD degree in Electrical Engineering (Control Theory) from [New York University](https://www.nyu.edu). My PhD research topic was about bringing together reinforcement learning and nonlinear control theory for various applications (see my  [publications]({{site.url}}/publications/) for many of the related work).
+- My name is Yu Jiang (姜宇). I received the PhD degree in Electrical Engineering (Control Theory) from [New York University](https://www.nyu.edu). My PhD research topic was about bringing together reinforcement learning and nonlinear control theory for various applications (see my  [publications]({{site.url}}/publications/) for many of the related work).
 
 [comment]: # (Industry)
-I have been working in industry for more than a decade. Upon graduation, I joined [MathWorks](https://www.mathworks.com), and later became a Software Engineer in the controls toolbox team. I was the Tech Lead of the controls team at the autonomous trucking company [ISEE AI](https://www.isee.ai), an MIT spinout. Currently, I am a Senior Technical Scientist in the CTO-office at [ClearMotion](https://www.clearmotion.com). My area of expertise lies in motion planning and control of intelligent vehicles.
+- I have been working in industry for more than a decade. Upon graduation, I joined [MathWorks](https://www.mathworks.com), and later became a Software Engineer in the controls toolbox team. I was the Tech Lead of the controls team at the autonomous trucking company [ISEE AI](https://www.isee.ai), an MIT spinout. Currently, I am a Senior Technical Scientist in the CTO-office at [ClearMotion](https://www.clearmotion.com). My area of expertise lies in motion planning and control of intelligent vehicles.
 
 [comment]: # (Acamedia Research)
-I am engaged in academic research and actively writing research articles, in addition to serving as a reviewer for various journals and conferences. I served on the editorial board of the prestigious IFAC journal, Control Engineering Practice(CEP). 
+- I am engaged in academic research and actively writing research articles, in addition to serving as a reviewer for various journals and conferences. I served on the editorial board of the prestigious IFAC journal, Control Engineering Practice(CEP). 
 
 [comment]: # (Consulting)
-Last by not least, I started my own consulting firm Findop Solutions LLC in early 2020, and I have been working as a part-time technical consultant / advisor for startup tech compainies.
+- Last by not least, I started my own consulting firm Findop Solutions LLC in early 2020, and I have been working as a part-time technical consultant / advisor for startup tech compainies.
+
+# Curriculum Vitae
+My latest portable CV can be downloaded [here]({{site.url}}/yujiang_cv.pdf/). If you are interested in the source Latex code, see the projects on [Overleaf](https://www.overleaf.com/read/qhjmhvkkbckv#348ad0) and [Github](https://github.com/yu-jiang/LatexCV).
 
 # Professional Experiences
 - Senior Technical Scientist at [ClearMotion, Inc.](https://www.clearmotion.com), Billerica, MA, Nov 2023 - Present
