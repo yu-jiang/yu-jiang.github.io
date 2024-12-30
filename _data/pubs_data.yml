@@ -362,12 +362,23 @@ journals:
 - title: Ultra-fast mode reversal coriolis gyroscopes
   journal: IEEE/ASME Transactions on Mechatronics
   authors: Yuchen Wang, Jiakun Hou, Chong Li, Jin Wu, <strong>Yu Jiang</strong>, Ming Liu, and John Y. Hung
-  year: accepted
+  pages: 5969-5980
+  number: 6
+  volume: 27
+  year: 2022
+
+- title : A tractor-trailer parking control scheme using adaptive dynamic programming
+  authors: Chenyong Guan and <strong>Yu Jiang</strong>
+  journal: Complex \& Intelligent Systems
+  volume : 8
+  number : 3
+  pages : 1835-1845
+  year : 2022
 
 - title: "Computer vision for road imaging and pothole detection: a state-of-the-art review of systems and algorithms"
   authors: Nachuan Ma, Jiahe Fan, Wenshuo Wang, Jin Wu, <strong>Yu Jiang</strong>, Lihua Xie, and Rui Fan
   journal: Transportation Safety and Environment  
-  year: accepted
+  year: 2022
   pages: 1-16
   links:
     - text: Preprint
@@ -551,7 +562,7 @@ journals:
   links:
     - text: Link
       link: http://www.ncbi.nlm.nih.gov/pubmed/23272916
-    - text: Research Gate
+    - text: ResearchGate
       link: "https://www.researchgate.net/publication/234009598_Movement_Duration_Fitts's_Law_and_an_Infinite-Horizon_Optimal_Feedback_Control_Model_for_Biological_Motor_Systems"
 
 - title: Computational adaptive optimal control for continuous-time linear systems with completely unknown system dynamics

@@ -19,7 +19,7 @@ layout: default
 - I am engaged in academic research and actively writing research articles, in addition to serving as a reviewer for various journals and conferences. I served on the editorial board of the prestigious IFAC journal, Control Engineering Practice(CEP). 
 
 [comment]: # (Consulting)
-- Last by not least, I started my own consulting firm Findop Solutions LLC in early 2020, and I have been working as a part-time technical consultant / advisor for startup tech compainies.
+- Since early 2020, I have been working as a part-time technical consultant / advisor for startup tech companies.
 
 # Curriculum Vitae
 My latest portable CV can be downloaded [here]({{site.url}}/yujiang_cv.pdf). If you are interested in the source Latex code, see the projects on [Overleaf](https://www.overleaf.com/read/qhjmhvkkbckv#348ad0) and [Github](https://github.com/yu-jiang/LatexCV).
