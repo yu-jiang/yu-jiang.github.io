@@ -50,6 +50,39 @@ chapters:
 ################################################# PATENTS #############################################
 #######################################################################################################
 patents:
+- title: Simultaneous localization and mapping using road surface data
+  authors: Chenyong Guan and <strong>Yu Jiang</strong>
+  number: US11933616B2
+  date: Mar. 19, 2024
+  links: 
+    - text: Google Patents
+      link: https://patents.google.com/patent/US11933616B2/en
+
+- title: Vehicle sensors arrangement and method for mapping the road profiles
+  authors: Chenyong Guan and <strong>Yu Jiang</strong>
+  number: US11884278B2
+  date: Jan. 30, 2024
+  links: 
+    - text: Google Patents
+      link: https://patents.google.com/patent/US11884278B2/en
+
+- title: Systems and methods for highlighting graphical models
+  authors: Fu Zhang, <strong>Yu Jiang</strong>, and Murali K Yeddanapudi
+  date: Dec. 26, 2023
+  number: US11853690B1
+  links:
+    - text: Google Patents
+      link: https://patents.google.com/patent/US11853690B1/en
+
+- title: Method and apparatus for motion sickness mitigation in a vehicle
+  authors: Marco Giovanardi, Mario Flores Alanis, Jack A Ekchianand, Paul A  DiZio, James R Lackner, Aditya Chandrashekhar Chetty, <strong>Yu Jiang</strong>
+  number: US20230143296A1
+  date: May, 2023
+  links: 
+    - text: Google Patents
+      link: https://patents.google.com/patent/US20230143296A1/en
+
+
 - title: Multi-lane road characterization and tracking algorithms
   authors: John Eisenmann, William Graves, <strong>Yu Jiang</strong>, Marcus Proctor, and Jack Ekchian
   number: US20220390239A1
@@ -80,11 +113,11 @@ patents:
   date: Jan 26, 2021
   links:
     - text: Google Patents
-      link: https://patents.google.com/patent/US10901432B2/
+      link: https://patents.google.com/patent/US10901432B2/en
 
 - title: Vehicle control based on localization and road data
   authors: Vijayaraghavan Sridhar, John Parker Eisenmann, <strong>Yu Jiang</strong>, David Francis Weatherwax
-  number: US20200139784A1
+  number: US11801726B2
   date: May 7, 2020
   links:
     - text: Google Patents
