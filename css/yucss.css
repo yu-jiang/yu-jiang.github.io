@@ -6,12 +6,14 @@ a:visited {
     text-decoration: none; /* Maintain consistent styling */
 }
 
-body {
+body, html {
     font-family: "Roboto Condensed", Helvetica, Arial, sans-serif;
     background: white;
     margin: 0;
-    padding: 8px 0;
+    padding: 0;
+	width: 100%;
     line-height: 1.5;
+	overflow-x: hidden; /* Prevent horizontal scrolling if needed */
 }
 
 table#tlayout, table {
