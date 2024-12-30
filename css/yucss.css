@@ -35,7 +35,7 @@ td {
     top: 0;
     width: 100%;
     background: #4863A0;
-    padding: 10px 90px; /* Remove padding-right */
+    padding: 10px 85px; /* Remove padding-right */
     display: flex;
     justify-content: flex-start;
     font-size: 1.3em;
