@@ -7,9 +7,9 @@ a:visited {
 }
 
 body {
-    font-family: "Roboto Condensed", Helvetica, Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     background: white;
-    margin: 0;
+    margin: 0 0 0.8em;
     padding: 0;
 	width: 100%;
     line-height: 1.5;
@@ -132,12 +132,6 @@ em {
 
 strong {
     font-weight: bold;
-}
-
-ul, ol {
-    list-style-position: outside;
-    line-height: 1.75;
-    margin: 0.2em 0 0.8em;
 }
 
 /* Footer */
