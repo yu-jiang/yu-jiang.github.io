@@ -23,15 +23,15 @@ email: yu.jiang@nyu.edu
 description: >- # this means to ignore newlines until "baseurl:"
   Yu Jiang's homepage
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://yu-jiang.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 # github_username:  jekyll
 
 permalink: pretty
 # Build settings
-theme: minima
-plugins:
-  - jekyll-feed
+# heme: minima
+# plugins:
+#  - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default.
