@@ -135,6 +135,14 @@ patents:
 ################################################# CONFERENCE ##########################################
 #######################################################################################################
 conferences:
+- title: On XYZ-motion planning using a full car mode
+  authors: Sayan Chakraborty and <strong>Yu Jiang</strong>
+  booktitle: 2024 American Control Conference (ACC)
+  address: Toronto, Canada
+  pages: 245-250
+  year: 2024
+  month: May 
+
 - title: On XYZ-motion planning for autonomous vehicles with active suspension systems
   authors: <strong>Yu Jiang</strong>, Billy Graves, Marco Giovanardi, Zackary Anderson
   booktitle: 2023 American Control Conference (ACC)
