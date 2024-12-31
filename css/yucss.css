@@ -26,6 +26,7 @@ td {
     padding: 2px 0.5em;
     text-align: left;
     border: none;
+	font-size: 100%;
 }
 
 /* Navigation Menu */
@@ -123,7 +124,6 @@ h2 + h3 {
 p {
     margin: 0 0 0.8em;
     padding: 0;
-	font-size: 100%;
 }
 
 em {
