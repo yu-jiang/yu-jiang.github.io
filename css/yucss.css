@@ -39,18 +39,21 @@ td {
     top: 0;
     width: 100%;
     background: #4863A0;
-    padding: 10px 9%; /* Remove padding-right */
+    padding: 12px; /* Remove padding-right */
+	padding-left: 10%;
     display: flex;
     justify-content: flex-start;
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
 
 
-#layout-menu a {
-    margin: 0 20px;
+#layout-menu a {    
+	margin-left: 0%;
+	margin-right: 2.5%;
     color: white;
     text-decoration: none;
     text-align: center;
+	font-size: 1.2em;
 }
 
 #layout-menu a.current {
@@ -68,7 +71,7 @@ td {
     text-align: left;
     vertical-align: top;
     line-height: 1.5;
-    padding: 6em 100px;
+    padding: 6em 10%;
 }
 
 #layout-blog-content {
@@ -187,7 +190,7 @@ div.blockcontent {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 1.3em;
 }
 
 .navbar a:hover, .subnav:hover .subnavbtn {

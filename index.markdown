@@ -23,9 +23,6 @@ layout: default
 [comment]: # (Consulting)
 - Since early 2020, I have been working as a part-time technical consultant and advisor for tech startups, helping them navigate complex technical challenges.
 
-# Curriculum Vitae
-My latest portable CV can be downloaded [here]({{site.url}}/yujiang_cv.pdf). If you are interested in the source Latex code, see the projects on [Overleaf](https://www.overleaf.com/read/qhjmhvkkbckv#348ad0) and [Github](https://github.com/yu-jiang/LatexCV).
-
 # Professional Experiences
 - Senior Technical Scientist at [ClearMotion, Inc.](https://www.clearmotion.com), Billerica, MA, Nov 2023 - Present
 - Principal Scientist at [ClearMotion, Inc.](https://www.clearmotion.com), Billerica, MA, May 2021 - Nov 2023
