@@ -468,6 +468,9 @@ journals:
   number: 2
   pages: 409-414
   year: 2015
+  links:
+    - text: MERL Tech Report
+      link: https://www.merl.com/publications/docs/TR2014-130.pdf
 
 - title: Decentralized and adaptive optimal control of large-scale systems with application to power systems
   journal: IEEE Transactions on Industrial Electronics
