@@ -1,0 +1,136 @@
+<hr width="100%" size="2" color="gray" noshade>
+<h3>Book</h3>
+<ol reversed>
+  {% for book in site.data.pubs_data.books %}
+  <li>
+    <p>
+      {{ book.authors}},
+      &quot;{{ book.title }}&quot;,
+      {{ book.publisher }},
+      {{ book.year }}
+    <figure>
+      <img src="{{ book.figure-src }}" alt="{{ book.figure-txt}}" width="140" height="200">
+    </figure>      
+    {% for linkItem in book.links %}   
+      <a href="{{linkItem.link}}">[{{ linkItem.text  }}]</a>&nbsp;
+    {% endfor %}  
+    </p>    
+  </li>
+  {% endfor %}
+</ol>
+
+<hr width="100%" size="2" color="gray" noshade>
+<h3>Book Chapters</h3>
+<ol reversed>
+  {% for chapter in site.data.pubs_data.chapters %}
+  <li>
+    <p>
+      {{ chapter.authors}},
+      &quot;{{ chapter.title }}&quot;,
+      in &quot;{{ chapter.booktitle }}&quot;,
+      {{chapter.editors}}, Eds,
+      {{ chapter.publisher }},
+      {{ chapter.year }}
+    <figure>
+      <img src="{{ chapter.figure-src }}" alt="{{ chapter.figure-txt}}" width="140" height="200">
+    </figure>      
+    {% for linkItem in chapter.links %}   
+      <a href="{{linkItem.link}}">[{{ linkItem.text  }}]</a>&nbsp;
+    {% endfor %}  
+    </p>    
+  </li>
+  {% endfor %}
+</ol>
+
+
+<hr width="100%" size="2" color="gray" noshade>
+<h3>Patents</h3>
+<ol reversed>
+  {% for patent in site.data.pubs_data.patents %}
+  <li>
+    <p>
+      {{ patent.authors}},
+      &quot;{{ patent.title }}&quot;,
+      {{ patent.number }},
+      {{ patent.date}}&nbsp;
+    {% for linkItem in patent.links %}   
+      <a href="{{linkItem.link}}">[{{ linkItem.text  }}]</a>&nbsp;
+    {% endfor %}  
+    </p>    
+  </li>
+  {% endfor %}
+</ol>
+
+<hr width="100%" size="2" color="gray" noshade>
+<h3>Journal Papers</h3>
+<ol reversed>
+  {% for paper in site.data.pubs_data.journals %}
+    <li>
+      <p> 
+        {{ paper.authors }},
+        &quot;{{ paper.title }}&quot;,
+        {{ paper.journal}},
+        {% if paper.volume %} vol. {{ paper.volume }}, {% endif %}
+        {% if paper.volume %} no. {{ paper.number }},  {% endif %}
+        {% if paper.pages %}
+          pp. {{ paper.pages}},
+        {% endif %}         
+        {{ paper.year}} &nbsp;
+        {% for linkItem in paper.links %}          
+          <a href="{{linkItem.link}}">[{{linkItem.text}}]</a>&nbsp;
+        {% endfor %}
+      </p>
+    </li>
+  {% endfor %}
+</ol>
+
+<hr width="100%" size="2" color="gray" noshade>
+<h3>Conference Papers</h3>
+<ol reversed>
+  {% for paper in site.data.pubs_data.conferences %}
+    <li>
+      <p> 
+        {{ paper.authors }},
+        &quot;{{ paper.title }}&quot;,
+        {{ paper.booktitle}},
+        {% if paper.pages %} pp. {{ paper.pages}}, {% endif %}
+        {% if paper.address %} {{ paper.address }}, {% endif %}
+        {% if paper.month %} {{ paper.month}}, {% endif %}
+        {% if paper.year %} {{ paper.year}} {% endif %}
+        {% if paper.note %}
+          <strong>（{{paper.note}}）</strong>
+        {% endif %}        
+        {% for linkItem in paper.links %}    
+          <a href="{{linkItem.link}}">[{{linkItem.text}}]</a>&nbsp;
+        {% endfor %}
+      </p>
+    </li>
+  {% endfor %}
+</ol>
+
+<hr width="100%" size="2" color="gray" noshade>
+<h3>PhD Dissertation</h3>
+<ul>
+<li>
+  <strong>Yu Jiang</strong>, Robust Adaptive Dynamic Programming for Continuous-Time Linear and Nonlinear Systems, 
+    Department of Electrical and Computer Engineering, New York University, 2014 <a href="{{site.url}}/papers/2014/2014YuPhdThesis.pdf">[PDF]</a>
+    <ul>
+      <li>
+        Best Ph.D. Dissertation Award in Electrical Engineering, NYU, 2015
+      </li>
+    </ul>
+</li>
+</ul>
+
+<hr width="100%" size="2" color="gray" noshade>
+<h3>External Resources</h3>
+<div class="infoblock">
+Here is a list of my online academic profiles
+  <ul>
+  <li> <a href="https://scholar.google.com/citations?user=QYanTRsAAAAJ"> Google Scholar</a> </li>
+  <li> <a href="https://www.researchgate.net/profile/Yu-Jiang"> Research Gate</a> </li>
+  <li> <a href="https://orcid.org/0000-0001-8828-7832"> ORCID</a> </li>
+  </ul>
+</div>
+
+

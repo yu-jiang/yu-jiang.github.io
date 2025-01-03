@@ -1,0 +1,602 @@
+﻿---
+#######################################################################################################
+################################################# BOOKS ###############################################
+#######################################################################################################
+books:
+- title: Robust Adaptive Dynamic Programming
+  authors: <strong>Yu Jiang</strong> and Zhong-Ping Jiang
+  publisher: John Wiley and Sons
+  year: 2017
+  figure-src: http://media.wiley.com/product_data/coverImage300/49/11191326/1119132649.jpg
+  figure-txt: RADP Book Cover
+  links:
+    - text: Amazon
+      link: https://www.amazon.com/Adaptive-Dynamic-Programming-Systems-Engineering/dp/1119132649
+    - text: Barns & Noble
+      link: https://www.barnesandnoble.com/w/robust-adaptive-dynamic-programming-yu-jiang/1124577479
+    - text: Wiley
+      link: http://www.wiley.com/WileyCDA/WileyTitle/productCd-1119132649.html
+    - text: Supplimentary Materials
+      link: https://yu-jiang.github.io/radpbook/
+
+#######################################################################################################
+################################################# BOOKS Chapters ######################################
+#######################################################################################################
+chapters:
+- title: Road Environment Perception for Safe and Comfortable Driving
+  authors: Sicen Guo, <strong>Yu Jiang</strong>, Jiahang Li, Dacheng Zhou, Shuai Su, Mohammud Junaid Bocus, Xingyi Zhu, Qijun Chen & Rui Fan
+  publisher: Springer
+  editors: R. Fan, S. Guo, and Mohammud Junaid Bocus
+  booktitle: Autonomous Driving Perception -- Fundamentals and Applications
+  year: 2023
+  figure-src: https://media.springernature.com/full/springer-static/cover-hires/book/978-981-99-4287-9?as=webp
+  figure-txt: Autonomous Driving Perception Book Cover
+  links:
+    - text: Springer
+      link: https://link.springer.com/chapter/10.1007/978-981-99-4287-9_11
+
+- title: Robust Adaptive Dynamic Programming
+  authors: <strong>Yu Jiang</strong> and Zhong-Ping Jiang
+  publisher: John Wiley and Sons
+  editors: F. L. Lewis and D. Liu
+  booktitle: Reinforcement Learning and Approximate Dynamic Programming for Feedback Control
+  year: 2013
+  figure-src: https://media.wiley.com/product_data/coverImage300/0X/11181042/111810420X.jpg
+  figure-txt: RL&ADP Book Cover
+  links:
+    - text: Wiley
+      link: https://www.wiley.com/en-us/Reinforcement+Learning+and+Approximate+Dynamic+Programming+for+Feedback+Control-p-9781118104200    
+#######################################################################################################
+################################################# PATENTS #############################################
+#######################################################################################################
+patents:
+- title: Simultaneous localization and mapping using road surface data
+  authors: Chenyong Guan and <strong>Yu Jiang</strong>
+  number: US11933616B2
+  date: Mar. 19, 2024
+  links: 
+    - text: Google Patents
+      link: https://patents.google.com/patent/US11933616B2/en
+
+- title: Vehicle sensors arrangement and method for mapping the road profiles
+  authors: Chenyong Guan and <strong>Yu Jiang</strong>
+  number: US11884278B2
+  date: Jan. 30, 2024
+  links: 
+    - text: Google Patents
+      link: https://patents.google.com/patent/US11884278B2/en
+
+- title: Systems and methods for highlighting graphical models
+  authors: Fu Zhang, <strong>Yu Jiang</strong>, and Murali K Yeddanapudi
+  date: Dec. 26, 2023
+  number: US11853690B1
+  links:
+    - text: Google Patents
+      link: https://patents.google.com/patent/US11853690B1/en
+
+- title: Method and apparatus for motion sickness mitigation in a vehicle
+  authors: Marco Giovanardi, Mario Flores Alanis, Jack A Ekchianand, Paul A  DiZio, James R Lackner, Aditya Chandrashekhar Chetty, <strong>Yu Jiang</strong>
+  number: US20230143296A1
+  date: May, 2023
+  links: 
+    - text: Google Patents
+      link: https://patents.google.com/patent/US20230143296A1/en
+
+
+- title: Multi-lane road characterization and tracking algorithms
+  authors: John Eisenmann, William Graves, <strong>Yu Jiang</strong>, Marcus Proctor, and Jack Ekchian
+  number: US20220390239A1
+  date: Dec. 8, 2022
+  links:
+    - text: Google Patents
+      link: https://patents.google.com/patent/US20220390239A1/en
+
+- title: Vehicle localization systems and methods
+  authors: Allen Chung-Hao Chen, <strong>Yu Jiang</strong>, Jack A Ekchian, Marco Giovanardi
+  number: US20220196849A1
+  date: June 23, 2022
+  links:
+    - text: Google Patents
+      link: https://patents.google.com/patent/US20220196849A1/en
+
+- title: Vehicular localization systems, methods, and controls
+  authors: <strong>Yu Jiang</strong>, Vijayaraghavan Sridhar, John Eisenmann, William Graves, and Michael W Finnegan
+  number: US20220189302A1
+  date: June 16, 2022
+  links:
+    - text: Google Patents
+      link: https://patents.google.com/patent/US20220189302A1/en
+
+- title: Road surface-based vehicle control
+  authors: Vijayaraghavan Sridhar, John Parker Eisenmann, <strong>Yu Jiang</strong>, David Francis Weatherwax
+  number: US10901432B2
+  date: Jan 26, 2021
+  links:
+    - text: Google Patents
+      link: https://patents.google.com/patent/US10901432B2/en
+
+- title: Vehicle control based on localization and road data
+  authors: Vijayaraghavan Sridhar, John Parker Eisenmann, <strong>Yu Jiang</strong>, David Francis Weatherwax
+  number: US11801726B2
+  date: May 7, 2020
+  links:
+    - text: Google Patents
+      link: https://patents.google.com/patent/US20200139784A1
+
+- title: Motion-control system for performing different tasks
+  authors: Yebin Wang, <strong>Yu Jiang</strong>, and Scott Bortoff
+  number: US9529341B2
+  date: Dec. 27, 2016
+  links:
+    - text: Google Patents
+      link: https://www.google.com/patents/US20150115860
+
+#######################################################################################################  
+################################################# CONFERENCE ##########################################
+#######################################################################################################
+conferences:
+- title: On XYZ-motion planning using a full car mode
+  authors: Sayan Chakraborty and <strong>Yu Jiang</strong>
+  booktitle: 2024 American Control Conference (ACC)
+  address: Toronto, Canada
+  pages: 245-250
+  year: 2024
+  month: May 
+
+- title: On XYZ-motion planning for autonomous vehicles with active suspension systems
+  authors: <strong>Yu Jiang</strong>, Billy Graves, Marco Giovanardi, Zackary Anderson
+  booktitle: 2023 American Control Conference (ACC)
+  address: San Diego, CA
+  pages: 3181-3186
+  year: 2023
+  month: May 
+
+- title: "Approximate path following control of robotic manipulators: An adaptive dynamic programming-based method"
+  authors: Wei Qin, Xizhen Zhao, <strong>Yu Jiang</strong>, Xinghu Wang, Dabo Xu
+  month: November
+  year: 2022
+  booktitle: 2022 China Automation Congress (CAC)
+  pages: 3909-3914
+  address: Xiamen, China
+  links:
+    - text: Link
+      link: https://ieeexplore.ieee.org/abstract/document/10055214
+
+
+- title: An adaptive approach to whole-body balance control of wheel-bipedal robot Ollie
+  authors: Jingfan Zhang,  Shuai Wang, Haitao Wang, Jie Lai, Zhenshan Bing, <strong>Yu Jiang</strong>, Yu Zheng, Zhengyou Zhang
+  booktitle: 2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
+  address: Kyoto, Japan
+  year: 2022
+  pages: 12835-12842
+  month: October
+  links:
+    - text: Link
+      link: https://ieeexplore.ieee.org/abstract/document/9981985
+
+
+
+
+- title: Terrain-based vehicle localization using an active suspension system
+  authors: <strong>Yu Jiang</strong>, John Eisenmann, Billy Graves, Vijayaraghavan Sridhar, Zackary Anderson
+  booktitle: 2022 IEEE Conference on Control Technology and Applications (CCTA)
+  pages: 752-757
+  month: August  
+  year: 2022
+  address: Trieste, Italy
+  links:
+    - text: Link
+      link: https://ieeexplore.ieee.org/abstract/document/9965977
+
+- title: Adaptive dynamic programming for nonlinear nonaffine systems
+  authors: Tao Bian, <strong>Yu Jiang</strong>, and Zhong-Ping Jiang
+  booktitle: In Proceedings of the 53rd IEEE Conference on Decision and Control
+  pages: 3603-3608
+  month: December
+  year: 2014
+  address: Los Angeles, CA
+
+- title: Global adaptive dynamic programming and global optimal control for a class of nonlinear systems
+  booktitle: In proceedings of the 2014 IFAC World Congress
+  authors: <strong>Yu Jiang</strong> and Zhong-Ping Jiang
+  address: Cape Town, South Africa
+  month: August
+  year: 2014
+  pages: 9756-9761
+
+- title: "Adaptive and optimal output feedback control of linear systems: an adaptive dynamic programming approach"
+  booktitle: In proceedings of the 11th World Congress on Intelligent Control and Automation
+  authors: Weinan Gao, <strong>Yu Jiang</strong>, Zhong-Ping Jiang, and Tianyou Chai
+  address: Shenyang, China
+  pages: 2085-2090
+  month: June  
+  year: 2014
+  links:
+    - text: Link
+      link: https://ieeexplore.ieee.org/document/7053043
+
+- title: "Robust adaptive dynamic programming for sensorimotor control with signal-dependent noise"
+  booktitle: IEEE Signal Processing in Medicine and Biology Symposium
+  authors: <strong>Yu Jiang</strong> and Zhong-Ping Jiang
+  address: Brooklyn, NY
+  month: December  
+  year: 2013
+  links:
+    - text: Link
+      link: https://ieeexplore.ieee.org/document/6736781
+
+- title: "Robust adaptive dynamic programming: recent results and applications"
+  booktitle: In Proceedings of the Chinese Control Conference
+  authors: Zhong-Ping Jiang and <strong>Yu Jiang</strong>
+  address: Xi'An, China
+  month: July
+  pages: 968-973
+  year: 2013
+  links:
+    - text: Link
+      link: https://ieeexplore.ieee.org/document/6639567
+
+- title: Robust adaptive dynamic programming for optimal nonlinear control
+  booktitle: In Proceedings of the Asian Control Conference
+  authors: <strong>Yu Jiang</strong> and Zhong-Ping Jiang
+  address: Istanbul, Turkey
+  month: June
+  year: 2013
+  note: 2013 Shimemura Young Author Award
+  links:
+    - text: Link
+      link: https://ieeexplore.ieee.org/document/6606031
+
+- title: A new approach to robust and optimal nonlinear control design
+  booktitle: IASTED Asian Conference on Modelling, Identification and Control
+  authors: <strong>Yu Jiang</strong> and Zhong-Ping Jiang
+  address: Phuket, Thailand
+  month: April
+  year: 2012
+  links:
+    - text: Research Gate
+      link: https://www.researchgate.net/publication/266632363_A_New_Approach_to_Robust_and_Optimal_Nonlinear_Control_Design
+
+- title: Adaptive dynamic programming as a theory of motor control
+  booktitle: IEEE Signal Processing in Medicine and Biology Symposium
+  authors: <strong>Yu Jiang</strong> and Zhong-Ping Jiang
+  address: New York, NY
+  month: December
+  year: 2012  
+
+- title: Robust adaptive dynamic programming for nonlinear control design
+  booktitle: In Proceedings of the IEEE Conference on Decision and Control
+  authors: <strong>Yu Jiang</strong> and Zhong-Ping Jiang
+  address: Maui, HI
+  month: December
+  year: 2012
+  pages: 1896-1901
+  links:
+    - text: Link
+      link: https://ieeexplore.ieee.org/document/6426987
+
+- title: Computational adaptive optimal control with an application to blood glucose regulation in type 1 diabetics
+  booktitle: In Proceedings of the Chinese Control Conference
+  authors: <strong>Yu Jiang</strong> and Zhong-Ping Jiang
+  address: Hefei, China
+  month: July
+  year: 2012
+  pages: 2938-2943
+  links:
+    - text: Link
+      link: https://ieeexplore.ieee.org/document/6390425
+      
+- title: "Robust adaptive dynamic programming: An overview of recent results"
+  booktitle: International Symposium on Mathematical Theory of Networks and Systems
+  authors: <strong>Yu Jiang</strong> and Zhong-Ping Jiang
+  address: Melbourne, Australia
+  month: July
+  year: 2012
+  links:
+    - text: Preprint 
+      link: https://www.researchgate.net/profile/Yu-Jiang/publication/265032822_ROBUST_ADAPTIVE_DYNAMIC_PROGRAMMING_AN_OVERVIEW_OF_RECENT_RESULTS/links/54d56f510cf2464758079689/ROBUST-ADAPTIVE-DYNAMIC-PROGRAMMING-AN-OVERVIEW-OF-RECENT-RESULTS.pdf
+
+- title: Robust approximate dynamic programming and global stabilization with nonlinear dynamic uncertainties
+  booktitle: In Proceedings of The Joint IEEE Conference on Decision and Control and European Control Conference
+  authors: <strong>Yu Jiang</strong> and Zhong-Ping Jiang
+  address: Orlando, FL
+  month: December
+  year: 2011
+  pages: 115-120
+  links:
+    - text: Link
+      link: https://ieeexplore.ieee.org/document/6160279
+
+- title: Optimal control mechanism involving the human kidney
+  booktitle: In Proceedings of The Joint IEEE Conference on Decision and Control and European Control Conference
+  authors: <strong>Yu Jiang</strong>, Srinivasa Chemudupati, Jan Morup Jorgensen, Zhong-Ping Jiang, and Charles S. Peskin
+  address: Orlando, FL
+  month: December
+  year: 2011
+  pages: 3688-3693
+  links:
+    - text: Link
+      link: https://ieeexplore.ieee.org/document/6160282
+
+- title: Approximate dynamic programming for stochastic systems with additive and multiplicative noise
+  booktitle: In Proceedings of IEEE Multi-Conference on Systems and Control
+  authors: <strong>Yu Jiang</strong> and Zhong-Ping Jiang
+  address: Denver, CO
+  month: September
+  year: 2011
+  pages: 185-190
+  links:
+    - text: Link
+      link: https://ieeexplore.ieee.org/document/6045404
+
+- title: Optimal control mechanisms in human arm reaching movements
+  booktitle: In Proceedings of the 2011 Chinese Control Conference
+  authors: <strong>Yu Jiang</strong>, Zhong-Ping Jiang, and Ning Qian
+  address: Yantai, China
+  month: July
+  year: 2011
+  pages: 1377-1382
+  links: 
+    - text: Link
+      link: https://ieeexplore.ieee.org/abstract/document/6000899
+
+- title: Approximate dynamic programming for output feedback control," Chinese Control Conference
+  booktitle: In Proceedings of the 2010 Chinese Control Connference
+  authors: <strong>Yu Jiang</strong> and Zhong-Ping Jiang
+  address: Beijing, China
+  month: September
+  year: 2010
+  pages: 5815-5820
+  links:
+    - text: Link
+      link: https://ieeexplore.ieee.org/document/5573203
+
+
+- title: Output regulation for a class of weakly minimum phase systems and its application to a nonlinear benchmark system  
+  booktitle: In Proceedings of American Control Conference
+  authors: <strong>Yu Jiang</strong> and Jie Huang
+  address: St. Louis, MI
+  month: June
+  year: 2009
+  pages: 5321-5326
+  links:
+    - text: Link
+      link: https://ieeexplore.ieee.org/document/5159972
+
+#######################################################################################################
+################################################# JOURNAL #############################################
+#######################################################################################################
+journals:
+- title: Ultra-fast mode reversal coriolis gyroscopes
+  journal: IEEE/ASME Transactions on Mechatronics
+  authors: Yuchen Wang, Jiakun Hou, Chong Li, Jin Wu, <strong>Yu Jiang</strong>, Ming Liu, and John Y. Hung
+  pages: 5969-5980
+  number: 6
+  volume: 27
+  year: 2022
+
+- title : A tractor-trailer parking control scheme using adaptive dynamic programming
+  authors: Chenyong Guan and <strong>Yu Jiang</strong>
+  journal: Complex \& Intelligent Systems
+  volume : 8
+  number : 3
+  pages : 1835-1845
+  year : 2022
+
+- title: "Computer vision for road imaging and pothole detection: a state-of-the-art review of systems and algorithms"
+  authors: Nachuan Ma, Jiahe Fan, Wenshuo Wang, Jin Wu, <strong>Yu Jiang</strong>, Lihua Xie, and Rui Fan
+  journal: Transportation Safety and Environment  
+  year: 2022
+  pages: 1-16
+  links:
+    - text: Preprint
+      link: https://arxiv.org/pdf/2204.13590.pdf
+
+- title: Spacecraft attitude control with mutating orbital rate and actuator fading under Markovian jump framework
+  authors: Chengxi Zhang, Hui-Jie Sun, Jin Wu, Zhongyang Fei, <strong>Yu Jiang</strong>, Guanhua Zhang
+  journal: Aircraft Engineering and Aerospace Technology
+  volume: 94
+  number: 5
+  pages: 667-675
+  year: 2021
+  links:
+    - text: Link
+      link: https://www.emerald.com/insight/content/doi/10.1108/AEAT-12-2020-0299/full/html
+    - text: Preprint
+      link: https://www.researchgate.net/profile/Chengxi-Zhang-5/publication/351348776_Spacecraft_Attitude_Control_with_Mutating_Orbital_Rate_and_Actuator_Fading_under_Markovian_Jump_Framework/links/611a2a021e95fe241ad50faf/Spacecraft-Attitude-Control-with-Mutating-Orbital-Rate-and-Actuator-Fading-under-Markovian-Jump-Framework.pdf
+
+- title: Constructive schemes to spacecraft attitude control with low communication frequency using sampled-data and encryption approaches
+  authors: Chengxi Zhang, Jin Wu, Yulong Huang, <strong>Yu Jiang</strong>, Ming-zhe Dai, Mingjiang Wang
+  journal: Aircraft Engineering and Aerospace Technology
+  volume: 93
+  number: 2
+  year: 2021
+  pages: 267-274
+  links:
+    - text: Link
+      link: https://www.emerald.com/insight/content/doi/10.1108/AEAT-08-2020-0157/full/html
+
+- title: Data-driven cooperative output regulation of multi-agent systems via robust adaptive dynamic programming
+  authors: Weinan Gao, <strong>Yu Jiang</strong>, Masoud Davari
+  journal: "IEEE Transactions on Circuits and Systems II: Express Briefs"
+  volume: 66
+  number: 3
+  pages: 447-451
+  year: 2018
+  links:
+    - text: Link
+      link: https://ieeexplore.ieee.org/abstract/document/8391745
+
+- title: Adaptive dynamic programming for stochastic systems with state and control dependent noise
+  authors: Tao Bian, <strong>Yu Jiang</strong>, and Zhong-Ping Jiang
+  journal: IEEE Transactions on Automatic Control
+  volume: 16
+  number: 12
+  pages: 4170-4175
+  year: 2016
+
+- title: Output-feedback adaptive optimal control of interconnected systems based on robust adaptive dynamic programming
+  authors: Weinan Gao, <strong>Yu Jiang</strong>, Zhong-Ping Jiang, and Tianyou Chai
+  journal: Automatica
+  volume: 72
+  number: 10
+  pages: 34-75
+  year: 2016
+
+- title: An iterative approach to the optimal co-design of linear control system
+  authors: <strong>Yu Jiang</strong>, Yebin Wang, Scott Bortoff, and Zhong-Ping Jiang
+  journal: International Journal of Control
+  volume: 89
+  number: 4
+  year: 2016
+  pages: 680-690
+  links:
+    - text: Link
+      link: https://www.tandfonline.com/doi/abs/10.1080/00207179.2015.1091510
+
+
+- title: Global adaptive dynamic programming for continuous-time nonlinear systems
+  authors: <strong>Yu Jiang</strong> and Zhong-Ping Jiang
+  journal: IEEE Transactions on Automatic Control
+  volume: 60
+  number: 11
+  pages: 2917-2929
+  year: 2015
+  links:
+    - text: arXiv
+      link: http://arxiv.org/abs/1401.0020
+    - text: MATLAB Code
+      link: https://github.com/yu-jiang/Paper_TAC2015_GADP
+
+
+- title: Optimal co-design of nonlinear control systems based on a modified policy iteration method
+  authors: <strong>Yu Jiang</strong>, Yebin Wang, Scott Bortoff, and Zhong-Ping Jiang
+  journal: IEEE Transactions on Neural Networks and Learning Systems
+  volume: 26
+  number: 2
+  pages: 409-414
+  year: 2015
+  links:
+    - text: MERL Tech Report
+      link: https://www.merl.com/publications/docs/TR2014-130.pdf
+
+- title: Decentralized and adaptive optimal control of large-scale systems with application to power systems
+  journal: IEEE Transactions on Industrial Electronics
+  authors: Tao Bian, <strong>Yu Jiang</strong>, and Zhong-Ping Jiang
+  volume: 62
+  number: 4
+  year: 2015
+  pages: 2439-2447
+  links:
+    - text: Link
+      link: https://ieeexplore.ieee.org/document/6873300
+
+- title: A robust adaptive dynamic programming principle for sensorimotor control with signal-dependent noise
+  journal: Journal of Systems Science and Complexity
+  authors: <strong>Yu Jiang</strong> and Zhong-Ping Jiang
+  volume: 28  
+  pages: 261-288
+  year: Feb. 2015
+
+- title: Adaptive dynamic programming as a theory of sensorimotor control
+  journal: Biological Cybernetics
+  authors: <strong>Yu Jiang</strong> and Zhong-Ping Jiang
+  volume: 108
+  number: 4
+  pages: 459-473
+  year: 2014
+  links:
+    - text: Link
+      link: http://link.springer.com/article/10.1007%2Fs00422-014-0613-7
+
+- title: Adaptive dynamic programming and optimal control of nonlinear nonaffine systems
+  authors: Tao Bian, <strong>Yu Jiang</strong>, and Zhong-Ping Jiang
+  journal: Automatica
+  volume: 50
+  number: 10
+  pages: 2624-2632
+  year: 2014
+
+- title: Robust adaptive dynamic programming and feedback stabilization of nonlinear systems
+  authors: <strong>Yu Jiang</strong> and Zhong-Ping Jiang
+  journal: IEEE Transactions on Neural Networks and Learning Systems
+  volume: 25
+  number: 5
+  pages: 882-893
+  year: 2014
+  links:
+    - text: Link
+      link: http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&arnumber=6701191
+
+- title: "Robust adaptive dynamic programming for linear and nonlinear systems: An overview"
+  authors: Zhong-Ping Jiang and <strong>Yu Jiang</strong>
+  journal: European Journal of Control
+  volume: 19
+  number: 5
+  pages: 417-425
+  year: 2013
+  links:
+    - text: Link
+      link: http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6484168
+
+- title: Robust adaptive dynamic programming with an application to power systems
+  authors: <strong>Yu Jiang</strong> and Zhong-Ping Jiang
+  journal: IEEE Transactions on Neural Networks and Learning Systems
+  volume: 24
+  number: 7
+  papges: 1150-1156
+  year: 2013
+  links:
+    - text: Link
+      link: https://ieeexplore.ieee.org/document/6484168
+      
+- title: Robust adaptive dynamic programming for large-scale systems with an application to multimachine power systems
+  authors: <strong>Yu Jiang</strong> and Zhong-Ping Jiang
+  journal: IEEE Transactions on Circuits and Systems, Part II
+  volume: 59
+  number: 10
+  papges: 693-697
+  year: 2012
+  links:
+    - text: Link
+      link: https://ieeexplore.ieee.org/document/6297448
+    - text: MATLAB Code
+      link: https://github.com/yu-jiang/Paper_TCASII2012_MMPOWER
+  
+- title: "Movement duration, Fitts's law, and an infinite-horizon optimal feedback control model for biological motor systems"
+  authors: Ning Qian, <strong>Yu Jiang</strong>, Zhong-Ping Jiang, and Pietro Mazzoni
+  journal: Neural Computation
+  volume: 25
+  number: 3
+  pages: 697-724
+  year: 2012
+  links:
+    - text: Link
+      link: http://www.ncbi.nlm.nih.gov/pubmed/23272916
+    - text: ResearchGate
+      link: "https://www.researchgate.net/publication/234009598_Movement_Duration_Fitts's_Law_and_an_Infinite-Horizon_Optimal_Feedback_Control_Model_for_Biological_Motor_Systems"
+
+- title: Computational adaptive optimal control for continuous-time linear systems with completely unknown system dynamics
+  authors: <strong>Yu Jiang</strong> and Zhong-Ping Jiang
+  journal: Automatic
+  volume: 48
+  number: 10
+  year: 2011
+  pages: 2699-2704
+  links:
+    - text: Link
+      link: https://www.sciencedirect.com/science/article/abs/pii/S0005109812003664
+    - text: MATLAB Code
+      link: https://github.com/yu-jiang/Paper_Automatica2012_CTLTI
+      
+- title: Approximate dynamic programming for optimal stationary control with control-dependent noise
+  authors: <strong>Yu Jiang</strong> and Zhong-Ping Jiang
+  journal: IEEE Transactions on Neural Networks
+  volume: 22
+  number: 12
+  year: 2011
+  pages: 2392-2398  
+  links:
+    - text: Link
+      link: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6026952
+...
