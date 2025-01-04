@@ -31,16 +31,20 @@ layout: base
 
   <div class="container">
     <div class="column left-column">
-        <h2> About Me<Menu></Menu> </h2>
-        <p>Hello, there. I am Leo Jiang, a pianist. Welcome to my website.</p>
+        <h2> Yu Jiang (姜宇) </h2>
+        <p> I am an applied mathematician with over a decade of experience in industry and a PhD in Electrical Engineering from NYU.
+            I reside in the Greater Boston suburbs with my family, enjoying both professional challenges and personal growth.</p>
         <div class="social-links">
+          <p>Contact: yu.jiang@nyu.edu </p>
           {%- include social.html -%}
         </div>
-    </div>
+      </div>
     <div class="column right-column">
-        <img src="/images/yujiang2024.jpg" alt="Yu's Image">
+        <img src="/images/yujiang2024.jpg" alt="Yu Jiang's Image">
+        <div style="text-align: right; font-size: smaller; margin: 0;">[London UK, Sep., 2024]</div>
     </div>
-  </div><hr>
+  </div>
+  <hr>
 
   <h2> Recent Activities </h2>
   {% if site.paginate %}
@@ -55,14 +59,14 @@ layout: base
     {%- endif -%}
     <ul class="post-list">
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-      {%- for post in posts -%}
+      {%- for post in posts limit:5 -%}
       <li>
         <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
+        <p>
+          <a href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
           </a>
-        </h3>
+        </p>
         {%- if site.show_excerpts -%}
           {{ post.excerpt }}
         {%- endif -%}
