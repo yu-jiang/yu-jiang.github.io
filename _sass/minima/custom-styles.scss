@@ -23,3 +23,9 @@
     height: auto;
     display: block;
 }
+
+.responsive-video {
+    width: 100%;          /* Make iframe as wide as the container */
+    aspect-ratio: 16 / 9; /* Maintain a 16:9 aspect ratio for height */
+    border: none;         /* Optional: Removes the iframe's border */
+  }
