@@ -1,2 +1,25 @@
 // Placeholder to allow defining custom styles that override everything else.
 // (Use `_sass/minima/custom-variables.scss` to override variable defaults)
+
+/* Basic styling for layout */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    @media (max-width: 768px) {
+        flex-direction: column;
+    }
+}
+
+.column {
+    flex: 1;
+    padding: 10px;
+    float: left;
+}
+
+/* Adjust styles as needed */
+.right-column img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
