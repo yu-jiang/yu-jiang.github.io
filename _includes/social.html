@@ -1,5 +1,13 @@
 <ul class="social-media-list">
-{%- for entry in site.minima.social_links -%}
-  {%- include social-item.html item = entry -%}
-{%- endfor -%}
+  {% assign sm = site.data.social-media %}
+  {% for entry in sm %}
+    {% assign key = entry | first %}
+    {% if sm[key].id %}
+      <li>
+        <a href="{{ sm[key].href }}{{ sm[key].id }}" title="{{ sm[key].title }}">
+          <i class="fa {{ sm[key].fa-icon }} fa-lg" style="color: #828282;"></i>
+        </a>
+      </li>
+    {% endif %}
+  {% endfor %}
 </ul>

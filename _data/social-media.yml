@@ -1,6 +1,23 @@
-- name: LinkedIn
-  icon: linkedin
-  url: https://linkedin.com/in/yujiangphd
-- name: GitHub
-  icon: github
-  url: https://github.com/yu-jiang
+email:
+  id: 'yu.jiang@nyu.edu'
+  href: 'mailto:'
+  title: 'Email'
+  fa-icon: 'fa-envelope-square'
+
+linkedin:
+  id: 'yujiangphd'
+  href: 'https://www.linkedin.com/'
+  title: 'Linkedin'
+  fa-icon: 'fa-linkedin'
+
+google-scholar:
+  id: 'citations?user=QYanTRsAAAAJ&hl=en'
+  href: 'https://scholar.google.com/'
+  title: 'Google Scholar'
+  fa-icon: 'fa-google'
+
+github:
+  id: 'yu-jiang'
+  href: 'https://github.com/'
+  title: 'GitHub'
+  fa-icon: 'fa-github-square'
