@@ -14,13 +14,14 @@ As a controls researcher, it’s incredibly fulfilling to see our active suspens
 - Bilibili: [https://www.bilibili.com/video/BV1kJC6YeEWg](https://www.bilibili.com/video/BV1kJC6YeEWg?share_source=copy_web)
 <iframe 
   class="responsive-video" 
-  src="//player.bilibili.com/player.html?isOutside=true&aid=113718067267559&bvid=BV1kJC6YeEWg&cid=27540391910&p=1"
+  src="//player.bilibili.com/player.html?isOutside=true&aid=113718067267559&bvid=BV1kJC6YeEWg&cid=27540391910&p=1&autoplay=0"
   title="Bilibili video player" 
   frameborder="0" 
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+  allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
   referrerpolicy="strict-origin-when-cross-origin"
   allowfullscreen>
 </iframe>
+
 
 - Youtube: [https://youtu.be/HFbvsrSoJ2w?si=k5ZKBZKDXH4sF9jP](https://youtu.be/HFbvsrSoJ2w?si=k5ZKBZKDXH4sF9jP)
 <iframe 
