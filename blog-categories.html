@@ -11,7 +11,8 @@ permalink: /blog-categories/
     
   {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
   {% for tag in site.categories %}
-  <h2 id="#{{ tag[0] | slugify }}">{{ tag[0] }}</h2>
+  <hr>
+  <h2 id="{{ tag[0] | slugify }}">{{ tag[0] }}</h2>
   <ul>
     {% for post in tag[1] %}
     <li>

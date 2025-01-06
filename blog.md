@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Updates
+title: Blog
 permalink: /blog/
 ---
 
