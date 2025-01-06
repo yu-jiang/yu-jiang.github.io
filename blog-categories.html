@@ -1,24 +1,26 @@
 ---
 layout: blog
 title: Categories
+permalink: /blog-categories/
 ---
 
 <h1> Categories </h1>
     {% for tag in site.categories %}
-    <a href="#{{ tag[0] | slugify }}" class="post-tag"> {{ tag[0] }}::</a>
+    <a href="#{{ tag[0] | slugify }}"> {{ tag[0] }}::</a>
 	{% endfor %}	
     
-  
-    {% for tag in site.categories %}
-    <h2>{{ tag[0] }}</h2>
-    <ul class="tags-expo-posts">
-      {% for post in tag[1] %}
-	  <li>      
-	  <a class="post-title" href="{{ site.baseurl }}{{ post.url }}">      
-        {{ post.title }}
-	  </a>
-      <small class="post-date">{{ post.date | date_to_string }}</small>    
-      </li>	  
-      {% endfor %}
-    </ul>
+  {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+  {% for tag in site.categories %}
+  <h2 id="#{{ tag[0] | slugify }}">{{ tag[0] }}</h2>
+  <ul>
+    {% for post in tag[1] %}
+    <li>
+      <span class="post-meta">{{ post.date | date: date_format }}</span>
+        <a href="{{ post.url | relative_url }}">
+          {{ post.title | escape }}
+        </a>
+      </span>
+    </li>
     {% endfor %}
+  </ul>
+  {% endfor %}
