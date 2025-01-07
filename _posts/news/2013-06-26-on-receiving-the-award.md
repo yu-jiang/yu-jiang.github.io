@@ -1,8 +1,7 @@
 ---
 title: On receiving the award
 category: news
-layout: news
-comments: true
+layout: post
 ---
 
 It has been a great honor and privilege to receive the Shimemura Young Author Award few hours ago at the award ceremony of the 9th Asian Control Conference. It might be the best award I could ever win with my mediocre intelligence and research ability. Therefore, I am excited and thankful.

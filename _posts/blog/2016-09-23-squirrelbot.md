@@ -1,6 +1,6 @@
 ---
 title: Squirrelbot
-layout: news
+layout: post
 category: fun projects
 meta: My weekend project, the Squirrelbot. It is a hand-made mini robot and it moves like a squirrel.
 author: Yu Jiang

@@ -2,8 +2,7 @@
 title: Two US patents applications published
 meta: Two US patent applications I worked on at ClearMotion have recently been published
 category: news
-layout: news
-comments: true
+layout: post
 tag: [Papers]
 ---
 

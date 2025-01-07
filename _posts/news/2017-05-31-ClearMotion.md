@@ -2,8 +2,7 @@
 title: Farewell MathWorks, and Hello ClearMotion
 meta: 
 category: news
-layout: news
-comments: true
+layout: post
 tag: [Career]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: A Wonderful Summer at MERL
 category: news
-layout: news
+layout: post
 ---
 
 ![charlesriver]({{site.url}}/images/posts/2013-08-charles-river.jpg){:height="360px" width="500px"}

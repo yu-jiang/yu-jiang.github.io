@@ -1,6 +1,6 @@
 ---
 title: 用MATLAB仿真机械控制系统
-layout: news
+layout: post
 category: fun projects
 meta: 
 tag: Simulink

@@ -2,7 +2,7 @@
 title: Pre-order available
 category: publications
 meta: Pre-order available
-layout: news
+layout: post
 tag: radpbook
 ---
 

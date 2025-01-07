@@ -2,7 +2,7 @@
 title: New TAC Paper
 meta: A technic note I co-authored is accepted by IEEE Transactions on Automatic Control
 category: news
-layout: news
+layout: post
 ---
 
 The paper "Adaptive dynamic

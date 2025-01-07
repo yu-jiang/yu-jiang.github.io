@@ -5,5 +5,5 @@ meta: The paper "Output-feedback adaptive optimal control of interconnected
  Y. Jiang, Z.P. Jiang, and T. Chai,
  has been accepted for publication as Brief Paper in Automatica.
 category: news
-layout: news
+layout: post
 ---

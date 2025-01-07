@@ -2,8 +2,7 @@
 title: Talk at Boston AV meetup group
 meta: I will be giving a presentation at Boston Autonomous Vehicles Meetup Group
 category: news
-layout: news
-comments: true
+layout: post
 tag: [Talks]
 ---
 

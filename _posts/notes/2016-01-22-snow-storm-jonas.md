@@ -1,10 +1,9 @@
 ---
 title: Snow storm jonas
-layout: news
-tag: jekyll
 category: notes
+layout: post
+tag: jekyll
 author: Yu Jiang
-comments: true
 ---
 
 First snow storm this year.

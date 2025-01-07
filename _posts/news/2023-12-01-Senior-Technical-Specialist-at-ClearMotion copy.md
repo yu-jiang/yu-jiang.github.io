@@ -2,8 +2,7 @@
 title: Senior Technical Specialist
 meta: I’m happy to share that I have been promoted to Senior Technical Specialist -- Advanced Research at ClearMotion
 category: news
-layout: news
-comments: true
+layout: post
 tag: [Papers]
 ---
 
