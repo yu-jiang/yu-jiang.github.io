@@ -4,7 +4,7 @@ category: news
 layout: post
 ---
 
-![charlesriver]({{site.url}}/images/posts/2013-08-charles-river.jpg){:height="360px" width="500px"}
+![charlesriver]({{site.url}}/images/blog/2013-08-charles-river.jpg){:height="360px" width="500px"}
 
 I came back from Boston to NYC last Saturday, and the new semester has started.
 
