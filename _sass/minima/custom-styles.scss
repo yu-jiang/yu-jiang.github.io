@@ -215,7 +215,7 @@
   position: absolute;
   top: var(--spacing-md);
   left: var(--spacing-md);
-  background: var(--primary-color);
+  background: var(--primary-color, #268bd2); /* Fallback color */
   color: white;
   width: 28px;
   height: 28px;
@@ -226,6 +226,18 @@
   font-size: 0.8em;
   font-weight: 600;
   z-index: 1;
+  /* Fallback styles for better compatibility */
+  min-width: 28px;
+  min-height: 28px;
+  text-align: center;
+  line-height: 28px;
+}
+
+/* Alternative styling if flexbox doesn't work */
+.publication-number:not(:has(*)) {
+  display: block;
+  text-align: center;
+  line-height: 28px;
 }
 
 .publication-content {

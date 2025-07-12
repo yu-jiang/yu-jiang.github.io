@@ -5,4 +5,5 @@
 /* sass --quiet-deps to suppress deprecation warnings */
 @import
   "minima/skins/{{ site.minima.skin | default: 'classic' }}",
-  "minima/initialize";
+  "minima/initialize",
+  "minima/custom-styles";
