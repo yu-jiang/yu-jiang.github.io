@@ -1,136 +1,199 @@
-<hr width="100%" size="2" color="gray" noshade>
-<h3>Book</h3>
-<ol reversed>
-  {% for book in site.data.pubs_data.books %}
-  <li>
-    <p>
-      {{ book.authors}},
-      &quot;{{ book.title }}&quot;,
-      {{ book.publisher }},
-      {{ book.year }}
-    <figure>
-      <img src="{{ book.figure-src }}" alt="{{ book.figure-txt}}" width="140" height="200">
-    </figure>      
-    {% for linkItem in book.links %}   
-      <a href="{{linkItem.link}}">[{{ linkItem.text  }}]</a>&nbsp;
-    {% endfor %}  
-    </p>    
-  </li>
-  {% endfor %}
-</ol>
+<div class="publications-container">
+  <!-- Book Section -->
+  <section class="publication-section">
+    <h3 class="section-title">Book</h3>
+    <div class="publication-list">
+      {% assign book_count = site.data.pubs_data.books.size %}
+      {% for book in site.data.pubs_data.books %}
+      <article class="publication-item card">
+        <div class="publication-number">{{ book_count | minus: forloop.index0 }}</div>
+        <div class="publication-content">
+          <div class="publication-text">
+            <p class="publication-authors">{{ book.authors }}</p>
+            <h4 class="publication-title">"{{ book.title }}"</h4>
+            <p class="publication-details">{{ book.publisher }}, {{ book.year }}</p>
+          </div>
+          {% if book.figure-src %}
+          <div class="publication-image">
+            <img src="{{ book.figure-src }}" alt="{{ book.figure-txt}}" class="book-cover">
+          </div>
+          {% endif %}
+        </div>
+        {% if book.links %}
+        <div class="publication-links">
+          {% for linkItem in book.links %}
+          <a href="{{linkItem.link}}" class="btn publication-link">[{{ linkItem.text }}]</a>
+          {% endfor %}
+        </div>
+        {% endif %}
+      </article>
+      {% endfor %}
+    </div>
+  </section>
 
-<hr width="100%" size="2" color="gray" noshade>
-<h3>Book Chapters</h3>
-<ol reversed>
-  {% for chapter in site.data.pubs_data.chapters %}
-  <li>
-    <p>
-      {{ chapter.authors}},
-      &quot;{{ chapter.title }}&quot;,
-      in &quot;{{ chapter.booktitle }}&quot;,
-      {{chapter.editors}}, Eds,
-      {{ chapter.publisher }},
-      {{ chapter.year }}
-    <figure>
-      <img src="{{ chapter.figure-src }}" alt="{{ chapter.figure-txt}}" width="140" height="200">
-    </figure>      
-    {% for linkItem in chapter.links %}   
-      <a href="{{linkItem.link}}">[{{ linkItem.text  }}]</a>&nbsp;
-    {% endfor %}  
-    </p>    
-  </li>
-  {% endfor %}
-</ol>
+  <!-- Book Chapters Section -->
+  <section class="publication-section">
+    <h3 class="section-title">Book Chapters</h3>
+    <div class="publication-list">
+      {% assign chapter_count = site.data.pubs_data.chapters.size %}
+      {% for chapter in site.data.pubs_data.chapters %}
+      <article class="publication-item card">
+        <div class="publication-number">{{ chapter_count | minus: forloop.index0 }}</div>
+        <div class="publication-content">
+          <div class="publication-text">
+            <p class="publication-authors">{{ chapter.authors }}</p>
+            <h4 class="publication-title">"{{ chapter.title }}"</h4>
+            <p class="publication-details">in "{{ chapter.booktitle }}", {{chapter.editors}}, Eds, {{ chapter.publisher }}, {{ chapter.year }}</p>
+          </div>
+          {% if chapter.figure-src %}
+          <div class="publication-image">
+            <img src="{{ chapter.figure-src }}" alt="{{ chapter.figure-txt}}" class="book-cover">
+          </div>
+          {% endif %}
+        </div>
+        {% if chapter.links %}
+        <div class="publication-links">
+          {% for linkItem in chapter.links %}
+          <a href="{{linkItem.link}}" class="btn publication-link">[{{ linkItem.text }}]</a>
+          {% endfor %}
+        </div>
+        {% endif %}
+      </article>
+      {% endfor %}
+    </div>
+  </section>
 
+  <!-- Patents Section -->
+  <section class="publication-section">
+    <h3 class="section-title">Patents</h3>
+    <div class="publication-list">
+      {% assign patent_count = site.data.pubs_data.patents.size %}
+      {% for patent in site.data.pubs_data.patents %}
+      <article class="publication-item card">
+        <div class="publication-number">{{ patent_count | minus: forloop.index0 }}</div>
+        <div class="publication-content">
+          <div class="publication-text">
+            <p class="publication-authors">{{ patent.authors }}</p>
+            <h4 class="publication-title">"{{ patent.title }}"</h4>
+            <p class="publication-details">{{ patent.number }}, {{ patent.date }}</p>
+          </div>
+        </div>
+        {% if patent.links %}
+        <div class="publication-links">
+          {% for linkItem in patent.links %}
+          <a href="{{linkItem.link}}" class="btn publication-link">[{{ linkItem.text }}]</a>
+          {% endfor %}
+        </div>
+        {% endif %}
+      </article>
+      {% endfor %}
+    </div>
+  </section>
 
-<hr width="100%" size="2" color="gray" noshade>
-<h3>Patents</h3>
-<ol reversed>
-  {% for patent in site.data.pubs_data.patents %}
-  <li>
-    <p>
-      {{ patent.authors}},
-      &quot;{{ patent.title }}&quot;,
-      {{ patent.number }},
-      {{ patent.date}}&nbsp;
-    {% for linkItem in patent.links %}   
-      <a href="{{linkItem.link}}">[{{ linkItem.text  }}]</a>&nbsp;
-    {% endfor %}  
-    </p>    
-  </li>
-  {% endfor %}
-</ol>
+  <!-- Journal Papers Section -->
+  <section class="publication-section">
+    <h3 class="section-title">Journal Papers</h3>
+    <div class="publication-list">
+      {% assign journal_count = site.data.pubs_data.journals.size %}
+      {% for paper in site.data.pubs_data.journals %}
+      <article class="publication-item card">
+        <div class="publication-number">{{ journal_count | minus: forloop.index0 }}</div>
+        <div class="publication-content">
+          <div class="publication-text">
+            <p class="publication-authors">{{ paper.authors }}</p>
+            <h4 class="publication-title">"{{ paper.title }}"</h4>
+            <p class="publication-details">
+              {{ paper.journal}}
+              {% if paper.volume %}, vol. {{ paper.volume }}{% endif %}
+              {% if paper.number %}, no. {{ paper.number }}{% endif %}
+              {% if paper.pages %}, pp. {{ paper.pages}}{% endif %}
+              , {{ paper.year}}
+            </p>
+          </div>
+        </div>
+        {% if paper.links %}
+        <div class="publication-links">
+          {% for linkItem in paper.links %}
+          <a href="{{linkItem.link}}" class="btn publication-link">[{{linkItem.text}}]</a>
+          {% endfor %}
+        </div>
+        {% endif %}
+      </article>
+      {% endfor %}
+    </div>
+  </section>
 
-<hr width="100%" size="2" color="gray" noshade>
-<h3>Journal Papers</h3>
-<ol reversed>
-  {% for paper in site.data.pubs_data.journals %}
-    <li>
-      <p> 
-        {{ paper.authors }},
-        &quot;{{ paper.title }}&quot;,
-        {{ paper.journal}},
-        {% if paper.volume %} vol. {{ paper.volume }}, {% endif %}
-        {% if paper.volume %} no. {{ paper.number }},  {% endif %}
-        {% if paper.pages %}
-          pp. {{ paper.pages}},
-        {% endif %}         
-        {{ paper.year}} &nbsp;
-        {% for linkItem in paper.links %}          
-          <a href="{{linkItem.link}}">[{{linkItem.text}}]</a>&nbsp;
-        {% endfor %}
-      </p>
-    </li>
-  {% endfor %}
-</ol>
+  <!-- Conference Papers Section -->
+  <section class="publication-section">
+    <h3 class="section-title">Conference Papers</h3>
+    <div class="publication-list">
+      {% assign conference_count = site.data.pubs_data.conferences.size %}
+      {% for paper in site.data.pubs_data.conferences %}
+      <article class="publication-item card">
+        <div class="publication-number">{{ conference_count | minus: forloop.index0 }}</div>
+        <div class="publication-content">
+          <div class="publication-text">
+            <p class="publication-authors">{{ paper.authors }}</p>
+            <h4 class="publication-title">"{{ paper.title }}"</h4>
+            <p class="publication-details">
+              {{ paper.booktitle}}
+              {% if paper.pages %}, pp. {{ paper.pages}}{% endif %}
+              {% if paper.address %}, {{ paper.address }}{% endif %}
+              {% if paper.month %}, {{ paper.month}}{% endif %}
+              {% if paper.year %}, {{ paper.year}}{% endif %}
+              {% if paper.note %}
+              <span class="publication-note">（{{paper.note}}）</span>
+              {% endif %}
+            </p>
+          </div>
+        </div>
+        {% if paper.links %}
+        <div class="publication-links">
+          {% for linkItem in paper.links %}
+          <a href="{{linkItem.link}}" class="btn publication-link">[{{linkItem.text}}]</a>
+          {% endfor %}
+        </div>
+        {% endif %}
+      </article>
+      {% endfor %}
+    </div>
+  </section>
 
-<hr width="100%" size="2" color="gray" noshade>
-<h3>Conference Papers</h3>
-<ol reversed>
-  {% for paper in site.data.pubs_data.conferences %}
-    <li>
-      <p> 
-        {{ paper.authors }},
-        &quot;{{ paper.title }}&quot;,
-        {{ paper.booktitle}},
-        {% if paper.pages %} pp. {{ paper.pages}}, {% endif %}
-        {% if paper.address %} {{ paper.address }}, {% endif %}
-        {% if paper.month %} {{ paper.month}}, {% endif %}
-        {% if paper.year %} {{ paper.year}} {% endif %}
-        {% if paper.note %}
-          <strong>（{{paper.note}}）</strong>
-        {% endif %}        
-        {% for linkItem in paper.links %}    
-          <a href="{{linkItem.link}}">[{{linkItem.text}}]</a>&nbsp;
-        {% endfor %}
-      </p>
-    </li>
-  {% endfor %}
-</ol>
+  <!-- PhD Dissertation Section -->
+  <section class="publication-section">
+    <h3 class="section-title">PhD Dissertation</h3>
+    <div class="publication-list">
+      <article class="publication-item card">
+        <div class="publication-number">1</div>
+        <div class="publication-content">
+          <div class="publication-text">
+            <p class="publication-authors"><strong>Yu Jiang</strong></p>
+            <h4 class="publication-title">Robust Adaptive Dynamic Programming for Continuous-Time Linear and Nonlinear Systems</h4>
+            <p class="publication-details">Department of Electrical and Computer Engineering, New York University, 2014</p>
+            <div class="publication-links">
+              <a href="{{site.url}}/papers/2014/2014YuPhdThesis.pdf" class="btn publication-link">[PDF]</a>
+            </div>
+            <div class="award-note">
+              <p><strong>Best Ph.D. Dissertation Award in Electrical Engineering, NYU, 2015</strong></p>
+            </div>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
 
-<hr width="100%" size="2" color="gray" noshade>
-<h3>PhD Dissertation</h3>
-<ul>
-<li>
-  <strong>Yu Jiang</strong>, Robust Adaptive Dynamic Programming for Continuous-Time Linear and Nonlinear Systems, 
-    Department of Electrical and Computer Engineering, New York University, 2014 <a href="{{site.url}}/papers/2014/2014YuPhdThesis.pdf">[PDF]</a>
-    <ul>
-      <li>
-        Best Ph.D. Dissertation Award in Electrical Engineering, NYU, 2015
-      </li>
-    </ul>
-</li>
-</ul>
-
-<hr width="100%" size="2" color="gray" noshade>
-<h3>External Resources</h3>
-<div class="infoblock">
-Here is a list of my online academic profiles
-  <ul>
-  <li> <a href="https://scholar.google.com/citations?user=QYanTRsAAAAJ"> Google Scholar</a> </li>
-  <li> <a href="https://www.researchgate.net/profile/Yu-Jiang"> Research Gate</a> </li>
-  <li> <a href="https://orcid.org/0000-0001-8828-7832"> ORCID</a> </li>
-  </ul>
+  <!-- External Resources Section -->
+  <section class="publication-section">
+    <h3 class="section-title">External Resources</h3>
+    <div class="external-resources card">
+      <p>Here is a list of my online academic profiles:</p>
+      <ul class="resource-links">
+        <li><a href="https://scholar.google.com/citations?user=QYanTRsAAAAJ" class="btn">Google Scholar</a></li>
+        <li><a href="https://www.researchgate.net/profile/Yu-Jiang" class="btn">Research Gate</a></li>
+        <li><a href="https://orcid.org/0000-0001-8828-7832" class="btn">ORCID</a></li>
+      </ul>
+    </div>
+  </section>
 </div>
 
 

@@ -1,6 +1,88 @@
-#!/bin/sh
+#!/usr/bin/env bash
+
+# Enhanced build script for Yu Jiang's personal website
+# This script optimizes the build process and reduces dependencies
 
 set -e
 
-echo "Building the example site..."
-bundle exec jekyll build
+echo "🚀 Building Yu Jiang's personal website..."
+
+# Check if we're in the right directory
+if [ ! -f "_config.yml" ]; then
+    echo "❌ Error: _config.yml not found. Please run this script from the website root directory."
+    exit 1
+fi
+
+# Clean previous build
+echo "🧹 Cleaning previous build..."
+rm -rf _site
+rm -rf .jekyll-cache
+
+# Install dependencies if needed
+if [ ! -d "vendor/bundle" ]; then
+    echo "📦 Installing dependencies..."
+    bundle install --path vendor/bundle
+fi
+
+# Build the site
+echo "🔨 Building site..."
+bundle exec jekyll build --incremental
+
+# Optimize images (if ImageMagick is available)
+if command -v convert &> /dev/null; then
+    echo "🖼️  Optimizing images..."
+    find _site -name "*.jpg" -o -name "*.jpeg" -o -name "*.png" | while read img; do
+        convert "$img" -strip -quality 85 "$img"
+    done
+fi
+
+# Remove Font Awesome files from build (since we're using custom icons)
+echo "🗑️  Removing Font Awesome dependencies..."
+rm -rf _site/font-awesome
+
+# Create a simple sitemap
+echo "🗺️  Creating sitemap..."
+cat > _site/sitemap.xml << EOF
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://yu-jiang.github.io/</loc>
+    <lastmod>$(date -u +%Y-%m-%d)</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://yu-jiang.github.io/publications/</loc>
+    <lastmod>$(date -u +%Y-%m-%d)</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://yu-jiang.github.io/blog/</loc>
+    <lastmod>$(date -u +%Y-%m-%d)</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://yu-jiang.github.io/cv/</loc>
+    <lastmod>$(date -u +%Y-%m-%d)</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+</urlset>
+EOF
+
+# Generate build report
+echo "📊 Generating build report..."
+BUILD_SIZE=$(du -sh _site | cut -f1)
+BUILD_TIME=$(date)
+echo "✅ Build completed successfully!"
+echo "📁 Build size: $BUILD_SIZE"
+echo "⏰ Build time: $BUILD_TIME"
+echo "🌐 Site ready for deployment!"
+
+# Optional: Start local server for testing
+if [ "$1" = "--serve" ]; then
+    echo "🌐 Starting local server..."
+    bundle exec jekyll serve --livereload
+fi
