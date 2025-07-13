@@ -4,12 +4,48 @@ title: Blog
 permalink: /blog/
 ---
 
-<h1> Recent Posts </h1>
-<ul>
-{% for notes in site.posts limit:5%}
-<li>
-  {{notes.date | date: '%D'}} <a href="{{site.baseurl}}{{ notes.url }}">{{ notes.title }}</a>
-  <p>{{notes.content}}</p>
-</li>
-{% endfor %}
-</ul>
+<div class="blog-posts">
+  <h2 class="section-title">Recent Posts</h2>
+  
+  <div class="posts-grid">
+    {% for post in site.posts limit:10 %}
+    <article class="blog-post-card card">
+      <div class="post-header">
+        <div class="post-meta">
+          <time class="post-date">{{ post.date | date: "%B %d, %Y" }}</time>
+          {% if post.category %}
+          <span class="post-category">{{ post.category }}</span>
+          {% endif %}
+        </div>
+        <h3 class="post-title">
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        </h3>
+        {% if post.meta %}
+        <p class="post-excerpt">{{ post.meta }}</p>
+        {% endif %}
+      </div>
+      
+      <div class="post-content">
+        {% if post.excerpt %}
+        <p class="post-summary">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+        {% else %}
+        <p class="post-summary">{{ post.content | strip_html | truncatewords: 30 }}</p>
+        {% endif %}
+      </div>
+      
+      <div class="post-footer">
+        <a href="{{ post.url | relative_url }}" class="read-more-btn">Read More</a>
+        {% if post.author %}
+        <span class="post-author">by {{ post.author }}</span>
+        {% endif %}
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+  
+  {% if site.posts.size > 10 %}
+  <div class="load-more">
+    <a href="{{site.url}}/blog-archive/" class="btn">View All Posts</a>
+  </div>
+  {% endif %}
+</div>

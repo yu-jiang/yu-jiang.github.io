@@ -115,6 +115,34 @@
     }
   }
 
+  /* Profile image styling */
+  .profile-image {
+    max-width: 110%; /* Align right edge with other components */
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .profile-image:hover {
+    transform: scale(1.02);
+    box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+  }
+
+  .profile-image-container {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    padding-top: 0;
+  }
+
+  .image-caption {
+    text-align: center;
+    font-size: 0.9em;
+    color: var(--text-color);
+    margin-top: 0.5rem;
+    opacity: 0.8;
+  }
+
   /* Enhanced typography */
   body {
     font-family: var(--font-family);

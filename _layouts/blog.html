@@ -1,11 +1,23 @@
 ---
 layout: base
 ---
-<h1> Posts </h1>
-<ul>
-<li><a href = "{{site.url}}/blog/">Recent</a></li>
-<li><a href = "{{site.url}}/blog-archive/">Archives</a> </li>
-<li><a href = "{{site.url}}/blog-categories/">Categories</a></li>
-<li><a href = "{{site.url}}/blog-tags/">Tags</a></li>
-</ul>
-{{ content }}
+
+<div class="blog-container">
+  <header class="blog-header">
+    <h1 class="blog-title">Blog</h1>
+    <p class="blog-description">Thoughts, projects, and updates from my work and research.</p>
+  </header>
+
+  <nav class="blog-navigation">
+    <ul class="blog-nav-list">
+      <li><a href="{{site.url}}/blog/" class="blog-nav-link active">Recent Posts</a></li>
+      <li><a href="{{site.url}}/blog-archive/" class="blog-nav-link">Archives</a></li>
+      <li><a href="{{site.url}}/blog-categories/" class="blog-nav-link">Categories</a></li>
+      <li><a href="{{site.url}}/blog-tags/" class="blog-nav-link">Tags</a></li>
+    </ul>
+  </nav>
+
+  <main class="blog-content">
+    {{ content }}
+  </main>
+</div>
