@@ -9,7 +9,7 @@ permalink: /blog-tags/
     <a href="#{{ tag[0] | slugify }}" class="post-tag">{{ tag[0] }}::</a>
     {% endfor %}
 	
-    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+    {%- assign date_format = site.date_format | default: "%b %-d, %Y" -%}
     {% for tag in site.tags %}
     <hr>
     <h2 id="{{ tag[0] | slugify }}">{{ tag[0] }}</h2>

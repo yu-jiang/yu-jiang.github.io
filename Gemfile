@@ -2,8 +2,7 @@
 
 source "https://rubygems.org"
 
-# Use the standard minima theme instead of the custom one
-gem "minima", "~> 2.5"
+# Self-contained theme (no external theme dependencies)
 
 # Jekyll and essential plugins
 gem "jekyll", "~> 4.3"

@@ -1,0 +1,161 @@
+// Self-contained base styles (extracted from minima theme)
+
+// CSS Variables for theming
+:root {
+  --primary-color: #268bd2;
+  --secondary-color: #2aa198;
+  --accent-color: #b58900;
+  --text-color: #586e75;
+  --background-color: #fdf6e3;
+  --border-color: #eee8d5;
+  --link-color: #268bd2;
+  --link-hover-color: #cb4b16;
+  
+  // Typography
+  --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  --font-size-base: 16px;
+  --line-height: 1.6;
+  
+  // Spacing
+  --spacing-xs: 0.25rem;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 1.5rem;
+  --spacing-xl: 2rem;
+  
+  // Border radius
+  --border-radius: 8px;
+  --border-radius-lg: 12px;
+  
+  // Shadows
+  --shadow-sm: 0 1px 3px rgba(0,0,0,0.12);
+  --shadow-md: 0 4px 6px rgba(0,0,0,0.1);
+  --shadow-lg: 0 10px 15px rgba(0,0,0,0.1);
+}
+
+// Dark mode support
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text-color: #93a1a1;
+    --background-color: #002b36;
+    --border-color: #073642;
+    --link-color: #268bd2;
+    --link-hover-color: #cb4b16;
+  }
+}
+
+// Basic element resets
+html {
+  font-size: 16px;
+}
+
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-family);
+  font-size: var(--font-size-base);
+  line-height: var(--line-height);
+  color: var(--text-color);
+  background: var(--background-color);
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-feature-settings: "kern" 1;
+  -moz-font-feature-settings: "kern" 1;
+  -o-font-feature-settings: "kern" 1;
+  font-feature-settings: "kern" 1;
+  font-kerning: normal;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  overflow-wrap: break-word;
+}
+
+// Typography
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  line-height: 1.3;
+  color: var(--text-color);
+  margin-top: var(--spacing-lg);
+  margin-bottom: var(--spacing-md);
+}
+
+// Links
+a {
+  color: var(--link-color);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: var(--link-hover-color);
+}
+
+// Images
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+// Lists
+ul, ol {
+  margin-left: var(--spacing-md);
+}
+
+li {
+  > ul,
+  > ol {
+    margin-bottom: 0;
+  }
+}
+
+// Code
+pre,
+code {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.9375em;
+  border: 1px solid var(--border-color);
+  border-radius: 3px;
+  background-color: var(--background-color);
+}
+
+code {
+  padding: 1px 5px;
+}
+
+pre {
+  padding: 8px 12px;
+  overflow-x: auto;
+
+  > code {
+    border: 0;
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+// Wrapper
+.wrapper {
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: var(--spacing-md);
+  padding-left: var(--spacing-md);
+}
+
+@media screen and (min-width: 768px) {
+  .wrapper {
+    padding-right: var(--spacing-lg);
+    padding-left: var(--spacing-lg);
+  }
+}
+
+// Clearfix
+%clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+} 

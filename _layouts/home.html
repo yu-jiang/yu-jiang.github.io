@@ -47,21 +47,44 @@ layout: base
       {%- endif -%}
       
       <div class="posts-grid">
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        {%- assign date_format = site.date_format | default: "%b %-d, %Y" -%}
         {%- for post in posts limit:5 -%}
-        <article class="post-card card">
-          <div class="post-meta">{{ post.date | date: date_format }}</div>
-          <h3 class="post-title">
-            <a href="{{ post.url | relative_url }}">
-              {{ post.title | escape }}
-            </a>
-          </h3>
-          {% if post.meta %}
-            <p class="post-meta-text">{{ post.meta }}</p>
+        <article class="blog-post-card card">
+          <div class="post-header">
+            <div class="post-meta">
+              <time class="post-date">{{ post.date | date: date_format }}</time>
+              {% if post.category %}
+              <span class="post-category">{{ post.category }}</span>
+              {% endif %}
+            </div>
+            <h3 class="post-title">
+              <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+            </h3>
+            {% if post.meta %}
+            <p class="post-excerpt">{{ post.meta }}</p>
+            {% endif %}
+          </div>
+          
+          <div class="post-content">
+            {% if post.excerpt %}
+            <p class="post-summary">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+            {% else %}
+            <p class="post-summary">{{ post.content | strip_html | truncatewords: 30 }}</p>
+            {% endif %}
+          </div>
+          
+          {% if post.thumbnail %}
+            <div class="post-thumbnail">
+              <img src="{{ post.thumbnail | relative_url }}" alt="Post thumbnail" loading="lazy">
+            </div>
           {% endif %}
-          {%- if site.show_excerpts -%}
-            <div class="post-excerpt">{{ post.excerpt }}</div>
-          {%- endif -%}
+          
+          <div class="post-footer">
+            <a href="{{ post.url | relative_url }}" class="read-more-btn">Read More</a>
+            {% if post.author %}
+            <span class="post-author">by {{ post.author }}</span>
+            {% endif %}
+          </div>
         </article>
         {%- endfor -%}
       </div>
