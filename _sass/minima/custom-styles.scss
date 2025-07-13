@@ -647,7 +647,7 @@ h2 {
 
 .read-more-btn {
   background: var(--primary-color);
-  color: white;
+  color: white !important;
   padding: var(--spacing-xs) var(--spacing-sm);
   border-radius: var(--border-radius);
   text-decoration: none;
@@ -656,8 +656,12 @@ h2 {
   transition: all 0.2s ease;
 }
 
-.read-more-btn:hover {
-  background: var(--link-hover-color);
+.read-more-btn:hover,
+.read-more-btn:visited,
+.read-more-btn:active,
+.read-more-btn:focus {
+  background: var(--primary-color);
+  color: white !important;
   transform: translateY(-1px);
   box-shadow: var(--shadow-sm);
 }
