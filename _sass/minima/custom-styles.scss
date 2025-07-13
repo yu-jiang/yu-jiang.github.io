@@ -402,6 +402,361 @@ h2 {
   padding-bottom: var(--spacing-sm);
 }
 
+/* CV Page Styling */
+.cv-container {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.cv-header {
+  text-align: center;
+  margin-bottom: calc(var(--spacing-xl) * 2);
+  padding: var(--spacing-xl) 0;
+  border-bottom: 3px solid var(--primary-color);
+}
+
+.cv-title {
+  font-size: 2.5em;
+  color: var(--text-color);
+  margin-bottom: var(--spacing-lg);
+  font-weight: 300;
+}
+
+.cv-download {
+  margin-top: var(--spacing-lg);
+}
+
+.cv-download-btn {
+  background: var(--primary-color);
+  color: white;
+  padding: var(--spacing-md) var(--spacing-lg);
+  font-size: 1.1em;
+  font-weight: 500;
+  border-radius: var(--border-radius);
+  transition: all 0.3s ease;
+  box-shadow: var(--shadow-md);
+}
+
+.cv-download-btn:hover {
+  background: var(--link-hover-color);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+  color: white;
+}
+
+.cv-section {
+  margin-bottom: calc(var(--spacing-xl) * 2);
+}
+
+.cv-section .section-title {
+  font-size: 2em;
+  color: var(--text-color);
+  margin-bottom: var(--spacing-xl);
+  padding-bottom: var(--spacing-md);
+  border-bottom: 2px solid var(--border-color);
+  position: relative;
+}
+
+.cv-section .section-title::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 80px;
+  height: 3px;
+  background: var(--primary-color);
+}
+
+/* Experience Grid */
+.experience-grid {
+  display: grid;
+  gap: var(--spacing-lg);
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+
+.experience-card {
+  background: var(--background-color);
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius-lg);
+  padding: var(--spacing-lg);
+  box-shadow: var(--shadow-sm);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.experience-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 100%;
+  background: var(--primary-color);
+}
+
+.experience-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+  border-color: var(--primary-color);
+}
+
+.company-header {
+  margin-bottom: var(--spacing-md);
+  padding-bottom: var(--spacing-sm);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.company-name {
+  font-size: 1.4em;
+  font-weight: 600;
+  color: var(--text-color);
+  margin-bottom: var(--spacing-xs);
+}
+
+.company-name a {
+  color: var(--link-color);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.company-name a:hover {
+  color: var(--link-hover-color);
+}
+
+.location {
+  font-size: 0.9em;
+  color: var(--text-color);
+  opacity: 0.8;
+  font-style: italic;
+}
+
+.positions {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+}
+
+.position {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--spacing-sm) 0;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.position:last-child {
+  border-bottom: none;
+}
+
+.position .title {
+  font-weight: 500;
+  color: var(--text-color);
+  font-size: 1.1em;
+}
+
+.position .duration {
+  font-size: 0.9em;
+  color: var(--text-color);
+  opacity: 0.7;
+  font-style: italic;
+}
+
+/* Card Descriptions */
+.card-description {
+  margin-top: var(--spacing-md);
+  padding-top: var(--spacing-md);
+  border-top: 1px solid var(--border-color);
+}
+
+.card-description p {
+  font-size: 0.95em;
+  line-height: 1.6;
+  color: var(--text-color);
+  margin: 0;
+  opacity: 0.9;
+  font-style: italic;
+}
+
+/* Education Grid */
+.education-grid {
+  display: grid;
+  gap: var(--spacing-lg);
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+}
+
+.education-card {
+  background: var(--background-color);
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius-lg);
+  padding: var(--spacing-lg);
+  box-shadow: var(--shadow-sm);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.education-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 100%;
+  background: var(--secondary-color);
+}
+
+.education-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+  border-color: var(--secondary-color);
+}
+
+.institution-header {
+  margin-bottom: var(--spacing-md);
+  padding-bottom: var(--spacing-sm);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.institution-name {
+  font-size: 1.3em;
+  font-weight: 600;
+  color: var(--text-color);
+  margin-bottom: var(--spacing-xs);
+}
+
+.institution-name a {
+  color: var(--link-color);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.institution-name a:hover {
+  color: var(--link-hover-color);
+}
+
+.degree {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--spacing-sm) 0;
+}
+
+.degree-type {
+  font-weight: 500;
+  color: var(--text-color);
+  font-size: 1.1em;
+}
+
+/* Awards Grid */
+.awards-grid {
+  display: grid;
+  gap: var(--spacing-lg);
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.award-card {
+  background: var(--background-color);
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius-lg);
+  padding: var(--spacing-lg);
+  box-shadow: var(--shadow-sm);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.award-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 100%;
+  background: var(--accent-color);
+}
+
+.award-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+  border-color: var(--accent-color);
+}
+
+.award-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--spacing-sm);
+  padding-bottom: var(--spacing-sm);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.award-title {
+  font-size: 1.2em;
+  font-weight: 600;
+  color: var(--text-color);
+  margin: 0;
+}
+
+.award-year {
+  background: var(--accent-color);
+  color: white;
+  padding: var(--spacing-xs) var(--spacing-sm);
+  border-radius: var(--border-radius);
+  font-size: 0.9em;
+  font-weight: 600;
+}
+
+.award-description {
+  font-size: 1em;
+  color: var(--text-color);
+  margin: var(--spacing-sm) 0;
+  font-weight: 500;
+}
+
+.award-details {
+  font-size: 0.9em;
+  color: var(--text-color);
+  opacity: 0.8;
+  margin: var(--spacing-xs) 0 0 0;
+  font-style: italic;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .experience-grid,
+  .education-grid,
+  .awards-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .cv-title {
+    font-size: 2em;
+  }
+  
+  .cv-section .section-title {
+    font-size: 1.6em;
+  }
+  
+  .position {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--spacing-xs);
+  }
+  
+  .degree {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--spacing-xs);
+  }
+  
+  .award-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--spacing-xs);
+  }
+}
+
 /* Button and link improvements */
 .btn {
   display: inline-flex;
