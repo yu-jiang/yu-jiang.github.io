@@ -4,6 +4,7 @@ meta: A New Way to Boost Vehicle Speed on Downhill Roads—Without Burning Extra
 category: news
 layout: post
 comments: true
+thumbnail: /images/blog/2025-04-13-Pumping.jfif
 ---
 # Skater-Inspired Vehicle Control Strategy Accepted to IAV 2025
 

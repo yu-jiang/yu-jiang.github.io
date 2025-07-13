@@ -10,6 +10,11 @@ description: >
 
 # Build settings
 
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
 # Use the standard minima theme
 theme: minima
 

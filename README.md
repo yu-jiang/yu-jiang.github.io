@@ -134,6 +134,39 @@ Edit `_data/pubs_data.yml` to add new publications. The enhanced layout will aut
 ### Adding Blog Posts
 Create new markdown files in `_posts/` with the format `YYYY-MM-DD-title.md`.
 
+#### Adding Thumbnails to Blog Posts
+To add thumbnail images to blog post cards, include a `thumbnail` field in the post's front matter:
+
+```yaml
+---
+title: "Your Post Title"
+meta: "Post description"
+category: news
+layout: post
+comments: true
+thumbnail: /images/blog/your-image.jpg
+---
+```
+
+**Thumbnail Guidelines:**
+- **Path**: Use relative paths starting with `/images/` (e.g., `/images/blog/photo.jpg`)
+- **Format**: Supports JPG, PNG, GIF, JFIF, and other web formats
+- **Size**: Thumbnails are automatically sized to 70% width and positioned at the bottom of the card
+- **Aspect Ratio**: Maintains 16:9 aspect ratio for consistent appearance
+- **Positioning**: Centered horizontally within the card, between content and footer
+
+**Example:**
+```yaml
+---
+title: "Pumping" Like a Skater
+meta: A New Way to Boost Vehicle Speed on Downhill Roads
+category: news
+layout: post
+comments: true
+thumbnail: /images/blog/2025-04-13-Pumping.jfif
+---
+```
+
 ### Updating Social Links
 Edit `_data/social-media.yml` to update social media links and icons.
 

@@ -33,6 +33,12 @@ permalink: /blog/
         {% endif %}
       </div>
       
+      {% if post.thumbnail %}
+        <div class="post-thumbnail">
+          <img src="{{ post.thumbnail | relative_url }}" alt="Post thumbnail" loading="lazy">
+        </div>
+      {% endif %}
+      
       <div class="post-footer">
         <a href="{{ post.url | relative_url }}" class="read-more-btn">Read More</a>
         {% if post.author %}
