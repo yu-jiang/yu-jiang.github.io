@@ -174,14 +174,14 @@
 }
 
 .publication-section {
-  margin-bottom: var(--spacing-xl);
+  margin-bottom: calc(var(--spacing-xl) * 0.7); /* Reduce section spacing */
 }
 
 .section-title {
-  font-size: 1.6em;
+  font-size: 1.4em; /* Reduced from 1.6em */
   color: var(--text-color);
-  margin-bottom: var(--spacing-lg);
-  padding-bottom: var(--spacing-sm);
+  margin-bottom: calc(var(--spacing-lg) * 0.7); /* Reduce margin */
+  padding-bottom: calc(var(--spacing-sm) * 0.7); /* Reduce padding */
   border-bottom: 2px solid var(--border-color);
   position: relative;
 }
@@ -198,7 +198,7 @@
 
 .publication-list {
   display: grid;
-  gap: var(--spacing-lg);
+  gap: calc(var(--spacing-lg) * 0.6); /* Reduce gap between items */
 }
 
 .publication-item {
@@ -213,38 +213,38 @@
 
 .publication-number {
   position: absolute;
-  top: var(--spacing-md);
-  left: var(--spacing-md);
+  top: calc(var(--spacing-md) * 0.7); /* Reduce top position */
+  left: calc(var(--spacing-md) * 0.7); /* Reduce left position */
   background: var(--primary-color, #268bd2); /* Fallback color */
   color: white;
-  width: 28px;
-  height: 28px;
+  width: 24px; /* Reduced from 28px */
+  height: 24px; /* Reduced from 28px */
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 0.8em;
+  font-size: 0.7em; /* Reduced from 0.8em */
   font-weight: 600;
   z-index: 1;
   /* Fallback styles for better compatibility */
-  min-width: 28px;
-  min-height: 28px;
+  min-width: 24px;
+  min-height: 24px;
   text-align: center;
-  line-height: 28px;
+  line-height: 24px;
 }
 
 /* Alternative styling if flexbox doesn't work */
 .publication-number:not(:has(*)) {
   display: block;
   text-align: center;
-  line-height: 28px;
+  line-height: 24px;
 }
 
 .publication-content {
   display: flex;
-  gap: var(--spacing-lg);
+  gap: calc(var(--spacing-lg) * 0.7); /* Reduce gap */
   align-items: flex-start;
-  padding-left: calc(28px + var(--spacing-md) + var(--spacing-sm));
+  padding-left: calc(24px + calc(var(--spacing-md) * 0.7) + calc(var(--spacing-sm) * 0.7)); /* Adjust for smaller number */
 }
 
 .publication-text {
@@ -254,22 +254,24 @@
 .publication-authors {
   font-weight: 500;
   color: var(--text-color);
-  margin-bottom: var(--spacing-sm);
+  margin-bottom: calc(var(--spacing-sm) * 0.6); /* Reduce margin */
+  font-size: 0.9em; /* Slightly smaller */
 }
 
 .publication-title {
-  font-size: 1.1em;
+  font-size: 1em; /* Reduced from 1.1em */
   font-weight: 600;
   color: var(--link-color);
-  margin: var(--spacing-sm) 0;
-  line-height: 1.4;
+  margin: calc(var(--spacing-sm) * 0.6) 0; /* Reduce margin */
+  line-height: 1.3; /* Tighter line height */
 }
 
 .publication-details {
-  font-size: 0.9em;
+  font-size: 0.85em; /* Reduced from 0.9em */
   color: var(--text-color);
   opacity: 0.8;
-  line-height: 1.5;
+  line-height: 1.4; /* Tighter line height */
+  margin-bottom: calc(var(--spacing-sm) * 0.6); /* Add bottom margin */
 }
 
 .publication-note {
@@ -282,7 +284,7 @@
 }
 
 .book-cover {
-  width: 120px;
+  width: 100px; /* Reduced from 120px */
   height: auto;
   border-radius: var(--border-radius);
   box-shadow: var(--shadow-sm);
@@ -295,23 +297,23 @@
 
 .publication-links {
   display: flex;
-  gap: var(--spacing-sm);
-  margin-top: var(--spacing-md);
+  gap: calc(var(--spacing-sm) * 0.7); /* Reduce gap */
+  margin-top: calc(var(--spacing-md) * 0.7); /* Reduce margin */
   flex-wrap: wrap;
 }
 
 .publication-link {
-  font-size: 0.85em;
-  padding: var(--spacing-xs) var(--spacing-sm);
+  font-size: 0.8em; /* Reduced from 0.85em */
+  padding: calc(var(--spacing-xs) * 0.8) calc(var(--spacing-sm) * 0.8); /* Reduce padding */
 }
 
 .award-note {
-  margin-top: var(--spacing-md);
-  padding: var(--spacing-sm);
+  margin-top: calc(var(--spacing-md) * 0.7); /* Reduce margin */
+  padding: calc(var(--spacing-sm) * 0.7); /* Reduce padding */
   background: var(--accent-color);
   color: white;
   border-radius: var(--border-radius);
-  font-size: 0.9em;
+  font-size: 0.85em; /* Reduced from 0.9em */
 }
 
 .award-note p {
@@ -325,9 +327,9 @@
 .resource-links {
   list-style: none;
   padding: 0;
-  margin: var(--spacing-md) 0 0 0;
+  margin: calc(var(--spacing-md) * 0.7) 0 0 0; /* Reduce margin */
   display: flex;
-  gap: var(--spacing-md);
+  gap: calc(var(--spacing-md) * 0.7); /* Reduce gap */
   flex-wrap: wrap;
 }
 

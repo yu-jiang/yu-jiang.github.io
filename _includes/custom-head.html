@@ -173,30 +173,30 @@
   /* Publication number styles - Critical for GitHub Pages */
   .publication-number {
     position: absolute;
-    top: 1rem;
-    left: 1rem;
+    top: 0.7rem; /* Reduced from 1rem */
+    left: 0.7rem; /* Reduced from 1rem */
     background: #268bd2;
     color: white;
-    width: 28px;
-    height: 28px;
+    width: 24px; /* Reduced from 28px */
+    height: 24px; /* Reduced from 28px */
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 0.8em;
+    font-size: 0.7em; /* Reduced from 0.8em */
     font-weight: 600;
     z-index: 1;
-    min-width: 28px;
-    min-height: 28px;
+    min-width: 24px;
+    min-height: 24px;
     text-align: center;
-    line-height: 28px;
+    line-height: 24px;
   }
 
   .publication-content {
     display: flex;
-    gap: 1.5rem;
+    gap: 1rem; /* Reduced from 1.5rem */
     align-items: flex-start;
-    padding-left: calc(28px + 1rem + 0.5rem);
+    padding-left: calc(24px + 0.7rem + 0.35rem); /* Adjusted for smaller number */
   }
 
   .publication-item {
@@ -207,6 +207,34 @@
   .publication-item:hover {
     transform: translateY(-2px);
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
+
+  /* Compact publication styles */
+  .publication-authors {
+    font-size: 0.9em;
+    margin-bottom: 0.3rem;
+  }
+
+  .publication-title {
+    font-size: 1em;
+    margin: 0.3rem 0;
+    line-height: 1.3;
+  }
+
+  .publication-details {
+    font-size: 0.85em;
+    line-height: 1.4;
+    margin-bottom: 0.3rem;
+  }
+
+  .publication-links {
+    gap: 0.35rem;
+    margin-top: 0.7rem;
+  }
+
+  .publication-link {
+    font-size: 0.8em;
+    padding: 0.2rem 0.4rem;
   }
 </style>
 
