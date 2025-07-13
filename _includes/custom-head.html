@@ -124,6 +124,19 @@
     transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
 
+  /* Mobile profile image adjustments */
+  @media (max-width: 768px) {
+    .profile-image {
+      max-width: 80%; /* Reduce width on mobile for better alignment */
+    }
+    
+    .profile-image-container {
+      text-align: center;
+      margin-bottom: 1.5rem;
+      padding-top: 0;
+    }
+  }
+
   .profile-image:hover {
     transform: scale(1.02);
     box-shadow: 0 10px 15px rgba(0,0,0,0.1);
@@ -199,44 +212,7 @@
     box-shadow: var(--shadow-md);
   }
 
-  /* Modern navigation button styling */
-  .site-nav .page-link {
-    display: inline-flex;
-    align-items: center;
-    padding: var(--spacing-sm) var(--spacing-md);
-    margin: 0 var(--spacing-xs);
-    border: 1px solid var(--text-color);
-    border-radius: var(--border-radius);
-    background: var(--background-color);
-    color: var(--text-color);
-    text-decoration: none;
-    font-size: 0.9em;
-    font-weight: 500;
-    transition: all 0.2s ease;
-    cursor: pointer;
-  }
 
-  .site-nav .page-link:hover {
-    background: var(--text-color);
-    color: var(--background-color);
-    transform: translateY(-1px);
-    box-shadow: var(--shadow-md);
-    border-color: var(--text-color);
-  }
-
-  .site-nav .page-link:active {
-    transform: translateY(0);
-    box-shadow: var(--shadow-sm);
-  }
-
-  /* Mobile navigation improvements */
-  @media (max-width: 768px) {
-    .site-nav .page-link {
-      display: block;
-      margin: var(--spacing-xs) 0;
-      text-align: center;
-    }
-  }
 
 
 
