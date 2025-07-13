@@ -5,10 +5,15 @@
     {% if sm[key].id %}
       <li>
         <a href="{{ sm[key].href }}{{ sm[key].id }}" title="{{ sm[key].title }}" class="social-link">
-          <svg class="icon" aria-hidden="true">
-            <use href="#icon-{{ key }}"></use>
-          </svg>
-          <span class="social-text">{{ sm[key].title }}</span>
+          {% comment %} Only show icon if it exists in the custom head {% endcomment %}
+          {% if key == 'google-scholar' %}
+            <span class="social-text">{{ sm[key].title }}</span>
+          {% else %}
+            <svg class="icon" aria-hidden="true">
+              <use href="#icon-{{ key }}"></use>
+            </svg>
+            <span class="social-text">{{ sm[key].title }}</span>
+          {% endif %}
         </a>
       </li>
     {% endif %}

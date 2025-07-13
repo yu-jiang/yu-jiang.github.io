@@ -11,7 +11,7 @@ linkedin:
 google-scholar:
   id: 'citations?user=QYanTRsAAAAJ&hl=en'
   href: 'https://scholar.google.com/'
-  title: 'Scholar'
+  title: 'Google Scholar'
 
 github:
   id: 'yu-jiang'
