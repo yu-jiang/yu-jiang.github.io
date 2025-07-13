@@ -44,4 +44,8 @@ layout: base
       <a href="{{site.url}}/blog/" class="btn">← Back to Blog</a>
     </div>
   </footer>
+
+  {%- if page.comments -%}
+    {%- include disqus_comments.html -%}
+  {%- endif -%}
 </article>

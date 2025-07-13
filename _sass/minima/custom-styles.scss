@@ -1,5 +1,29 @@
 // Enhanced custom styles with modern design patterns
 
+/* Navigation font size increase by 50% */
+.site-nav .page-link {
+  font-size: 1.5em !important; /* Increase by 50% from base size */
+  font-weight: 300; /* Thinner font weight like original */
+  transition: color 0.2s ease;
+}
+
+.site-nav .page-link:hover {
+  color: var(--link-hover-color);
+}
+
+/* Ensure site title is properly styled and linked */
+.site-title {
+  font-size: 39px !important; /* Increase by 50% from 26px */
+  font-weight: 300; /* Thinner font weight like original */
+  color: var(--link-color);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.site-title:hover {
+  color: var(--link-hover-color);
+}
+
 /* Profile and layout improvements */
 .profile-image-container {
   text-align: center;
@@ -50,8 +74,8 @@
 
 /* Recent activities section */
 .recent-activities {
-  margin-top: var(--spacing-xl);
-  padding-top: var(--spacing-xl);
+  margin-top: calc(var(--spacing-xl) * 2); /* Increased gap from horizontal line */
+  padding-top: var(--spacing-lg); /* Reduced padding to make more compact */
   border-top: 2px solid var(--border-color);
 }
 
@@ -283,7 +307,7 @@
 }
 
 .book-cover {
-  width: 100px; /* Reduced from 120px */
+  width: 200px; /* Doubled from 100px */
   height: auto;
   border-radius: var(--border-radius);
   box-shadow: var(--shadow-sm);

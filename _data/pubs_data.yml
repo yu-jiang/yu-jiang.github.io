@@ -7,7 +7,7 @@ books:
   authors: <strong>Yu Jiang</strong> and Zhong-Ping Jiang
   publisher: John Wiley and Sons
   year: 2017
-  figure-src: http://media.wiley.com/product_data/coverImage300/49/11191326/1119132649.jpg
+  figure-src: https://media.wiley.com/product_data/coverImage300/49/11191326/1119132649.jpg
   figure-txt: RADP Book Cover
   links:
     - text: Amazon
@@ -15,7 +15,7 @@ books:
     - text: Barns & Noble
       link: https://www.barnesandnoble.com/w/robust-adaptive-dynamic-programming-yu-jiang/1124577479
     - text: Wiley
-      link: http://www.wiley.com/WileyCDA/WileyTitle/productCd-1119132649.html
+      link: https://www.wiley.com/WileyCDA/WileyTitle/productCd-1119132649.html
     - text: Supplimentary Materials
       link: https://yu-jiang.github.io/radpbook/
 
