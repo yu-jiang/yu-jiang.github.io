@@ -1167,3 +1167,31 @@ h2 {
     gap: var(--spacing-sm);
   }
 }
+
+@media (max-width: 600px) {
+  html {
+    font-size: 8px !important; /* 50% of 16px base */
+  }
+  .cv-title {
+    font-size: 1.25em !important; /* 50% of desktop */
+  }
+  .cv-section .section-title {
+    font-size: 1em !important; /* 50% of desktop */
+    padding-bottom: calc(var(--spacing-md) * 0.5);
+    margin-bottom: calc(var(--spacing-xl) * 0.5);
+  }
+  .experience-card,
+  .education-card,
+  .award-card {
+    padding: calc(var(--spacing-lg) * 0.5) !important;
+  }
+  .card-description p {
+    font-size: 0.475em !important; /* 50% of 0.95em */
+  }
+  .site-title {
+    font-size: 19.5px !important; /* 50% of 39px */
+  }
+  .site-nav .page-link {
+    font-size: 0.75em !important; /* 50% of 1.5em */
+  }
+}
