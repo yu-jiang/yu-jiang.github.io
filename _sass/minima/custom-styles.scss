@@ -755,6 +755,13 @@ h2 {
     align-items: flex-start;
     gap: var(--spacing-xs);
   }
+  .location {
+    font-size: 0.7em !important;
+  }
+  .position .duration,
+  .degree .duration {
+    font-size: 0.7em !important;
+  }
 }
 
 /* Button and link improvements */
@@ -1186,12 +1193,37 @@ h2 {
     padding: calc(var(--spacing-lg) * 0.5) !important;
   }
   .card-description p {
-    font-size: 0.475em !important; /* 50% of 0.95em */
+    font-size: 0.71em !important; /* 75% of 0.95em */
+  }
+  .company-name {
+    font-size: 0.8em !important;
+  }
+  .position .title {
+    font-size: 0.72em !important;
   }
   .site-title {
     font-size: 19.5px !important; /* 50% of 39px */
   }
   .site-nav .page-link {
     font-size: 0.75em !important; /* 50% of 1.5em */
+  }
+  .institution-name {
+    font-size: 0.8em !important;
+  }
+  .degree-type {
+    font-size: 0.72em !important;
+  }
+  .award-title {
+    font-size: 0.8em !important;
+  }
+  .award-year {
+    font-size: 0.7em !important;
+  }
+  .award-description,
+  .award-details {
+    font-size: 0.72em !important;
+  }
+  .award-card .card-description p {
+    font-size: 0.71em !important;
   }
 }
