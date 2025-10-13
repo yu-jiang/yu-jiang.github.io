@@ -53,7 +53,8 @@ plugins:
 header_pages:
   - cv.md
   - publications.md
-  - blog.md
+  - projects.md
+  - updates.md
 
 # Set to `true` to show excerpts on the homepage.
 #show_excerpts: false

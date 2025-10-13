@@ -16,5 +16,6 @@ gem "kramdown-parser-gfm", "~> 1.1"
 # For Windows compatibility
 gem "webrick", "~> 1.7"
 
-# Fix Ruby 3.5.0+ deprecation warning
+# Fix Ruby 3.4.0+ compatibility issues
 gem "logger", "~> 1.5"
+gem "csv", "~> 3.2"
