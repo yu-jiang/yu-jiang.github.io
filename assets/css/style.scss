@@ -3,6 +3,6 @@
 ---
 
 /* Self-contained CSS - no external theme dependencies */
-@use "base";
-@use "layout";
-@use "minima/custom-styles";
+@import "base";
+@import "layout";
+@import "minima/custom-styles";

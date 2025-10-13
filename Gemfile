@@ -4,11 +4,11 @@ source "https://rubygems.org"
 
 # Self-contained theme (no external theme dependencies)
 
-# Jekyll and essential plugins
-gem "jekyll", "~> 4.3"
-gem "jekyll-feed", "~> 0.17"
-gem "jekyll-seo-tag", "~> 2.8"
-gem "jekyll-sitemap", "~> 1.4"
+# Use GitHub Pages gem for full compatibility
+gem "github-pages", "~> 228", group: :jekyll_plugins
+
+# Explicit plugins (these will be managed by github-pages gem)
+gem "jekyll-sitemap"
 
 # Markdown parser
 gem "kramdown-parser-gfm", "~> 1.1"

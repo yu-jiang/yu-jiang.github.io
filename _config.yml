@@ -32,6 +32,11 @@ google_site_verification: # Add verification code when you set up Google Search 
 bing_site_verification: # Add verification code when you set up Bing Webmaster Tools
 
 # Build settings
+markdown: kramdown
+highlighter: rouge
+sass:
+  style: compressed
+  sass_dir: _sass
 
 # Plugins
 plugins:
