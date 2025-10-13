@@ -3,10 +3,33 @@ author:
   name: Yu Jiang
   email: yu.jiang@nyu.edu
 
+# Site URL and SEO settings
+url: "https://yu-jiang.github.io"
+baseurl: ""
+
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
 description: >
-  Dr Jiang's personal website
+  Dr. Yu Jiang's personal website - Applied mathematician and control systems engineer. 
+  Research in autonomous vehicles, active suspension systems, and control theory. 
+  PhD from NYU, industry experience at ClearMotion.
+
+# SEO and social media settings
+keywords: "Yu Jiang, control systems, applied mathematics, autonomous vehicles, NYU, ClearMotion, active suspension, vehicle dynamics"
+twitter:
+  username: # Add your Twitter handle if you have one
+  card: summary_large_image
+
+social:
+  name: Yu Jiang
+  links:
+    - https://www.linkedin.com/in/yujiangphd
+    - https://github.com/yu-jiang
+    - https://scholar.google.com/citations?user=QYanTRsAAAAJ&hl=en
+
+# Webmaster verification (add these when you set up Google Search Console)
+google_site_verification: # Add verification code when you set up Google Search Console
+bing_site_verification: # Add verification code when you set up Bing Webmaster Tools
 
 # Build settings
 
@@ -14,6 +37,7 @@ description: >
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 # Self-contained theme (no external dependencies)
 
@@ -31,5 +55,33 @@ header_pages:
 
 # Site-specific settings
 date_format: "%b %-d, %Y"
+
+# SEO defaults for posts and pages
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Yu Jiang"
+      show_excerpts: true
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+      author: "Yu Jiang"
+
+# Exclude files from Jekyll processing
+exclude:
+  - vendor/
+  - .bundle/
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile*
+  - node_modules/
+  - script/
+  - README.md
 
 

@@ -6,4 +6,7 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 #
 layout: home
+title: Yu Jiang - Applied Mathematician & Control Systems Engineer
+description: Dr. Yu Jiang's personal website - Applied mathematician and control systems engineer. Research in autonomous vehicles, active suspension systems, and control theory.
+keywords: Yu Jiang, applied mathematics, control systems, autonomous vehicles, NYU, ClearMotion, vehicle dynamics
 ---

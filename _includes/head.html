@@ -9,6 +9,31 @@
     {%- include google-analytics.html -%}
   {%- endif -%}
 
+  <!-- Structured Data for better SEO -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Yu Jiang",
+    "jobTitle": "Applied Mathematician and Control Systems Engineer",
+    "description": "Applied mathematician and control systems engineer with expertise in autonomous vehicles and vehicle dynamics",
+    "url": "{{ site.url }}",
+    "sameAs": [
+      "https://www.linkedin.com/in/yujiangphd",
+      "https://github.com/yu-jiang",
+      "https://scholar.google.com/citations?user=QYanTRsAAAAJ&hl=en"
+    ],
+    "worksFor": {
+      "@type": "Organization",
+      "name": "ClearMotion"
+    },
+    "alumniOf": {
+      "@type": "Organization",
+      "name": "New York University"
+    }
+  }
+  </script>
+
   {%- include custom-head.html -%}
   
 </head>

@@ -1,6 +1,8 @@
 ---
 layout: base
-title: Resume/CV
+title: CV - Yu Jiang
+description: Curriculum vitae of Dr. Yu Jiang - Applied mathematician and control systems engineer with industry and academic experience.
+keywords: Yu Jiang CV, control systems engineer, applied mathematics, NYU PhD, ClearMotion
 permalink: /cv/
 ---
 

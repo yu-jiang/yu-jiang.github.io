@@ -1,0 +1,22 @@
+User-agent: *
+Allow: /
+
+# Block crawling of development/build files
+Disallow: /_site/
+Disallow: /assets/css/
+Disallow: /script/
+
+# Point to sitemap
+Sitemap: https://yu-jiang.github.io/sitemap.xml
+
+# Allow academic crawlers
+User-agent: Googlebot
+Allow: /
+
+User-agent: bingbot
+Allow: /
+
+# Google Scholar indexing
+User-agent: Google Scholar
+Allow: /publications/
+Allow: /cv.md
