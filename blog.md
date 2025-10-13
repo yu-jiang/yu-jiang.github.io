@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Blog - Yu Jiang
+title: Blog
 description: Blog posts and research updates by Dr. Yu Jiang covering control systems, autonomous vehicles, and applied mathematics.
 keywords: Yu Jiang blog, control systems, research updates, autonomous vehicles, applied mathematics
 permalink: /blog/

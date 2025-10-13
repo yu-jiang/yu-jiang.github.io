@@ -1,6 +1,6 @@
 ---
 layout: base
-title: Publications - Yu Jiang
+title: Publications
 description: Research publications by Dr. Yu Jiang in control systems, autonomous vehicles, and applied mathematics. Journal articles, conference papers, and book chapters.
 keywords: Yu Jiang publications, control systems research, autonomous vehicles, applied mathematics, vehicle dynamics, active suspension
 permalink: /publications/
