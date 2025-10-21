@@ -1995,9 +1995,9 @@ h2 {
     grid-template-columns: 1fr;
   }
 
-  /* Keep homepage featured videos tidy on small screens */
+  /* Keep homepage featured videos visible on small screens */
   .project-video-home {
-    height: 220px;
+    height: 320px;
   }
 }
 
@@ -2716,11 +2716,16 @@ h2 {
   }
   
   .project-video-home {
-    height: 200px;
+    height: 320px;
   }
   
   .project-video-home iframe {
-    height: 200px;
+    height: 320px;
+  }
+
+  /* Ensure major project cards also expand on mobile */
+  .project-card-home.major-project .project-video-home iframe {
+    height: 320px;
   }
   
   .patent-header {
