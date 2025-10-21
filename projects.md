@@ -8,155 +8,129 @@ permalink: /projects/
 
 <div class="projects-container">
   <header class="projects-header">
-    <h1>Featured Projects</h1>
-    <p class="projects-intro">Real-world applications of control systems research, showcasing the bridge between academic theory and industry innovation.</p>
+    <h1>Projects</h1>
+    <p class="projects-intro">Curated work across industry, research, and education. Each card links to a short write-up with media and technical context.</p>
   </header>
 
-  <section class="featured-projects-grid">
-    
-    <!-- NIO ET9 RoadMotion Project -->
-    <article class="project-card featured-card">
-      <div class="project-image">
-        <img src="/images/projects/et9-roadmotion.jpg" alt="NIO ET9 with RoadMotion Technology" loading="lazy">
-      </div>
-      <div class="project-content">
-        <div class="project-header">
-          <h2 class="project-title">NIO ET9 RoadMotion Technology</h2>
-          <span class="project-status">In Production</span>
-        </div>
-        <p class="project-summary">
-          ClearMotion's active suspension technology powering NIO's flagship ET9 sedan. This represents the culmination of years of research in vehicle dynamics and control systems, now delivering exceptional ride quality to consumers.
-        </p>
-        <div class="project-tech">
-          <span class="tech-tag">Active Suspension</span>
-          <span class="tech-tag">Vehicle Dynamics</span>
-          <span class="tech-tag">Control Theory</span>
-          <span class="tech-tag">Production Vehicle</span>
-        </div>
-        <div class="project-links">
-          <a href="/projects/et9-roadmotion/" class="btn btn-primary">Learn More</a>
-          <a href="https://www.nio.com/et9" class="btn btn-outline" target="_blank">View Vehicle</a>
-        </div>
-      </div>
-    </article>
-
-    <!-- ISEE Track Backing Project -->
-    <article class="project-card featured-card">
-      <div class="project-image">
-        <img src="/images/projects/isee-track-backing.jpg" alt="ISEE Autonomous Track Backing System" loading="lazy">
-      </div>
-      <div class="project-content">
-        <div class="project-header">
-          <h2 class="project-title">ISEE Autonomous Track Backing</h2>
-          <span class="project-status">Research & Development</span>
-        </div>
-        <p class="project-summary">
-          Advanced trajectory planning and control algorithms for autonomous vehicle backing maneuvers in complex yard environments. Developed sophisticated path planning that handles trailer dynamics and obstacle avoidance.
-        </p>
-        <div class="project-tech">
-          <span class="tech-tag">Path Planning</span>
-          <span class="tech-tag">Autonomous Vehicles</span>
-          <span class="tech-tag">Trailer Control</span>
-          <span class="tech-tag">MATLAB/Simulink</span>
-        </div>
-        <div class="project-links">
-          <a href="/projects/isee-track-backing/" class="btn btn-primary">Learn More</a>
-          <a href="https://www.isee.ai" class="btn btn-outline" target="_blank">ISEE Website</a>
-        </div>
-      </div>
-    </article>
-
-  </section>
-
-  </section>
-
-  <!-- Additional Featured Projects -->
-  <section class="additional-featured">
-    <h2>Additional Featured Projects</h2>
-    <div class="projects-grid-secondary">
-      
-      <article class="project-card secondary-card">
-        <div class="project-image">
-          <img src="/images/projects/squirrelbot.jpg" alt="Squirrelbot Mini Robot" loading="lazy">
-        </div>
-        <div class="project-content">
+  <!-- 1) Product-Ready Applications / Solutions -->
+  <section>
+    <h2 class="category-title">Product-Ready Applications / Solutions</h2>
+    <div class="projects-grid-3">
+      {% assign items = site.data.projects.product_ready_projects | sort: "order" %}
+      {% for project in items %}
+      <article class="project-card grid-card">
+        {% if project.media and project.media.type == "video" %}
+          <div class="project-thumb video">
+            {% if project.media.source == "linkedin" or project.media.source == "youtube" %}
+              <iframe src="{{ project.media.url }}" title="{{ project.media.title }}" frameborder="0" allowfullscreen></iframe>
+            {% endif %}
+          </div>
+        {% else %}
+          <a class="project-thumb" href="/projects/{{ project.slug }}/">
+            {% if project.media and project.media.type == "gif" %}
+              <img src="{{ project.media.url }}" alt="{{ project.media.alt | default: project.title }}">
+            {% else %}
+              <img src="{{ project.image }}" alt="{{ project.title }}">
+            {% endif %}
+          </a>
+        {% endif %}
+        <div class="project-body">
           <div class="project-header">
-            <h3 class="project-title">Squirrelbot</h3>
-            <span class="project-status">Personal Project</span>
+            <h3 class="project-title">{{ project.title }}</h3>
+            {% if project.status %}<span class="project-status">{{ project.status }}</span>{% endif %}
           </div>
-          <p class="project-summary">
-            A charming hand-made mini robot that moves like a squirrel, demonstrating biomimetic design principles and creative weekend engineering.
-          </p>
-          <div class="project-tech">
-            <span class="tech-tag">Robotics</span>
-            <span class="tech-tag">Biomimetics</span>
-            <span class="tech-tag">DIY Engineering</span>
-          </div>
+          <p class="project-summary">{{ project.summary }}</p>
           <div class="project-links">
-            <a href="/projects/squirrelbot/" class="btn btn-primary">Learn More</a>
-            <a href="https://zhuanlan.zhihu.com/p/22386141" class="btn btn-outline" target="_blank">Technical Guide</a>
+            <a href="/projects/{{ project.slug }}/" class="btn btn-primary">Learn More</a>
+            {% for link in project.links %}
+              <a href="{{ link.url }}" class="btn btn-outline" target="_blank">{{ link.title }}</a>
+            {% endfor %}
           </div>
         </div>
       </article>
-
-      <article class="project-card secondary-card">
-        <div class="project-image">
-          <img src="/images/projects/vehicle-localization.jpg" alt="Vehicle Localization Patents" loading="lazy">
-        </div>
-        <div class="project-content">
-          <div class="project-header">
-            <h3 class="project-title">Vehicle Localization Patents</h3>
-            <span class="project-status">US Patents Published</span>
-          </div>
-          <p class="project-summary">
-            Two innovative US patents for vehicular localization systems developed at ClearMotion, advancing positioning and control technology.
-          </p>
-          <div class="project-tech">
-            <span class="tech-tag">Vehicle Localization</span>
-            <span class="tech-tag">Patent Development</span>
-            <span class="tech-tag">Positioning Systems</span>
-          </div>
-          <div class="project-links">
-            <a href="/projects/vehicle-localization-patents/" class="btn btn-primary">Learn More</a>
-          </div>
-        </div>
-      </article>
-
+      {% endfor %}
     </div>
   </section>
 
-  <!-- Research Projects Section -->
-  <section class="additional-projects">
-    <h2>Research & Development Projects</h2>
-    <div class="projects-list">
-      
-      <article class="project-item">
-        <h3>Active Suspension Control Systems</h3>
-        <p>Research and development of advanced control algorithms for vehicle active suspension systems, focusing on ride quality optimization and energy efficiency.</p>
-        <div class="project-meta">
-          <span class="project-year">2020-Present</span>
-          <span class="project-org">ClearMotion</span>
+  <!-- 2) Doctoral Research -->
+  <section>
+    <h2 class="category-title">Doctoral Research</h2>
+    {% assign items = site.data.projects.doctoral_thesis | sort: "order" %}
+    {% for project in items %}
+    <article class="project-card grid-card full-width">
+      <a class="project-thumb tall" href="/projects/{{ project.slug }}/">
+        <img src="{{ project.image }}" alt="{{ project.title }}">
+      </a>
+      <div class="project-body">
+        <div class="project-header">
+          <h3 class="project-title">{{ project.title }}</h3>
+          {% if project.status %}<span class="project-status">{{ project.status }}</span>{% endif %}
+        </div>
+        <p class="project-summary">{{ project.summary }}</p>
+        <div class="project-links">
+          <a href="/projects/{{ project.slug }}/" class="btn btn-primary">Learn More</a>
+        </div>
+      </div>
+    </article>
+    {% endfor %}
+  </section>
+
+  <!-- 3) Technical Projects -->
+  <section>
+    <h2 class="category-title">Technical Projects</h2>
+    <div class="projects-grid-3">
+      {% assign items = site.data.projects.selected_technical_projects | sort: "order" %}
+      {% for project in items %}
+      <article class="project-card grid-card">
+        <a class="project-thumb" href="/projects/{{ project.slug }}/">
+          {% if project.media and project.media.type == "gif" %}
+            <img src="{{ project.media.url }}" alt="{{ project.media.alt | default: project.title }}">
+          {% else %}
+            <img src="{{ project.image }}" alt="{{ project.title }}">
+          {% endif %}
+        </a>
+        <div class="project-body">
+          <div class="project-header">
+            <h3 class="project-title">{{ project.title }}</h3>
+            {% if project.status %}<span class="project-status">{{ project.status }}</span>{% endif %}
+          </div>
+          <p class="project-summary">{{ project.summary }}</p>
+          <div class="project-links">
+            <a href="/projects/{{ project.slug }}/" class="btn btn-primary">Learn More</a>
+          </div>
         </div>
       </article>
+      {% endfor %}
+    </div>
+  </section>
 
-      <article class="project-item">
-        <h3>Autonomous Vehicle Motion Planning</h3>
-        <p>XYZ-motion planning algorithms for autonomous vehicles with active suspension systems, published in IEEE conferences.</p>
-        <div class="project-meta">
-          <span class="project-year">2022-2023</span>
-          <span class="project-org">Academic Research</span>
+  <!-- 4) Educational Projects -->
+  <section>
+    <h2 class="category-title">Educational Projects</h2>
+    <div class="projects-grid-3">
+      {% assign items = site.data.projects.educational_projects | sort: "order" %}
+      {% for project in items %}
+      <article class="project-card grid-card">
+        <a class="project-thumb" href="/projects/{{ project.slug }}/">
+          <img src="{{ project.image }}" alt="{{ project.title }}">
+        </a>
+        <div class="project-body">
+          <div class="project-header">
+            <h3 class="project-title">{{ project.title }}</h3>
+            {% if project.status %}<span class="project-status">{{ project.status }}</span>{% endif %}
+          </div>
+          <p class="project-summary">{{ project.summary }}</p>
+          <div class="project-links">
+            <a href="/projects/{{ project.slug }}/" class="btn btn-primary">Learn More</a>
+            {% if project.links %}
+              {% for link in project.links %}
+                <a href="{{ link.url }}" class="btn btn-outline" target="_blank">{{ link.title }}</a>
+              {% endfor %}
+            {% endif %}
+          </div>
         </div>
       </article>
-
-      <article class="project-item">
-        <h3>Vehicular Pumping Control Strategy</h3>
-        <p>Bio-inspired control strategy for vehicle speed enhancement using active suspension modulation, accepted to IFAC IAV 2025.</p>
-        <div class="project-meta">
-          <span class="project-year">2024-2025</span>
-          <span class="project-org">Oakland University Collaboration</span>
-        </div>
-      </article>
-
+      {% endfor %}
     </div>
   </section>
 

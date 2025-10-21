@@ -1,0 +1,135 @@
+# Project categories and metadata
+# This data file drives the projects page and homepage displays
+
+# Product-Ready Projects - Projects that have been productized and deployed
+product_ready_projects:
+  - title: "RoadMotion Technology Demo on NIO ET9"
+    slug: "roadmotion" 
+    category: "industry"
+    status: "Technology Demo"
+    status_class: "demo"
+    timeline: "2019 - Present"
+    summary: "ClearMotion's RoadMotion active suspension technology deployed as demonstration on NIO ET9 vehicle, showcasing productionizable technology for automotive partnerships."
+    description: "Advanced active suspension control systems that predict and counteract road disturbances in real-time, demonstrated on production vehicle platform."
+    tech_stack:
+      - "Active Suspension"
+      - "Vehicle Dynamics" 
+      - "Control Theory"
+      - "Demo Vehicle"
+    media:
+      type: "video"
+      source: "linkedin"
+      url: "https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7368613841292800000?compact=1"
+      title: "RoadMotion Technology Demo"
+    image: "/images/projects/et9-roadmotion.jpg"
+    links:
+      - title: "NIO ET9 Official Page"
+        url: "https://www.nio.com/et9"
+        type: "external"
+      - title: "ClearMotion Technology" 
+        url: "https://www.clearmotion.com"
+        type: "external"
+    featured: true
+    order: 1
+
+  - title: "ISEE Autonomous Trailer Backing"
+    slug: "trailer-backing"
+    category: "industry"
+    status: "Product Development"
+    status_class: "product"
+    timeline: "2019 - 2020"
+    summary: "Advanced trajectory planning for autonomous vehicle backing maneuvers in complex environments with trailer dynamics and obstacle avoidance."
+    description: "Sophisticated path planning algorithms for truck-trailer combinations during backing maneuvers, addressing non-holonomic constraints and system instability."
+    tech_stack:
+      - "Path Planning"
+      - "Autonomous Vehicles"
+      - "Trailer Control"
+      - "MATLAB/Simulink"
+    media:
+      type: "video"
+      source: "linkedin"
+      url: "https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6958900231795077120?compact=1"
+      title: "ISEE Autonomous Trailer Backing Solution"
+    image: "/images/projects/isee-track-backing.jpg"
+    links:
+      - title: "ISEE Website"
+        url: "https://www.isee.ai"
+        type: "external"
+    featured: true
+    order: 2
+
+doctoral_thesis:
+  - title: "Robust Adaptive Dynamic Programming"
+    slug: "radp-research"
+    category: "academic"
+    status: "PhD Research"
+    status_class: "research"
+    timeline: "2014 - 2019"
+    summary: "Theoretical and computational advances in robust adaptive dynamic programming for optimal control of uncertain nonlinear systems."
+    description: "Development of novel algorithms for learning-based optimal control in the presence of model uncertainties and external disturbances."
+    tech_stack:
+      - "Dynamic Programming"
+      - "Optimal Control"
+      - "Machine Learning"
+      - "Nonlinear Systems"
+    publications: 3
+    image: "https://media.wiley.com/product_data/coverImage300/49/11191326/1119132649.jpg"
+    order: 4
+
+selected_technical_projects:
+  - title: "Vehicle Dynamics Modeling"
+    slug: "vehicle-dynamics"
+    category: "technical"
+    status: "Research Paper"
+    status_class: "research"
+    timeline: "2018"
+    summary: "Advanced mathematical modeling of vehicle suspension systems for control algorithm development and validation."
+    description: "Comprehensive modeling framework for active suspension systems incorporating nonlinear dynamics and real-world constraints."
+    tech_stack:
+      - "Mathematical Modeling"
+      - "Vehicle Dynamics"
+      - "Control Systems"
+      - "MATLAB/Simulink"
+    publications: 1
+    image: "/images/projects/vehicle-dynamics.jpg"
+    order: 5
+
+educational_projects:
+  - title: "Squirrelbot Mini Robot"
+    slug: "squirrelbot"
+    category: "educational"
+    status: "Personal Project"
+    status_class: "personal"
+    timeline: "2016"
+    summary: "Open-source mini robot platform for education and experimentation with autonomous navigation and control algorithms."
+    description: "Compact robot platform featuring autonomous navigation, obstacle avoidance, and programmable behaviors for educational demonstrations."
+    tech_stack:
+      - "Robotics"
+      - "Arduino"
+      - "Autonomous Navigation"
+      - "Open Source"
+    video:
+      type: "placeholder"
+      title: "Squirrelbot in Action"
+    image: "/images/projects/squirrelbot.jpg"
+    links:
+      - title: "GitHub Repository"
+        url: "#"
+        type: "external"
+    order: 6
+
+  - title: "Interactive Simulink Blocks"
+    slug: "simulink-blocks"
+    category: "educational"
+    status: "Educational Tool"
+    status_class: "personal"
+    timeline: "2017"
+    summary: "Interactive MATLAB/Simulink blocks for teaching control systems concepts with real-time visualization and parameter tuning."
+    description: "Educational tools that make control theory concepts more accessible through interactive simulations and visual feedback."
+    tech_stack:
+      - "MATLAB/Simulink"
+      - "Educational Tools"
+      - "Control Theory"
+      - "Interactive Design"
+    image: "/images/projects/simulink-blocks.jpg"
+    order: 7

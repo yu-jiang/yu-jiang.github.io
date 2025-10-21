@@ -53,7 +53,6 @@ plugins:
 header_pages:
   - cv.md
   - publications.md
-  - projects.md
   - updates.md
 
 # Set to `true` to show excerpts on the homepage.
@@ -61,6 +60,13 @@ header_pages:
 
 # Site-specific settings
 date_format: "%b %-d, %Y"
+
+# Collections configuration
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:name/
+    sort_by: order
 
 # SEO defaults for posts and pages
 defaults:
@@ -76,6 +82,12 @@ defaults:
       type: "pages"
     values:
       layout: "page"
+      author: "Yu Jiang"
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "base"
       author: "Yu Jiang"
 
 # Exclude files from Jekyll processing

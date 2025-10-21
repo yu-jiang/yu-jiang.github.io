@@ -2,18 +2,12 @@
   <data class="u-url" href="{{ "/" | relative_url }}"></data>
   <div class="wrapper">
     <div class="footer-col-wrapper">
-      <div class="footer-col">
+      <div class="footer-col footer-center">
       {%- if site.author %}
-        <ul class="contact-list">
           {% if site.author.name -%}
-            <li class="p-name">Copyright 2014--{{ site.time  | date: '%Y'}} {{ site.author.name | escape }}</li>
+            <p class="footer-info">Copyright 2014--{{ site.time  | date: '%Y'}} {{ site.author.name | escape }} | Site last updated on {{ site.time  | date: '%B %d, %Y'}}</p>
           {% endif -%}
-        </ul>
       {%- endif %}
-      </div>
-      <div class="footer-col">
-        <p> Site last updated on {{ site.time  | date: '%B %d, %Y'}}
-        </p>
       </div>
     </div>
 

@@ -1,9 +1,10 @@
 ---
 layout: base
-title: ISEE Autonomous Track Backing System
+title: ISEE Autonomous Trailer Backing
 description: Advanced trajectory planning and control algorithms for autonomous vehicle backing maneuvers in complex yard environments, developed during research collaboration with ISEE.
 keywords: ISEE, autonomous vehicles, track backing, trajectory planning, path planning, trailer control, MATLAB Simulink
-permalink: /projects/isee-track-backing/
+permalink: /projects/trailer-backing/
+published: false
 ---
 
 <article class="project-detail">
@@ -11,9 +12,9 @@ permalink: /projects/isee-track-backing/
   <!-- Project Header -->
   <header class="project-header-detail">
     <div class="project-hero">
-      <img src="/images/projects/isee-track-backing.jpg" alt="ISEE Autonomous Track Backing System" class="project-hero-image">
+  <img src="/images/projects/isee-track-backing.jpg" alt="ISEE Autonomous Trailer Backing" class="project-hero-image">
       <div class="project-hero-overlay">
-        <h1 class="project-title-large">ISEE Autonomous Track Backing</h1>
+  <h1 class="project-title-large">ISEE Autonomous Trailer Backing</h1>
         <p class="project-subtitle">Advanced Trajectory Planning for Complex Maneuvering</p>
       </div>
     </div>
@@ -24,7 +25,7 @@ permalink: /projects/isee-track-backing/
         <span class="timeline">2019 - 2020</span>
       </div>
       <div class="project-tags-large">
-        <span class="tag-large">Path Planning</span>
+  <span class="tag-large">Control-based Planning</span>
         <span class="tag-large">Autonomous Vehicles</span>
         <span class="tag-large">Trailer Control</span>
         <span class="tag-large">MATLAB/Simulink</span>
@@ -38,26 +39,31 @@ permalink: /projects/isee-track-backing/
     <div class="content-grid">
       <div class="content-main">
         <p class="lead-paragraph">
-          The ISEE Autonomous Track Backing project focused on developing sophisticated trajectory planning algorithms for autonomous vehicles performing complex backing maneuvers in industrial yard environments. This research addressed the significant challenges of maneuvering large vehicles with trailers in tight spaces while avoiding obstacles.
+          The ISEE Autonomous Trailer Backing project focused on control‑based planning and control for autonomous vehicles performing complex backing maneuvers in industrial yard environments. The work addressed the challenges of maneuvering trucks with trailers in tight spaces while avoiding obstacles.
         </p>
         
         <p>
-          During my collaboration with ISEE, I contributed to the development of advanced path planning algorithms that could handle the unique dynamics of truck-trailer combinations during backing maneuvers. The project required deep understanding of vehicle kinematics, constraint optimization, and real-time control systems.
+          As Controls Team Lead at ISEE (isee.ai), I created the controls team and led several engineers. I developed control‑based planning methods and control algorithms tailored to the unique dynamics of truck–trailer combinations during backing maneuvers.
         </p>
         
         <h3>Technical Challenge</h3>
         <p>
-          Backing a truck with a trailer presents unique control challenges due to the non-holonomic constraints and the inherent instability of the system. The trailer tends to amplify steering inputs, making precise control extremely difficult. Our solution involved developing predictive algorithms that could plan safe, efficient trajectories while accounting for these complex dynamics.
+          Backing a truck with a trailer presents unique control challenges due to non‑holonomic constraints and inherent instability. The trailer amplifies steering inputs, making precise control difficult. Our solution used control‑based planning with models of the combination vehicle to generate feasible, safe trajectories aligned with yard constraints.
         </p>
+        
+        <div class="video-embed">
+          <h4>Autonomous Track Backing in Action</h4>
+          <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6958900231795077120?compact=1" height="399" width="504" frameborder="0" allowfullscreen="" title="ISEE Autonomous Track Backing Demo"></iframe>
+        </div>
       </div>
       
       <div class="content-sidebar">
         <div class="info-box">
           <h4>Project Details</h4>
           <ul class="project-specs">
-            <li><strong>Client:</strong> ISEE (Intelligent Systems for Enhancing Environment)</li>
+            <li><strong>Company:</strong> ISEE (isee.ai)</li>
             <li><strong>Focus:</strong> Autonomous Yard Operations</li>
-            <li><strong>My Role:</strong> Control Systems Consultant</li>
+            <li><strong>My Role:</strong> Controls Team Lead</li>
             <li><strong>Tools:</strong> MATLAB, Simulink, Control Theory</li>
             <li><strong>Duration:</strong> 2019-2020</li>
           </ul>
@@ -77,8 +83,8 @@ permalink: /projects/isee-track-backing/
       </div>
       
       <div class="contribution-item">
-        <h3>Trajectory Optimization</h3>
-        <p>Implemented advanced optimization algorithms to generate smooth, feasible trajectories that minimize maneuvering time while ensuring obstacle avoidance and system stability.</p>
+  <h3>Control‑Based Planning</h3>
+  <p>Developed control‑aware planning that generates smooth, feasible trajectories respecting non‑holonomic constraints and operational limits while ensuring obstacle avoidance.</p>
       </div>
       
       <div class="contribution-item">
@@ -99,8 +105,8 @@ permalink: /projects/isee-track-backing/
     
     <div class="innovation-list">
       <div class="innovation-item">
-        <h4>Predictive Path Planning</h4>
-        <p>Developed algorithms that could predict trailer behavior several steps ahead, enabling smoother and more efficient backing maneuvers even in tight spaces.</p>
+  <h4>Control‑Based Planning</h4>
+  <p>Developed control‑aware planning that generates smooth, feasible trajectories respecting non‑holonomic constraints and operational limits while ensuring obstacle avoidance.</p>
       </div>
       
       <div class="innovation-item">
@@ -118,26 +124,14 @@ permalink: /projects/isee-track-backing/
   <!-- Results & Impact -->
   <section class="project-section">
     <h2>Results & Impact</h2>
-    
     <div class="impact-metrics">
       <div class="metric-card">
-        <div class="metric-number">50%</div>
-        <div class="metric-label">Reduction in maneuvering time</div>
-      </div>
-      
-      <div class="metric-card">
-        <div class="metric-number">99%</div>
-        <div class="metric-label">Success rate in simulation testing</div>
-      </div>
-      
-      <div class="metric-card">
-        <div class="metric-number">Complex</div>
-        <div class="metric-label">Multi-trailer configurations supported</div>
+        <div class="metric-number">cm‑level</div>
+        <div class="metric-label">Lateral accuracy when docking/parking in customer yards</div>
       </div>
     </div>
-    
     <p class="impact-description">
-      The successful development of this trajectory planning system contributed to ISEE's autonomous yard management capabilities. The algorithms developed during this project formed the foundation for more advanced autonomous maneuvering systems, demonstrating the practical application of advanced control theory in real-world autonomous vehicle operations.
+      In customer yard operations, the system achieves centimeter‑level lateral accuracy during docking and parking.
     </p>
   </section>
 
