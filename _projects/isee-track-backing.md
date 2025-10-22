@@ -1,26 +1,71 @@
 ---
+layout: project
 title: ISEE Autonomous Trailer Backing
-slug: isee-track-backing
-category: industry
-status: Product Development
+permalink: /projects/trailer-backing/
+description: Control-based planning and control algorithms for autonomous trailer backing in complex yard environments, developed while leading the controls team at ISEE.
+keywords: ISEE, autonomous vehicles, track backing, trajectory planning, path planning, trailer control, MATLAB Simulink
+
+# Header
+hero_image: https://d2cg0jcjy9f02h.cloudfront.net/general/images/_1200x630_crop_center-center_82_none/trucks-portrait-03_2020-12-17-165236.jpg
+subtitle: Advanced Trajectory Planning for Complex Maneuvering
+status_label: Product Development
 status_class: product
 timeline: 2019 - 2020
-description: Control-based planning and control algorithms for autonomous trailer backing in complex yard environments, developed while leading the controls team at ISEE.
-summary: Control-based planning for autonomous trailer backing with trailer dynamics and obstacle avoidance in yard operations.
-keywords: ISEE, autonomous vehicles, track backing, trajectory planning, path planning, trailer control, MATLAB Simulink
-tech_stack:
-  - Path Planning
+tags:
+  - Control-based Planning
   - Autonomous Vehicles
   - Trailer Control
   - MATLAB/Simulink
+
+# Sidebar
+info_box:
+  title: Project Details
+  specs:
+    - { label: "Company", value: "ISEE (isee.ai)" }
+    - { label: "Focus", value: "Autonomous Yard Operations" }
+    - { label: "My Role", value: "Controls Team Lead" }
+    - { label: "Tools", value: "MATLAB, Simulink, Control Theory" }
+    - { label: "Duration", value: "2019-2020" }
+
+# Lead + Video
+lead: >-
+  Control‑based planning and control for autonomous vehicles performing complex backing maneuvers in industrial yards. The work addresses maneuvering trucks with trailers in tight spaces while avoiding obstacles.
+
 video:
-  type: linkedin
-  url: "https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6958900231795077120?compact=1"
-  title: "ISEE Autonomous Trailer Backing Solution"
-image: "/images/projects/isee-track-backing.jpg"
-featured: true
-order: 2
-permalink: /projects/trailer-backing/
+  title: Autonomous Track Backing in Action
+  src: https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6958900231795077120?compact=1
+  height: 399
+  width: 504
+
+# Contributions
+contributions:
+  - title: Kinematic Modeling
+    text: Developed comprehensive kinematic models for truck–trailer systems, capturing steering-to-trailer response during backing.
+  - title: Control‑Based Planning
+    text: Generated smooth, feasible trajectories that respect non‑holonomic constraints and operational limits with obstacle avoidance.
+  - title: Control Algorithm Development
+    text: Built robust controllers to execute trajectories while compensating for model uncertainties and yard disturbances.
+  - title: Simulation & Validation
+    text: Created MATLAB/Simulink models to test and validate across scenarios and conditions.
+
+# Impact
+metrics:
+  - { number: "cm‑level", label: "Lateral accuracy when docking/parking in customer yards" }
+metrics_description: >-
+  In customer yard operations, the system achieves centimeter‑level lateral accuracy during docking and parking.
+
+# Links
+external_links:
+  - url: https://www.isee.ai
+    title: ISEE Official Website
+    description: Learn about ISEE's autonomous vehicle technologies
+---
+
+As Controls Team Lead at ISEE (isee.ai), I created the controls team and led several engineers. I developed control‑based planning methods and control algorithms tailored to the unique dynamics of truck–trailer combinations during backing maneuvers.
+
+### Technical Challenge
+
+Backing a truck with a trailer presents unique control challenges due to non‑holonomic constraints and inherent instability. The trailer amplifies steering inputs, making precise control difficult. Our solution used control‑based planning with models of the combination vehicle to generate feasible, safe trajectories aligned with yard constraints.
 ---
 
 <article class="project-detail">

@@ -1,0 +1,152 @@
+---
+layout: base
+---
+
+<article class="project-detail">
+  <header class="project-header-detail">
+    {% if page.hero_image %}
+    <div class="project-hero">
+      <img src="{{ page.hero_image }}" alt="{{ page.hero_alt | default: page.title }}" class="project-hero-image">
+      <div class="project-hero-overlay">
+        <h1 class="project-title-large">{{ page.title }}</h1>
+        {% if page.subtitle %}
+        <p class="project-subtitle">{{ page.subtitle }}</p>
+        {% endif %}
+      </div>
+    </div>
+    {% else %}
+      <h1 class="project-title-large">{{ page.title }}</h1>
+      {% if page.subtitle %}
+      <p class="project-subtitle">{{ page.subtitle }}</p>
+      {% endif %}
+    {% endif %}
+
+    {% if page.status_label or page.timeline or page.tags %}
+    <div class="project-meta-bar">
+      <div class="project-status-large">
+        {% if page.status_label %}
+        <span class="status-badge {{ page.status_class }}">{{ page.status_label }}</span>
+        {% endif %}
+        {% if page.timeline %}
+        <span class="timeline">{{ page.timeline }}</span>
+        {% endif %}
+      </div>
+      {% if page.tags %}
+      <div class="project-tags-large">
+        {% for tag in page.tags %}
+        <span class="tag-large">{{ tag }}</span>
+        {% endfor %}
+      </div>
+      {% endif %}
+    </div>
+    {% endif %}
+  </header>
+
+  <section class="project-section">
+    {% if page.overview_title != false %}
+    <h2>{{ page.overview_title | default: "Project Overview" }}</h2>
+    {% endif %}
+    <div class="content-grid">
+      <div class="content-main">
+        {% if page.lead %}
+        <p class="lead-paragraph">{{ page.lead }}</p>
+        {% endif %}
+
+        {{ content }}
+
+        {% if page.video %}
+        <div class="video-embed">
+          {% if page.video.title %}<h4>{{ page.video.title }}</h4>{% endif %}
+          <iframe src="{{ page.video.src }}" height="{{ page.video.height | default: 399 }}" width="{{ page.video.width | default: 504 }}" frameborder="0" allowfullscreen title="{{ page.video.title | default: 'Embedded video' }}"></iframe>
+        </div>
+        {% endif %}
+
+        {% if page.videos %}
+        <div class="video-grid">
+          {% for v in page.videos %}
+          <div class="video-container">
+            <iframe src="{{ v.src }}" width="{{ v.width | default: 560 }}" height="{{ v.height | default: 315 }}" frameborder="0" allowfullscreen></iframe>
+            {% if v.caption %}<p class="video-caption">{{ v.caption }}</p>{% endif %}
+          </div>
+          {% endfor %}
+        </div>
+        {% endif %}
+      </div>
+
+      {% if page.info_box %}
+      <div class="content-sidebar">
+        <div class="info-box">
+          <h4>{{ page.info_box.title | default: "Project Details" }}</h4>
+          {% if page.info_box.specs %}
+          <ul class="project-specs">
+            {% for item in page.info_box.specs %}
+            <li>{% if item.label %}<strong>{{ item.label }}:</strong> {% endif %}{{ item.value }}</li>
+            {% endfor %}
+          </ul>
+          {% endif %}
+        </div>
+      </div>
+      {% endif %}
+    </div>
+  </section>
+
+  {% if page.contributions %}
+  <section class="project-section">
+    <h2>{{ page.contributions_title | default: "Technical Contributions" }}</h2>
+    <div class="tech-contributions">
+      {% for c in page.contributions %}
+      <div class="contribution-item">
+        {% if c.title %}<h3>{{ c.title }}</h3>{% endif %}
+        {% if c.text %}<p>{{ c.text }}</p>{% endif %}
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+
+  {% if page.metrics %}
+  <section class="project-section">
+    <h2>{{ page.metrics_title | default: "Impact & Results" }}</h2>
+    <div class="impact-metrics">
+      {% for m in page.metrics %}
+      <div class="metric-card">
+        <div class="metric-number">{{ m.number }}</div>
+        <div class="metric-label">{{ m.label }}</div>
+      </div>
+      {% endfor %}
+    </div>
+    {% if page.metrics_description %}
+    <p class="impact-description">{{ page.metrics_description }}</p>
+    {% endif %}
+  </section>
+  {% endif %}
+
+  {% if page.external_links %}
+  <section class="project-section">
+    <h2>{{ page.links_title | default: "Learn More" }}</h2>
+    <div class="external-links">
+      {% for l in page.external_links %}
+      <a href="{{ l.url }}" class="link-card" {% if l.external != false %}target="_blank"{% endif %}>
+        <h4>{{ l.title }}</h4>
+        {% if l.description %}<p>{{ l.description }}</p>{% endif %}
+      </a>
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+
+  {% if page.related_posts %}
+  <section class="project-section">
+    <h2>{{ page.related_title | default: "Related Posts" }}</h2>
+    <div class="related-posts">
+      {% for rp in page.related_posts %}
+      <a href="{{ rp.url }}" class="related-post-card">
+        <h4>{{ rp.title }}</h4>
+        {% if rp.excerpt %}<p>{{ rp.excerpt }}</p>{% endif %}
+        {% if rp.date %}<span class="post-date">{{ rp.date }}</span>{% endif %}
+      </a>
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+</article>
