@@ -12,10 +12,8 @@ books:
   links:
     - text: Amazon
       link: https://www.amazon.com/Adaptive-Dynamic-Programming-Systems-Engineering/dp/1119132649
-    - text: Barns & Noble
-      link: https://www.barnesandnoble.com/w/robust-adaptive-dynamic-programming-yu-jiang/1124577479
     - text: Wiley
-      link: https://www.wiley.com/WileyCDA/WileyTitle/productCd-1119132649.html
+      link: https://onlinelibrary.wiley.com/doi/book/10.1002/9781119132677
     - text: Supplimentary Materials
       link: https://yu-jiang.github.io/radpbook/
 

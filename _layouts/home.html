@@ -10,12 +10,11 @@ layout: base
   <div class="container">
     <div class="column left-column">
       <div class="card">
-        <h2>Yu Jiang (姜宇)</h2>
-        <p class="bio">I am an applied mathematician with over a decade of experience in industry and a PhD in Electrical Engineering from NYU.
-            I reside in the Greater Boston suburbs with my family, enjoying both professional challenges and personal growth.</p>
+        <h2>{{ page.home.name | default: "Yu Jiang (姜宇)" }}</h2>
+        <p class="bio">{{ page.home.bio | default: "I am an applied mathematician with over a decade of experience in industry and a PhD in Electrical Engineering from NYU. I reside in the Greater Boston suburbs with my family, enjoying both professional challenges and personal growth." }}</p>
         
         <div class="contact-info">
-          <p><strong>Contact:</strong> yu.jiang@nyu.edu</p>
+          <p><strong>Contact:</strong> {{ page.home.contact_email | default: site.author.email }}</p>
         </div>
         
         <div class="social-links">
@@ -27,21 +26,28 @@ layout: base
     <div class="column right-column">
       <div class="card">
         <div class="profile-image-container">
-          <img src="/images/yujiang2024.jpg" alt="Yu Jiang's Image" class="profile-image">
-          <div class="image-caption">[London UK, Sep., 2024]</div>
+          <img src="{{ page.home.profile_image | default: "/images/yujiang2024.jpg" }}" alt="{{ page.home.profile_image_alt | default: "Yu Jiang's Image" }}" class="profile-image">
+          <div class="image-caption">{{ page.home.profile_image_caption | default: "[London UK, Sep., 2024]" }}</div>
         </div>
       </div>
     </div>
   </div>
 
+  {% if content and content != '' %}
+  <section class="home-content">
+    {{ content }}
+  </section>
+  {% endif %}
+
   <!-- Featured Projects Section -->
+  {% if page.home.show_featured_projects != false %}
   <section class="featured-projects-home">
-    <h2>Featured Projects</h2>
+    <h2>{{ page.home.featured_projects_heading | default: "Featured Projects" }}</h2>
 
     <!-- Major Projects: RoadMotion and Trailer Backing -->
     <div class="major-projects-section">
       <div class="projects-home-grid">
-        {% assign major_projects = site.data.projects.product_ready_projects | where: "featured", true | sort: "order" | limit: 2 %}
+  {% assign major_projects = site.data.projects.product_ready_projects | where: "featured", true | sort: "order" | limit: 2 %}
         {% for project in major_projects %}
         <article class="project-card-home major-project">
           <div class="project-video-home">
@@ -68,13 +74,15 @@ layout: base
     
 
     <div class="projects-home-footer">
-      <a href="/projects/" class="btn-outline">View All Projects</a>
+      <a href="{{ page.home.projects_index_url | default: '/projects/' }}" class="btn-outline">{{ page.home.projects_button_text | default: 'View All Projects' }}</a>
     </div>
   </section>
+  {% endif %}
 
   <!-- Featured Publications Section -->
+  {% if page.home.show_featured_publications != false %}
   <section class="featured-publications-home">
-    <h2>Featured Publications</h2>
+    <h2>{{ page.home.featured_publications_heading | default: "Featured Publications" }}</h2>
     
   {% assign featured_book = site.data.pubs_data.books | first %}
 
@@ -123,13 +131,15 @@ layout: base
     </div>
 
     <div class="publications-home-footer">
-      <a href="/publications/" class="btn-outline">View All Publications</a>
+      <a href="{{ page.home.publications_index_url | default: '/publications/' }}" class="btn-outline">{{ page.home.publications_button_text | default: 'View All Publications' }}</a>
     </div>
   </section>
+  {% endif %}
 
   <!-- Recent Updates Section -->
+  {% if page.home.show_recent_updates != false %}
   <section class="recent-updates-home">
-    <h2>Recent Updates</h2>
+    <h2>{{ page.home.recent_updates_heading | default: "Recent Updates" }}</h2>
     
     {% assign news_posts = site.categories.news | sort: 'date' | reverse %}
     <div class="updates-grid">
@@ -149,8 +159,9 @@ layout: base
     </div>
 
     <div class="updates-home-footer">
-      <a href="/updates/" class="btn-outline">View All Updates</a>
+      <a href="{{ page.home.updates_index_url | default: '/updates/' }}" class="btn-outline">{{ page.home.updates_button_text | default: 'View All Updates' }}</a>
     </div>
   </section>
+  {% endif %}
 
 </div>
