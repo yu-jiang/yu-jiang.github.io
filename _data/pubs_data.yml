@@ -128,14 +128,6 @@ patents:
     - text: Google Patents
       link: https://patents.google.com/patent/US11801726B2/en
 
-- title: Method and apparatus for motion sickness mitigation in a vehicle
-  authors: Marco Giovanardi, Mario Flores Alanis, Jack A Ekchianand, Paul A  DiZio, James R Lackner, Aditya Chandrashekhar Chetty, <strong>Yu Jiang</strong>
-  number: US20230143296A1
-  date: May, 2023
-  links:
-    - text: Google Patents
-      link: https://patents.google.com/patent/US20230143296A1/en
-
 - title: Multi-lane road characterization and tracking algorithms
   authors: John Eisenmann, William Graves, <strong>Yu Jiang</strong>, Marcus Proctor, and Jack Ekchian
   number: US20220390239A1
@@ -151,14 +143,6 @@ patents:
   links:
     - text: Google Patents
       link: https://patents.google.com/patent/US20220196849A1/en
-
-- title: Vehicular localization systems, methods, and controls
-  authors: <strong>Yu Jiang</strong>, Vijayaraghavan Sridhar, John Eisenmann, William Graves, and Michael W Finnegan
-  number: US20220189302A1
-  date: June 16, 2022
-  links:
-    - text: Google Patents
-      link: https://patents.google.com/patent/US20220189302A1/en
 
 - title: Road surface-based vehicle control
   authors: Vijayaraghavan Sridhar, John Parker Eisenmann, <strong>Yu Jiang</strong>, David Francis Weatherwax
