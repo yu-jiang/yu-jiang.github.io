@@ -48,6 +48,14 @@ chapters:
 ################################################# PATENTS #############################################
 #######################################################################################################
 patents:
+- title: Image-based localization module
+  authors: <strong>Yu Jiang</strong>
+  number: US12509090B2
+  date: Dec. 30, 2025
+  links: 
+    - text: Google Patents
+      link: https://patents.google.com/patent/US12509090B2/en
+
 - title: Simultaneous localization and mapping using road surface data
   authors: Chenyong Guan and <strong>Yu Jiang</strong>
   number: US11933616B2
