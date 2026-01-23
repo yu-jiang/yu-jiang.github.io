@@ -12,4 +12,8 @@ else
   exit 1
 fi
 
-gem build minima.gemspec
+# NOTE:
+# This repository is a personal website, not the upstream Minima theme gem.
+# The original Minima template's CI script tries to build `minima.gemspec`,
+# which does not exist here and causes CI to fail after a successful site build.
+echo "CI check complete."
