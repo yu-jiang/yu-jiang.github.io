@@ -116,10 +116,10 @@ patents:
 - title: Vehicle control based on localization and road data
   authors: Vijayaraghavan Sridhar, John Parker Eisenmann, <strong>Yu Jiang</strong>, David Francis Weatherwax
   number: US11801726B2
-  date: May 7, 2020
+  date: Oct. 31, 2023
   links:
     - text: Google Patents
-      link: https://patents.google.com/patent/US20200139784A1
+      link: https://patents.google.com/patent/US11801726B2/en
 
 - title: Motion-control system for performing different tasks
   authors: Yebin Wang, <strong>Yu Jiang</strong>, and Scott Bortoff
@@ -133,7 +133,7 @@ patents:
 ################################################# CONFERENCE ##########################################
 #######################################################################################################
 conferences:
-- title: On XYZ-motion planning using a full car mode
+- title: On XYZ-motion planning using a full car model   
   authors: Sayan Chakraborty and <strong>Yu Jiang</strong>
   booktitle: 2024 American Control Conference (ACC)
   address: Toronto, Canada
@@ -185,6 +185,16 @@ conferences:
   links:
     - text: Link
       link: https://ieeexplore.ieee.org/abstract/document/9965977
+
+- title: Urban Digital Twins for Intelligent Road Inspection
+  authors: Rui Fan, Yikang Zhang, Sicen Guo, Jiahang Li, Yi Feng, Shuai Su, Yanting Zhang, Wenshuo Wang, <strong>Yu Jiang</strong>, Mohammud Junaid Bocus, Xingyi Zhu, Qijun Chen
+  booktitle: 2022 IEEE International Conference on Big Data (Big Data)
+  pages: 5110-5114
+  month: December
+  year: 2022
+  links:
+    - text: Link
+      link: https://ieeexplore.ieee.org/abstract/document/10021042/
 
 - title: Adaptive dynamic programming for nonlinear nonaffine systems
   authors: Tao Bian, <strong>Yu Jiang</strong>, and Zhong-Ping Jiang
@@ -576,10 +586,10 @@ journals:
 
 - title: Computational adaptive optimal control for continuous-time linear systems with completely unknown system dynamics
   authors: <strong>Yu Jiang</strong> and Zhong-Ping Jiang
-  journal: Automatic
+  journal: Automatica
   volume: 48
   number: 10
-  year: 2011
+  year: 2012
   pages: 2699-2704
   links:
     - text: Link
