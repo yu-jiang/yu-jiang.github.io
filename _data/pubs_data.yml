@@ -52,7 +52,7 @@ patents:
   authors: <strong>Yu Jiang</strong>
   number: US12509090B2
   date: Dec. 30, 2025
-  links: 
+  links:
     - text: Google Patents
       link: https://patents.google.com/patent/US12509090B2/en
 
@@ -60,15 +60,47 @@ patents:
   authors: Vijayaraghavan Sridhar, John Parker Eisenmann, <strong>Yu Jiang</strong>, David Francis Weatherwax
   number: US12498729B2
   date: Dec. 16, 2025
-  links: 
+  links:
     - text: Google Patents
       link: https://patents.google.com/patent/US12498729B2/en
+
+- title: Method and apparatus for motion sickness mitigation in a vehicle
+  authors: Marco Giovanardi, Mario Flores Alanis, Jack A. Ekchian, Paul A. DiZio, James R. Lackner, Aditya Chandrashekhar Chetty, <strong>Yu Jiang</strong>
+  number: US12427972B2
+  date: Sep. 30, 2025
+  links:
+    - text: Google Patents
+      link: https://patents.google.com/patent/US12427972B2/en
+
+- title: Vehicular localization systems, methods, and controls
+  authors: <strong>Yu Jiang</strong>, Vijayaraghavan Sridhar, John Parker Eisenmann, William Graves, and Michael W. Finnegan
+  number: US12340691B2
+  date: Jun. 24, 2025
+  links:
+    - text: Google Patents
+      link: https://patents.google.com/patent/US12340691B2/en
+
+- title: Dynamically tunable combination reactive-proactive controller
+  authors: William Graves, Marco Giovanardi, and <strong>Yu Jiang</strong>
+  number: US20250144967A1
+  date: May 8, 2025
+  links:
+    - text: Google Patents
+      link: https://patents.google.com/patent/US20250144967A1/en
+
+- title: Method and apparatus for output saturation avoidance in preview-based vehicle system control
+  authors: <strong>Yu Jiang</strong> and Marco Giovanardi
+  number: US20250100559A1
+  date: Mar. 27, 2025
+  links:
+    - text: Google Patents
+      link: https://patents.google.com/patent/US20250100559A1/en
 
 - title: Simultaneous localization and mapping using road surface data
   authors: Chenyong Guan and <strong>Yu Jiang</strong>
   number: US11933616B2
   date: Mar. 19, 2024
-  links: 
+  links:
     - text: Google Patents
       link: https://patents.google.com/patent/US11933616B2/en
 
@@ -76,7 +108,7 @@ patents:
   authors: Chenyong Guan and <strong>Yu Jiang</strong>
   number: US11884278B2
   date: Jan. 30, 2024
-  links: 
+  links:
     - text: Google Patents
       link: https://patents.google.com/patent/US11884278B2/en
 
@@ -88,14 +120,21 @@ patents:
     - text: Google Patents
       link: https://patents.google.com/patent/US11853690B1/en
 
+- title: Vehicle control based on localization and road data
+  authors: Vijayaraghavan Sridhar, John Parker Eisenmann, <strong>Yu Jiang</strong>, David Francis Weatherwax
+  number: US11801726B2
+  date: Oct. 31, 2023
+  links:
+    - text: Google Patents
+      link: https://patents.google.com/patent/US11801726B2/en
+
 - title: Method and apparatus for motion sickness mitigation in a vehicle
   authors: Marco Giovanardi, Mario Flores Alanis, Jack A Ekchianand, Paul A  DiZio, James R Lackner, Aditya Chandrashekhar Chetty, <strong>Yu Jiang</strong>
   number: US20230143296A1
   date: May, 2023
-  links: 
+  links:
     - text: Google Patents
       link: https://patents.google.com/patent/US20230143296A1/en
-
 
 - title: Multi-lane road characterization and tracking algorithms
   authors: John Eisenmann, William Graves, <strong>Yu Jiang</strong>, Marcus Proctor, and Jack Ekchian
@@ -128,14 +167,6 @@ patents:
   links:
     - text: Google Patents
       link: https://patents.google.com/patent/US10901432B2/en
-
-- title: Vehicle control based on localization and road data
-  authors: Vijayaraghavan Sridhar, John Parker Eisenmann, <strong>Yu Jiang</strong>, David Francis Weatherwax
-  number: US11801726B2
-  date: Oct. 31, 2023
-  links:
-    - text: Google Patents
-      link: https://patents.google.com/patent/US11801726B2/en
 
 - title: Motion-control system for performing different tasks
   authors: Yebin Wang, <strong>Yu Jiang</strong>, and Scott Bortoff
