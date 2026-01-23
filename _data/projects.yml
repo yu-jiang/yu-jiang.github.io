@@ -58,6 +58,30 @@ product_ready_projects:
     featured: true
     order: 2
 
+  - title: "MotionBridge"
+    slug: "motionbridge"
+    category: "industry"
+    status: "Featured Update"
+    status_class: "demo"
+    timeline: "2025"
+    summary: "A framework that connects real-time motion systems with digital content."
+    description: "A featured project entry capturing a recent LinkedIn update and video. (Details can be refined from the original post.)"
+    tech_stack:
+      - "Control Systems"
+      - "Vehicle Dynamics"
+      - "Automotive"
+    media:
+      type: "video"
+      source: "linkedin"
+      url: "https://www.linkedin.com/embed/feed/update/urn:li:activity:7403897893788745728?compact=1"
+      title: "MotionBridge / #ChangeTheRide LinkedIn Video"
+    links:
+      - title: "LinkedIn post"
+        url: "https://www.linkedin.com/posts/yujiangphd_changetheride-journeybeyond-motionbridge-activity-7403897893788745728-VvdA"
+        type: "external"
+    featured: true
+    order: 3
+
 doctoral_thesis:
   - title: "Robust Adaptive Dynamic Programming"
     slug: "radp-research"

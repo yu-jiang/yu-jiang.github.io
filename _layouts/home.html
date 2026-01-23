@@ -44,10 +44,10 @@ layout: base
   <section class="featured-projects-home">
     <h2>{{ page.home.featured_projects_heading | default: "Featured Projects" }}</h2>
 
-    <!-- Major Projects: RoadMotion and Trailer Backing -->
+    <!-- Major Projects (featured): top featured items from _data/projects.yml -->
     <div class="major-projects-section">
       <div class="projects-home-grid">
-  {% assign major_projects = site.data.projects.product_ready_projects | where: "featured", true | sort: "order" | limit: 2 %}
+  {% assign major_projects = site.data.projects.product_ready_projects | where: "featured", true | sort: "order" | limit: 3 %}       
         {% for project in major_projects %}
         <article class="project-card-home major-project">
           <div class="project-video-home">
