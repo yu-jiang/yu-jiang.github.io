@@ -143,7 +143,7 @@ layout: base
     
     {% assign news_posts = site.categories.news | sort: 'date' | reverse %}
     <div class="updates-grid">
-      {% for post in news_posts limit:4 %}
+      {% for post in news_posts limit:6 %}
       <article class="update-card">
         <div class="update-content">
           <time class="update-date">{{ post.date | date: "%B %d, %Y" }}</time>
