@@ -8,7 +8,7 @@ product_ready_projects:
     category: "industry"
     status: "Technology Demo"
     status_class: "demo"
-    timeline: "2019 - Present"
+    timeline: "2019 - 2026"
     summary: "ClearMotion's RoadMotion active suspension technology deployed as demonstration on NIO ET9 vehicle, showcasing productionizable technology for automotive partnerships."
     description: "Advanced active suspension control systems that predict and counteract road disturbances in real-time, demonstrated on production vehicle platform."
     tech_stack:

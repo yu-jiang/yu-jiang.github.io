@@ -2,7 +2,7 @@
 layout: base
 title: CV
 description: Curriculum vitae of Dr. Yu Jiang - Applied mathematician and control systems engineer with industry and academic experience.
-keywords: Yu Jiang CV, control systems engineer, applied mathematics, NYU PhD, ClearMotion
+keywords: Yu Jiang CV, control systems engineer, applied mathematics, NYU PhD, Symbotic, ClearMotion
 permalink: /cv/
 ---
 
@@ -19,6 +19,24 @@ permalink: /cv/
   <section class="cv-section">
     <h2 class="section-title">Professional Experience</h2>
     <div class="experience-grid">
+
+      <div class="experience-card">
+        <div class="company-header">
+          <h3 class="company-name">
+            <a href="https://www.symbotic.com" target="_blank">Symbotic</a>
+          </h3>
+          <span class="location">Wilmington, MA</span>
+        </div>
+        <div class="positions">
+          <div class="position">
+            <span class="title">Principal Robotics Engineer</span>
+            <span class="duration">04/2026 - Present</span>
+          </div>
+        </div>
+        <div class="card-description">
+          <p>Developing control and automation for warehouse robotics systems, applying expertise in control, optimization, and applied mathematics from automotive and autonomous driving domains.</p>
+        </div>
+      </div>
       
       <div class="experience-card">
         <div class="company-header">
@@ -29,8 +47,8 @@ permalink: /cv/
         </div>
         <div class="positions">
           <div class="position">
-            <span class="title">Senior Technical Scientist</span>
-            <span class="duration">11/2023 - Present</span>
+            <span class="title">Senior Technical Specialist — Advanced Research</span>
+            <span class="duration">12/2023 - 04/2026</span>
           </div>
           <div class="position">
             <span class="title">Principal Scientist</span>

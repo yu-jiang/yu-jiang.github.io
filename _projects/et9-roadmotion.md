@@ -10,7 +10,7 @@ hero_image: https://preview.thenewsmarket.com/Previews/ATFR/StillAssets/1920x108
 subtitle: Demonstration of Productionizable Active Suspension Technology
 status_label: Technology Demo
 status_class: demo
-timeline: 2019 - Present
+timeline: 2019 - 2026
 tags:
   - Active Suspension
   - Vehicle Dynamics

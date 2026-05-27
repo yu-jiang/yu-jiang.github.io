@@ -1,6 +1,6 @@
 ---
 title: ClearMotion on NIO ET9
-meta: Exicted to see ClearMotion technology powering NIO ET9
+meta: Excited to see ClearMotion technology powering NIO ET9
 category: news
 layout: post
 comments: true

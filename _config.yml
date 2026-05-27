@@ -11,11 +11,11 @@ baseurl: ""
 # If you want to omit the line-break after the end of text, use `>-` instead.
 description: >
   Dr. Yu Jiang's personal website - Applied mathematician and control systems engineer. 
-  Research in autonomous vehicles, active suspension systems, and control theory. 
-  PhD from NYU, industry experience at ClearMotion.
+  Research in autonomous vehicles, warehouse robotics, active suspension systems, and control theory. 
+  PhD from NYU, industry experience at Symbotic and ClearMotion.
 
 # SEO and social media settings
-keywords: "Yu Jiang, control systems, applied mathematics, autonomous vehicles, NYU, ClearMotion, active suspension, vehicle dynamics"
+keywords: "Yu Jiang, control systems, applied mathematics, autonomous vehicles, warehouse robotics, NYU, Symbotic, ClearMotion, active suspension, vehicle dynamics"
 twitter:
   username: # Add your Twitter handle if you have one
   card: summary_large_image

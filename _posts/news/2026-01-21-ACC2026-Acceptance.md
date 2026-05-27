@@ -1,6 +1,6 @@
 ---
 title: Paper accepted by ACC 2026
-meta: My paper "On XYZ-Motion Planning for Autonomous Vehicles with Active Suspension Systems" has been accepted by ACC 2023
+meta: My paper "Learning Feedforward Planners from Frequency-Domain Data" has been accepted by ACC 2026
 category: news
 layout: post
 tag: [Papers]
